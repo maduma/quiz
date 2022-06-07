@@ -1,12 +1,24 @@
 import Question from './Question.js'
 
 export default {
-    async setup() {
-        const questions = await getData("/data/cotier_fr/questions_legislation_generalites.yaml")
-        return { questions } 
+    data() {
+        return {
+            checked: false
+        }
     },
+    async setup(props) {
+        const questions = await getData(props.dataUrl)
+        return {
+            questions: questions
+        } 
+    },
+    props: ['dataUrl', 'section', 'title'],
     components: { Question },
     template: `
-<Question section=A v-bind=q v-for="q in questions"></Question>
+
+<h2>{{section}} - {{ title }}</h2>
+Check your responses <input type="checkbox" id="checkbox" v-model="checked" />
+<Question :section=section :reveal=checked v-bind=q v-for="q in questions"></Question>
+
 `
 }

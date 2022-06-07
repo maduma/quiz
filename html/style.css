@@ -1,0 +1,9 @@
+
+.question-title {
+    font-weight: bolder;
+}
+
+.correct-answer {
+    font-weight: bolder;
+    color: green;
+}

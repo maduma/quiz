@@ -4,7 +4,7 @@ date: 2014
 sections:
   - id: A
     name: Législation-Généralités
-    questions: legislation_generalites.yaml
+    questions: questions_legislation_generalites.yaml
   - id: B
     name: Règlement pour prévenir les abordages en mer
     questions: reglement_pour_prevenir_les_abordages_en_mer.yaml
