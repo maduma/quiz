@@ -1,4 +1,7 @@
 const { createApp } = Vue
-import MyComponent from './my-component.js'
+import QuestionList from './QuestionList.js'
 
-createApp(MyComponent).mount('#app')
+const app = createApp({})
+
+app.component('QuestionList', QuestionList)
+app.mount("#app")
