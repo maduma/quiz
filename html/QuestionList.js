@@ -1,15 +1,13 @@
+const { ref } = Vue
 import Question from './Question.js'
 
 export default {
-    data() {
-        return {
-            checked: false
-        }
-    },
     async setup(props) {
         const questions = await getData(props.dataUrl)
+        const checked = ref(false)
         return {
-            questions: questions
+            questions: questions,
+            checked
         } 
     },
     props: ['dataUrl', 'section', 'title'],
