@@ -1,94 +1,82 @@
-- id: 1
-  title: Qui porte la responsabilité sur un navire de plaisance en ce qui concerne l'application de la réglementation maritime ?
-  resp_list:
+- q: 1 Qui porte la responsabilité sur un navire de plaisance en ce qui concerne l'application de la réglementation maritime ?
+  a:
   - <+> Le chef de bord ou son remplaçant.
   - Le chef de bord et son remplaçant.
   - Le chef de bord ou toute autre personne responsable.
   - La personne responsable de la firme charter.
 
-- id: 2
-  title: Que faut'il faire si au moment de larguer les amarres, le chef de bord n'a pas été déterminé ?
-  resp_list:
+- q: 2 Que faut'il faire si au moment de larguer les amarres, le chef de bord n'a pas été déterminé ?
+  a:
   - <+> Avant le départ, le chef de bord responsable doit être déterminé.
   - Le chef de bord responsable doit être élu.
   - Un détenteur du permis fluvial doit assurer la conduite.
   - Le chef de bord responsable sera déterminé en cours de route.
 
-- id: 3
-  title: Quelles sont les responsabilités du chef de bord au regard de la réglementation maritime?
-  resp_list:
+- q: 3 Quelles sont les responsabilités du chef de bord au regard de la réglementation maritime?
+  a:
   - <+> Suivre les règles de navigation, e.a. le règlement pour prévenir les abordages en mer.
   - <+> Equiper (aménager) son navire pour qu'il soit muni de feux de route et de signalisation ainsi que d'un dispositif de signalisation sonore.
   - Chacun à bord est responsable au même titre.
   - <+> S'assurer que toutes les conditions de sécurité sont remplies à bord.
 
-- id: 4
-  title: Quelles sont les règles de base imposées à tout naviguant ?
-  resp_list:
+- q: 4 Quelles sont les règles de base imposées à tout naviguant ?
+  a:
   - <+> Doit garantir la sécurité et la facilité de la navigation.
   - <+> Ne pas causer de dommages à autrui, y compris aux non-navigants.
   - <+> Ne pas les exposer à un danger quelconque ni, dans la mesure du possible, provoquer des entraves à la navigation ou de causer une gêne.
   - Prévenir les stations terrestres de tout changement de la météo.
 
-- id: 5
-  title: Quel doit être le comportement du chef de bord s'il a consommé des boissons alcooliques ou d'autres stupéfiants empêchant une conduite du navire en toute sécurité ?
-  resp_list:
+- q: 5 Quel doit être le comportement du chef de bord s'il a consommé des boissons alcooliques ou d'autres stupéfiants empêchant une conduite du navire en toute sécurité ?
+  a:
   - <+> Il doit renoncer à conduire le navire.
   - <+> Une autre personne, autorisée à conduire le navire, doit être désignée comme chef de bord.
   - De l'aide doit être demandée par radio.
   - Une autre personne se trouvant à bord, doit conduire le navire.
 
-- id: 6
-  title: Que signifie l'expression "faisant route"?
-  resp_list:
+- q: 6 Que signifie l'expression "faisant route"?
+  a:
   - <+> Se dit d'un navire qui n'est ni à l'ancre, ni amarré à terre, ni échoué. 
   - Se dit du navire qui n'est pas à l'ancre, mais peut être amarré ou échoué.
   - Se dit du navire qui n'est pas amarré à terre, mais peut être à l'ancre.
   - Se dit du navire qui est échoué, mais pas amarré à terre, ni à l'ancre.
 
-- id: 7
-  title: Quelles sont les mesures de sécurité que le chef de bord doit prendre avant le départ, en vue de la protection et de la sécurité des personnes à bord ?
-  resp_list:
+- q: 7 Quelles sont les mesures de sécurité que le chef de bord doit prendre avant le départ, en vue de la protection et de la sécurité des personnes à bord ?
+  a:
   - <+> Il doit faire connaître à son équipage et à ses hôtes les règles de sécurité à bord.
   - <+> Il doit les initier dans la manutention des extincteurs et de tout autre engin de sauvetage.
   - <+> Il doit les rendre attentifs aux mesures à prendre afin d'éviter la chute par-dessus bord. 
   - Il doit les former à l'emploi de la radio.
 
-- id: 8
-  title: Quelle est la durée d'un son court ( • )?
-  resp_list:
+- q: 8 Quelle est la durée d'un son court ( • )?
+  a:
   - <+> Environ 1 seconde.
   - Environ 2 secondes.
   - Environ 2 à 3 secondes.
   - Environ 4 à 6 secondes.
 
-- id: 9
-  title: Quelle est la durée d'un son prolongé ( ― )?
-  resp_list:
+- q: 9 Quelle est la durée d'un son prolongé ( ― )?
+  a:
   - Environ 2 secondes.
   - Environ 2 à 3 secondes.  
   - Environ 1 à 2 secondes.
   - <+> Entre 4 et 6 secondes.
 
-- id: 10
-  title: Qu'entendez-vous par "manœuvre du dernier moment" ?
-  resp_list:
+- q: 10 Qu'entendez-vous par "manœuvre du dernier moment" ?
+  a:
   - <+> Manœuvre du navire qui a en fait la priorité pour éviter l'abordage.
   - <+> Manœuvre doit être effectuée dès que l'abordage ne peut plus être évité par la seule manœuvre du navire qui doit laisser la route libre.
   - Manœuvre du navire qui n'a pas la priorité dans le but d'éviter l'abordage.
   - Mes signaux sonores doivent être donnés.
 
-- id: 11
-  title: Quand un navire est-il un navire rattrapant un autre ?
-  resp_list:
+- q: 11 Quand un navire est-il un navire rattrapant un autre ?
+  a:
   - <+> Tout navire qui s'approche d'un autre en venant d'une direction de plus de 22,5° sur l'arrière du travers de celui-ci c.à.d. qui se trouve dans le secteur du feu de poupe.
   - Tout navire qui s'approche d'un autre en venant d'une direction de plus de 112,5° sur l'arrière du travers de celui-ci  c.à.d. qui se trouve dans le secteur des feux de côté.
   - <+> Tout navire qui se rapproche de l'arrière d'un autre dans un secteur de 135°.
   - Tout navire qui se rapproche directement en route opposée.
 
-- id: 12
-  title: Qu'entendez-vous par navire qui n'est pas maître de sa manœuvre ?
-  resp_list:
+- q: 12 Qu'entendez-vous par navire qui n'est pas maître de sa manœuvre ?
+  a:
   - >-
     <+> Désigne un navire qui, en raison de circonstances exceptionnelles,
     n'est pas en mesure de manœuvrer conformément aux règlements et ne peut donc pas s'écarter de la route d'un autre navire,
@@ -100,9 +88,8 @@
   - Désigne le navire dont la capacité de manœuvrer est réduite à cause de sa pêche au moyen de filets, de cordes, de chaluts ou d'autres équipements de pêche.
   - Désigne le navire qui, en raison de son tirant d'eau en rapport à la profondeur et la largeur de l'eau navigable, est fortement handicapé à s'écarter de sa route.
 
-- id: 13
-  title: Qu'entendez-vous par "navire à capacité de manœuvre restreinte" ?
-  resp_list:
+- q: 13 Qu'entendez-vous par "navire à capacité de manœuvre restreinte" ?
+  a:
   - >-
     <+> Désigne un navire dont la capacité à manœuvrer est limitée de par la nature de
     ses travaux et qui ne peut par conséquent pas s'écarter de la route d'un autre 
@@ -117,105 +104,92 @@
     Désigne le navire qui, en raison de son tirant d'eau en rapport à la profondeur et
     la largeur de l'eau navigable, est fortement handicapé à s'écarter de sa route.
 
-- id: 14
-  title: Citez 2 exemples de navires à capacité de manœuvre restreinte.
-  resp_list:
+- q: 14 Citez 2 exemples de navires à capacité de manœuvre restreinte.
+  a:
   - <+> Mouilleur de bouées.
   - Navire avec panne moteur.
   - <+> Dragueur de mines.
   - Chalutier.     
 
-- id: 15
-  title: Que signifie l'expression "visibilité réduite" ?
-  resp_list:
+- q: 15 Que signifie l'expression "visibilité réduite" ?
+  a:
   - <+> Visibilité diminuée suite à brume.
   - <+> Visibilité diminuée suite à neige.
   - <+> Visibilité diminuée suite à forte pluie ou tempête.
   - Dès la tombée de la nuit.  
 
-- id: 16
-  title: Quelles mesures sont à prendre en cas de visibilité réduite ?
-  resp_list:
+- q: 16 Quelles mesures sont à prendre en cas de visibilité réduite ?
+  a:
   - <+> Réduire la vitesse à la vitesse de sécurité adaptée aux circonstances existantes.
   - <+> Émettre des signaux acoustiques conformément à la réglementation.
   - <+> Les feux de route doivent être allumés. 
   - <+> la veille est à renforcer. 
 
-- id: 17
-  title: Quand est-ce qu'un voilier sous voiles est-il considéré comme un navire à propulsion mécanique ?
-  resp_list:
+- q: 17 Quand est-ce qu'un voilier sous voiles est-il considéré comme un navire à propulsion mécanique ?
+  a:
   - <+> Le voilier marchant à la voile et au moteur.
   - S'il est équipé d'un moteur.
   - <+> S'il a mis un cône noir pointant vers le bas.
   - S'il a mis un cylindre noir.
 
-- id: 18
-  title: Quelle marque de jour doit être montrée par un voilier sous voiles et à propulsion mécanique ?
-  resp_list:
+- q: 18 Quelle marque de jour doit être montrée par un voilier sous voiles et à propulsion mécanique ?
+  a:
   - <+> Un cône noir qui pointe vers le bas.
   - Un cône noir qui pointe vers le haut.
   - Un cylindre noir.
   - 2 ballons noirs superposés. 
 
-- id: 19
-  title: Expliquez l'expression "au vent" 
-  resp_list:
+- q: 19 Expliquez l'expression "au vent" 
+  a:
   - <+> Un navire se trouve au vent d'un autre navire si le vent atteint tout d'abord ce premier. 
   - Lorsque le voilier navigue à la voile, et au moteur.
   - Un navire se trouve au vent d'un autre navire si le vent atteint tout d'abord ce dernier.
   - Quand le voilier navigue directe dans le vent. (route opposée avec le vent)
 
-- id: 20
-  title: Expliquez l'expression "sous le vent"
-  resp_list:
+- q: 20 Expliquez l'expression "sous le vent"
+  a:
   - <+> Priorité est donnée au navire se trouvant sous le vent de l'autre.
   - Lorsque le voilier navigue à la voile, et au moteur.
   - Un navire se trouve au vent d'un autre navire si le vent atteint tout d'abord ce premier. 
   - Quand le voilier navigue directe dans le vent. (route opposée avec le vent)
 
-- id: 21
-  title: Quand et dans quel état les feux de position doivent-ils être à bord ?
-  resp_list:
+- q: 21 Quand et dans quel état les feux de position doivent-ils être à bord ?
+  a:
   - <+> Ils doivent être en permanence à bord et ce en parfait état de marche.
   - Ils sont à emporter que si on a l'intention de s'éloigner de plus de 2 NM des côtes.
   - Ils sont à emporter que si on a l'intention de s'éloigner de plus de 3 NM des côtes.
   - Leur présence à bord est recommandée mais pas obligatoire. 
 
-- id: 22
-  title: Quand est-ce que les règles concernant les feux doivent être observées ?
-  resp_list:
+- q: 22 Quand est-ce que les règles concernant les feux doivent être observées ?
+  a:
   - <+> Du coucher au lever du soleil ainsi que par visibilité réduite.
   - Du lever au coucher du soleil ainsi que par visibilité réduite.
   - De 18.00 hrs du soir à 06.00 hrs du matin ou par visibilité réduite.
   - Dès la mise en route du moteur. 
 
-- id: 23
-  title: Définissez le jour
-  resp_list:
+- q: 23 Définissez le jour
+  a:
   - <+> Le jour est l'intervalle de temps entre le lever et le coucher du soleil.
   - Le jour est l'intervalle de temps entre le coucher et le lever du soleil.
   - Le jour est l'intervalle de temps entre 6:00 hrs du matin et 20:00 hrs du soir.
   - Le jour est l'intervalle de temps entre 8:00 hrs du matin et 18:00 hrs du soir
 
-- id: 24
-  title:  Définissez la nuit
-  resp_list:
+- q: 24 Définissez la nuit
+  a:
   - <+> La nuit est l'intervalle de temps entre le coucher et le lever du soleil.
   - La nuit est l'intervalle de temps entre le lever et le coucher du soleil.
   - La nuit est l'intervalle de temps entre 20:00 hrs du soir et 8:00 hrs du matin.
   - La nuit est l'intervalle de temps entre 18:00 hrs du soir et 8:00 hrs du matin.
 
-- id: 25
-  title: A quoi servent les feux de route ?
-  resp_list:
+- q: 25 A quoi servent les feux de route ?
+  a:
   - <+> Ils permettent d'identifier un navire et à déterminer le sens de son déplacement.
   - Ils permettent de déterminer la direction et la vitesse du navire.
   - <+> Ils permettent de déterminer le genre de navire. 
   - Ils indiquent le cap compas exact du navire.
 
-- id: 26
-  title: Que veut dire l'expression "dispositif de séparation du trafic" ?
-  resp_list:
+- q: 26 Que veut dire l'expression "dispositif de séparation du trafic" ?
+  a:
   - >-
     <+> Il s'agit de la mesure d'organisation du trafic visant à séparer les navires qui se déplacent dans des directions opposées,
     grâce à des moyens appropriés et à l'établissement des voies (couloirs) de circulation.
@@ -223,145 +197,127 @@
   - Un dispositif de séparation du trafic est une mesure pour séparer les voiliers des navires commerciaux.
   - <+> Un dispositif de séparation du trafic est une mesure pour séparer le flux de navires montant et descendant en créant des voies de circulation.
 
-- id: 27
-  title: Que veut dire l'expression "en vue les uns des autres" ?
-  resp_list:
+- q: 27 Que veut dire l'expression "en vue les uns des autres" ?
+  a:
   - <+> Lorsque chacun d'eux peut être perçu visuellement par l'autre.
   - Lorsque chaque commandant de bord peut être aperçu par l'autre.
   - Lorsque chacun d'eux peut être perçu acoustiquement par l'autre.
   - Lorsque chaque commandant de bord peut être aperçu acoustiquement par l'autre, même par mauvais temps.       
 
-- id: 28
-  title: Qu'est-ce qu'on entend par vitesse de sécurité ?
-  resp_list:
+- q: 28 Qu'est-ce qu'on entend par vitesse de sécurité ?
+  a:
   - <+> Il s'agit de la vitesse adaptée à la situation.
   - <+> Elle permet au navire de s'arrêter à tout moment afin d'éviter un abordage.
   - La vitesse doit être adaptée au trafic, à la situation, aux conditions de vent afin d'éviter la consommation importante de carburant.
   - <+> La vitesse doit être adaptée au trafic, aux conditions de visibilité et de temps.
 
-- id: 29
-  title: Comment devez-vous, d'une manière générale, régler votre vitesse ?
-  resp_list:
+- q: 29 Comment devez-vous, d'une manière générale, régler votre vitesse ?
+  a:
   - <+> Tout navire doit maintenir en permanence une vitesse de sécurité, adaptée aux conditions du trafic et aux circonstances existantes. 
   - <+> Le navire doit pouvoir être arrêté sur une distance adaptée à ces circonstances.
   - La vitesse doit être adaptée au trafic, qui vous permettrez de s'arrêter pour éviter un abordage.
   - En mer, le long de la côte, je ne dois pas m'adapter à une vitesse de sécurité.
 
-- id: 30
-  title: A quoi faut-il faire attention en cas d'utilisation de feux, phares etc.?
-  resp_list:
+- q: 30 A quoi faut-il faire attention en cas d'utilisation de feux, phares etc.?
+  a:
   - <+> Ils ne doivent pas éblouir les autres navigateurs de façon à gêner, voire mettre en danger le trafic.
   - <+> Ils ne doivent pas être confondus avec d'autres feux de navigation.
   - Ils doivent être bicolores et être montés à bâbord et à tribord.
   - Leur portée doit être de 300 m au moins.    
 
-- id: 31
-  title: Pour quelle espèce de bâtiments et pour quelles zones sont valables les permis fluvial et côtier luxembourgeois ?
-  resp_list:
+- q: 31 Pour quelle espèce de bâtiments et pour quelles zones sont valables les permis fluvial et côtier luxembourgeois ?
+  a:
   - <+> Pour bateaux de plaisance en eaux intérieures.
   - <+> Pour navires de plaisance en eaux côtières jusqu'à 3 milles de la côte.
   - Pour menue embarcation en eaux intérieures et le long de la côte.
   - Pour navires de plaisance en eaux côtières jusqu'à 5 milles de la côte.
 
-- id: 32
-  title: Quelle autorité est compétente pour l'inscription des bâtiments dans le registre public des bâtiments de plaisance battant pavillon luxembourgeois ?
-  resp_list:
+- q: 32 Quelle autorité est compétente pour l'inscription des bâtiments dans le registre public des bâtiments de plaisance battant pavillon luxembourgeois ?
+  a:
   - <+> Le Ministère de l'Economie et du Commerce Extérieur.  
   - <+> Commissariat aux affaires maritimes.
   - Ministère du Transport.
   - Service de la navigation.
 
-- id: 33
-  title: Sous quelles formes peut-on faire enregistrer un bâtiment de plaisance ?
-  resp_list:
+- q: 33 Sous quelles formes peut-on faire enregistrer un bâtiment de plaisance ?
+  a:
   - <+> Menue embarcation de plaisance.
   - <+> Bateau de plaisance.
   - <+> Navire de plaisance.
   - Bateau réservé au ski nautique.
 
-- id: 34
-  title:  Quelle est la définition exacte de bateau de plaisance?
-  resp_list:
+- q: 34 Quelle est la définition exacte de bateau de plaisance?
+  a:
   - <+> Embarcation destinée à la navigation de plaisance en eaux intérieures.
   - Embarcation destinée à la navigation de plaisance en eaux côtières.
   - Embarcation destinée à la navigation de plaisance en eaux intérieures et côtières.
   - Embarcation destinée à la navigation de plaisance en mer. 
 
-- id: 35
-  title: Quelle est la définition exacte de navire de plaisance? 
-  resp_list:
+- q: 35 Quelle est la définition exacte de navire de plaisance? 
+  a:
   - <+> Embarcation destinée à la navigation de plaisance en eaux maritimes.      
   - Embarcation destinée à la navigation de plaisance en eaux intérieures.
   - Embarcation destinée à la navigation de plaisance en eaux intérieures et maritimes.
   - Embarcation destinée à la navigation de plaisance sur les canaux.
 
-- id: 36
-  title: Quelle est la durée de validité du certificat d'immatriculation?
-  resp_list:
+- q: 36 Quelle est la durée de validité du certificat d'immatriculation?
+  a:
   - <+> Maximum 5 ans. 
   - Maximum 3 ans.  
   - Max. 1 an.
   - Jusqu'à l'âge de 50 ans.  
 
-- id: 37
-  title: Quels documents et autres papiers doivent se trouver à bord d'un navire de plaisance battant pavillon luxembourgeois?
-  resp_list:
+- q: 37 Quels documents et autres papiers doivent se trouver à bord d'un navire de plaisance battant pavillon luxembourgeois?
+  a:
   - Certificat d'immatriculation au registre de commerce.
   - <+> Permis de navigation du chef de bord. 
   - Assurance responsabilité civile du chef de bord.
   - <+> Le certificat d'immatriculation au registre d'immatriculation.
 
-- id: 38
-  title: Quels documents et autres papiers doivent se trouver à bord d'un navire de plaisance battant pavillon luxembourgeois, ayant une installation radio à bord?
-  resp_list:
+- q: 38 Quels documents et autres papiers doivent se trouver à bord d'un navire de plaisance battant pavillon luxembourgeois, ayant une installation radio à bord?
+  a:
   - Carte d'identité du conducteur.
   - <+> La licence "assignation de fréquence"
   - Guide d'utilisation de la radiotéléphonie.
   - <+> Le certificat d'opérateur radio.
 
-- id: 39
-  title: Sur un bâtiment, qui est responsable de l'exécution correcte des réglementations ?
-  resp_list:
+- q: 39 Sur un bâtiment, qui est responsable de l'exécution correcte des réglementations ?
+  a:
   - <+> Le conducteur, titulaire du permis de navigation adéquat. 
   - Le conducteur et les membres de l'équipage.
   - Toutes les personnes se trouvant à bord.
   - Le propriétaire du bateau.       
 
-- id: 40
-  title: Est-ce qu'un bâtiment enregistré en tant que "navire de plaisance", doit porter un numéro d'immatriculation ou un nom?
-  resp_list:
+- q: 40 Est-ce qu'un bâtiment enregistré en tant que "navire de plaisance", doit porter un numéro d'immatriculation ou un nom?
+  a:
   - "<+> Numéro: Non, s'il navigue en eaux maritimes."
   - "Numéro: Oui, s'il navigue en eaux maritimes."
   - "<+> Nom: Oui, avec comme port d'attache « Luxembourg » à l'arrière du bâtiment."
   - "Nom: Non, s'il navigue en eaux maritimes."
 
-- id: 41
-  title: Quelles sont les mesures de précaution que commande le devoir général de vigilance?
-  resp_list: 
+- q: 41 Quelles sont les mesures de précaution que commande le devoir général de vigilance?
+  a: 
   - <+> De ne pas mettre en danger la vie des personnes.
   - <+> De ne causer des dommages aux autres bâtiments et matériels flottants, aux rives ou aux infrastructures de la voie d'eau.
   - <+> De ne créer des entraves à la navigation.
   - <+> De ne porter atteinte de façon excessive à l'environnement.
 
-- id: 42
-  title: Par quels signes extérieurs peut être identifié un bateau de plaisance immatriculé au registre public des bâtiments de plaisance luxembourgeois?
-  resp_list:
+- q: 42 Par quels signes extérieurs peut être identifié un bateau de plaisance immatriculé au registre public des bâtiments de plaisance luxembourgeois?
+  a:
   - <+> Par le pavillon luxembourgeois.
   - <+> Par son port d'attache affiché sur sa coque.
   - <+> Par le numéro d'immatriculation.
   - <+> Par le nom du bateau.
 
-- id: 43
-  title: A partir de quel âge peut­on conduire seul un bâtiment de plaisance ?
-  resp_list:
+- q: 43 A partir de quel âge peut­on conduire seul un bâtiment de plaisance ?
+  a:
   - <+> 16 ans. 
   - 15 ans.
   - 18 ans.
   - 21 ans.
 
-- id: 44
-  title: Quel type de bâtiments pouvez-vous piloter avec un permis côtier luxembourgeois?
-  resp_list:
+- q: 44 Quel type de bâtiments pouvez-vous piloter avec un permis côtier luxembourgeois?
+  a:
   - <+> Un navire de plaisance de 7 mètres au plus, sans cabine habitable, en eaux maritimes jusqu'à 3 milles nautiques des côtes.
   - <+> Des véhicules nautiques à moteur (jet ski, etc.) jusqu'à 2 milles de la côte.
   - Un navire de plaisance de 7 mètres au plus, sans cabine habitable, en eaux maritimes jusqu'à 5 milles nautiques des côtes.

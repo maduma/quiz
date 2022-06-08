@@ -7,7 +7,7 @@ sections:
     questions: questions_legislation_generalites.yaml
   - id: B
     name: Règlement pour prévenir les abordages en mer
-    questions: reglement_pour_prevenir_les_abordages_en_mer.yaml
+    questions: questions_reglement_pour_prevenir_les_abordages_en_mer.yaml
   - id: C
     name: Navigation côtière
     questions: navigation_cotiere.yaml

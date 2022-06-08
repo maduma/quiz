@@ -1,11 +1,18 @@
 function parseCorrectAnswers(data) {
+    const regex = /^(\d+)(\s+.*)$/
     data.forEach(element => {
-        element.resp_list = element.resp_list.map( e => {
+        const found = element.q.trim().match(regex)
+        element.id = '?'
+        if (found != null && found.length) {
+            element.id = found[1]
+            element.q = found[2]
+        }
+        element.a = element.a.map( e => {
             const str = e.trim()
             if (str.slice(0,3) == "<+>") {
-                return { title: str.slice(4), correct: true }
+                return { title: str.slice(4), correct: true , checked: false}
             } else {
-                return { title: str, correct: false }
+                return { title: str, correct: false, checked: false }
             }
         })
     });

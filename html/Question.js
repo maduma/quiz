@@ -1,5 +1,5 @@
 export default {
-    props: ['section', 'id', 'title', 'resp_list', 'reveal'],
+    props: ['section', 'id', 'q', 'a', 'reveal'],
     computed : {
         sectionBullet() {
             return "'" + this.section + "." + this.id + " '"
@@ -8,14 +8,15 @@ export default {
     template: `
 <div class="question">
     <ul :style="{ 'list-style-type': sectionBullet }">
-        <li class="question-title">{{ title }}</li>
+        <li class="question-title">{{ q }}</li>
     </ul>
     <ul class="question-list">
-        <li v-for="resp in resp_list">
-            <input type="checkbox"/> {{ resp.title }}
+        <li v-for="e in a">
+            <input type="checkbox"/>
             <span v-if="reveal">
-                <span class="correct-answer" v-if="resp.correct"> &#10003;</span>
+                <span class="correct-answer" v-if="e.correct"> &#10003;</span>
             </span>
+            {{ e.title }}
             </li>
     </ul>
 </div>

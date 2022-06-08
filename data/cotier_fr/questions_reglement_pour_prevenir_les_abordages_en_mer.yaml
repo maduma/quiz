@@ -1,0 +1,453 @@
+- q: 1 Quand y a-t-il risque d'abordage ?
+  a:
+  - <+> Si le relèvement au compas du navire qui s'approche ne change pas de façon appréciable. S'il y a un doute quant au risque d'abordage, on doit considérer que ce risque est réel.
+  - Si la distance par rapport à l'autre navire ne change pas et que le relèvement au compas ne change pas de façon appréciable.
+  - Si la distance par rapport à l'autre navire et le relèvement au compas changent.
+  - Si la distance par rapport à l'autre navire se réduit et le relèvement au compas change
+
+- q: 2 Pour quels navires un navire sous voiles doit-il s'écarter ?
+  a:
+  - <+> Pour un navire qui n'est pas maître de sa manoeuvre.
+  - <+> Pour un navire à capacité de manoeuvre restreinte.
+  - Pour un navire de plaisance venant de tribord.
+  - <+> Pour un navire en train de pêcher.
+
+- q: 3 Comment doivent se comporter deux navires à propulsion mécanique qui font des routes directement opposées ou à peu près opposées de telle sorte qu'il existe un risque d'abordage ?
+  a:
+  - <+> Chaque navire doit changer de cap vers tribord pour se croiser bâbord/bâbord.
+  - Chacun doit dévier sur bâbord pour se croiser tribord/tribord.
+  - Le navire sous le vent de l'autre doit s'écarter.
+  - Le navire au vent de l'autre doit s'écarter.
+
+- q: 4 Comment doivent se comporter deux navires à propulsion mécanique dont les routes se croisent de telle sorte qu'il y a risque d'abordage ?
+  a:
+  - <+> Le navire qui voit l'autre navire sur tribord doit s'écarter de la route de celui-ci.
+  - Le navire qui voit l'autre sur bâbord doit s'écarter.
+  - Le navire sous le vent de l'autre doit s'écarter.
+  - Le navire au vent de l'autre doit s'écarter.
+
+- q: 5 Comment doit se comporter un navire à propulsion mécanique faisant route et qui est en vue d'un navire à voile quand il y a risque d'abordage ?
+  a:
+  - <+> Le navire à propulsion mécanique doit s'écarter.
+  - Le voilier doit s'écarter.
+  - Les deux doivent virer sur tribord.
+  - Les deux doivent virer sur bâbord.
+
+- q: 6 Comment doit se comporter un navire à propulsion mécanique faisant route et qui est en vue d'un navire qui n'est pas maître de sa manoeuvre quand il y a risque d'abordage ?
+  a:
+  - <+> Le navire à propulsion mécanique doit s'écarter.
+  - Le navire à propulsion mécanique doit s'arrêter et attendre les consignes de l'autre
+  - Le navire à propulsion mécanique doit toujours passer par tribord.
+  - Le navire à propulsion mécanique doit toujours passer par bâbord.
+
+- q: 7 Comment doit se comporter un navire à propulsion mécanique faisant route et qui est en vue d'un navire à capacité de manoeuvre restreinte quand il y a risque d'abordage ?
+  a:
+  - <+> Le navire à propulsion mécanique doit s'écarter.
+  - Le navire à propulsion mécanique doit s'arrêter et attendre les consignes de l'autre
+  - Le navire à propulsion mécanique doit toujours passer par tribord.
+  - Le navire à propulsion mécanique doit toujours passer par bâbord.
+
+- q: 8 Comment doit se comporter un navire à propulsion mécanique faisant route et qui est en vue d'un navire en train de pêcher quand il y a risque d'abordage ?
+  a: 
+  - <+> Le navire à propulsion mécanique doit s'écarter.
+  - Le navire à propulsion mécanique doit toujours passer par tribord.
+  - Le navire à propulsion mécanique doit toujours passer par bâbord.
+  - Tant le navire à propulsion mécanique que celui en train de pêcher doivent changer de cap afin d'éviter l'abordage.
+
+- q: 9 Comment doit se comporter un navire à voile faisant route et qui est en vue d'un navire qui n'est pas maître de sa manoeuvre quand il y a risque d'abordage ?
+  a:
+  - <+> Le navire à voile doit s'écarter.
+  - Le navire à voile doit toujours passer par tribord.
+  - Le navire à voile doit toujours passer par bâbord.
+  - Tant le navire à voile que celui qui n'est pas maître de sa manoeuvre doivent changer de cap afin d'éviter l'abordage.
+
+- q: 10 Comment doit se comporter un navire à voile faisant route et qui est en vue d'un navire à capacité de manoeuvre réduite quand il y a risque d'abordage ?
+  a:
+  - <+> Le navire à voile doit s'écarter.
+  - Le navire à voile doit toujours passer par tribord.
+  - Le navire à voile doit toujours passer par bâbord.
+  - Tant le navire à voile que celui à capacité de manoeuvre réduite doivent changer de cap afin d'éviter l'abordage.
+
+- q: 11 Comment doit se comporter un navire à voile faisant route en vue d'un navire en train de pêcher quand il y a risque d'abordage ?
+  a:
+  - <+> Le navire à voile doit s'écarter.
+  - Le bateau pêcheur doit changer de route et laisser la priorité au navire à voile.
+  - Le navire à voile doit toujours passer par tribord.
+  - Le navire à voile doit toujours passer par bâbord.
+
+- q: 12 Comment le navire qui est tenu de s'écarter de la route d'un autre navire doit-il effectuer sa manoeuvre ?
+  a:
+  - <+> Il doit engager la manoeuvre très tôt et de manière claire et décidée afin de s'écarter le plus possible.
+  - Il doit engager la manoeuvre au dernier moment de manière à ne pas gêner le reste du trafic.
+  - Il doit toujours passer par tribord.
+  - Il doit toujours passer par bâbord.
+
+- q: 13 Comment doit se comporter un navire qui en rattrape un autre ?
+  a:
+  - <+> Le navire qui en rattrape un autre doit s'écarter de la route de ce dernier.
+  - <+> Le rattrapant doit éviter toute manoeuvre qui puisse gêner le rattrapé.
+  - Le rattrapant doit obligatoirement faire usage des signaux sonores.
+  - Le rattrapé doit ralentir et s'écarter afin de laisser passer le rattrapant.
+
+- q: 14 Comment doit se comporter un navire qui entend, dans une direction qui lui semble être sur l'avant du travers, le signal de brume d'un autre navire ?
+  a:
+  - <+> Il doit faire entendre des signaux sonores lui aussi.
+  - <+> Il doit réduire sa vitesse au minimum nécessaire pour maintenir son cap.
+  - <+> Il doit, si nécessaire, casser son erre.
+  - <+> Il doit naviguer avec une extrême précaution jusqu'à ce que le risque d'abordage soit passé.
+
+- q: >-
+     15 Comment doit se comporter le navire privilégié quand il lui paraît évident que le navire
+     qui est dans l'obligation de s'écarter de sa route n'effectue pas la manoeuvre appropriée
+     prescrite et que l'abordage est imminent ?
+  a:
+  - <+> Il doit émettre au sifflet une série rapide d'au moins cinq sons brefs.
+  - <+> Il doit faire la manoeuvre qui semble la plus appropriée pour aider à éviter l'abordage, en général il doit s'écarter de la direction prise par l'autre navire.
+  - <+> Il doit éviter de venir sur bâbord lorsque l'autre navire est bâbord à lui.
+  - Il doit venir sur bâbord lorsque l'autre navire est bâbord à lui.
+
+- q: 16 Que veut dire l'expression "dispositif de séparation du trafic" ?
+  a:
+  - >-
+    <+> Il s'agit de la mesure d'organisation du trafic visant à séparer les navires qui se déplacent
+    dans des directions opposées, grâce à des moyens appropriés et à l'établissement des voies (couloirs) de circulation.
+  - >-
+    <+> Ces dispositifs sont adoptés par l'Organisation maritime internationale, ils sont
+    recommandés à tous les navires. Dans certaines régions l'utilisation de ces
+    dispositifs est rendue obligatoire.
+  - Ces dispositifs de séparation du trafic sont des sones d'entrainement militaires.
+  - Dans les sones de séparation du trafic, il faut faire attention au trafic convergent.
+
+- q: 17 Comment devez-vous naviguer à l'intérieur d'un dispositif de séparation de trafic ?
+  a:
+  - <+> Je dois suivre le couloir de circulation approprié dans la direction générale du trafic pour cette voie.
+  - <+> Je dois naviguer le long de la ligne ou de la zone de séparation du trafic le plus à droite possible.
+  - >-
+    <+> Je dois m'engager dans un couloir de circulation ou en sortir à l'une des extrémités si possible ;
+    si je m'y engage ou en sors latéralement, je dois effectuer cette manoeuvre sous un angle aussi réduit
+    que possible par rapport à la direction générale du trafic.
+  - Si l'on doit traverser un tel dispositif, toujours évité de le faire perpendiculairement à la direction du trafic.
+
+- q: 18 Comment doit-on agir, lorsqu'on est contraint de couper les couloirs de circulation de séparation de trafic ?
+  a:
+  - >-
+    <+> Il faut éviter de couper les couloirs de circulation si possibles, sinon il faut le couper le plus
+    perpendiculairement que possible à la direction du trafic.
+  - <+> La direction d'un bateau doit être le plus perpendiculaire que possible, même s'il est dévié par le vent ou le courant
+  - Éviter de couper à un cap presque perpendiculaire au couloir.
+  - Donner 3 sons brefs avant de couper.
+
+- q: >-
+     19 Vous naviguez à l'intérieur d'un dispositif de séparation de trafic en suivant le couloir de circulation
+     approprié dans la direction générale du trafic pour cette voie. Comment vous comportezvous en tant que
+     navire à propulsion mécanique vis-à-vis d'un autre navire à propulsion mécanique qui coupe votre couloir
+     en venant de tribord au cas où il y aurait risque d'abordage ?
+  a:
+  - <+> Je dois dévier ma route.
+  - Je suis prioritaire et continue ma route.
+  - <+> J'exécute la manoeuvre du dernier moment.
+  - Je réduis ma vitesse, du fait que l'autre a priorité.
+
+- q: >-
+     20 Quelle est votre comportement en tant que navire à voile en coupant le dispositif de séparation de trafic vis-à-vis
+     d'un navire à propulsion mécanique suivant le couloir de circulation approprié dans la direction
+     générale du trafic pour cette voie ?
+  a:
+  - <+> Je dois dévier ma route.
+  - Je suis prioritaire et continue ma route.
+  - Un voilier su voile à toujours la priorité.
+  - Un voilier na pas le droit de couper le dispositif de séparation de trafic.
+
+# B.21 Comment doivent se comporter les navires de longueur inférieure à
+# 20 mètres ou les navires à voile faisant route à l'intérieur d'un
+# dispositif de séparation du trafic ?
+#  Ils ne doivent pas gêner le passage des navires à propulsion mécanique qui
+# suivent un couloir de circulation.
+#  Le navire à propulsion mécanique de moins de 20 m de longueur n'a pas le
+# droit de circuler dans un couloir de séparation de trafic.
+#  Un voilier de moins de 20 mètres n'est pas autorisé à naviguer sous voile dans
+# un couloir de séparation de trafic.
+#  Aucun navire motorisé ou sous voile de moins de 20 m de longueur n'est
+# autorisé à naviguer dans un couloir de séparation de trafic.
+# B.22 Que signifie le signal de manoeuvre suivant émis au sifflet par un
+# navire à propulsion mécanique : un son bref (  ) ?
+#  Je viens sur tribord.
+#  Je viens sur bâbord.
+#  Je bats en arrière.
+#  Je vais faire demitour.
+# B.23 Que signifie le signal de manoeuvre suivant émis au sifflet par un
+# navire à propulsion mécanique : deux sons brefs (  ) ?
+#  Je viens sur bâbord.
+#  Je viens sur tribord.
+#  Je bats en arrière.
+#  Je vais faire demitour.
+# B.24 Que signifie le signal de manoeuvre suivant émis au sifflet par un
+# navire à propulsion mécanique : trois sons brefs (  ) ?
+#  Je bats en arrière.
+#  Je viens sur bâbord.
+#  Je viens sur tribord.
+#  Je vais faire demitour.
+# B.25 Que signifie le signal de manoeuvre suivant émis au sifflet par un
+# navire à propulsion mécanique : un son bref, un son prolongé, un son bref
+# ( ) par visibilité réduite ?
+# 19
+#  Un navire au mouillage peut faire entendre ce signal sonore, pour signaler sa
+# position.
+#  Je bats en arrière.
+#  Réduire la vitesse pour ne pas faire des remous.
+#  Par un navire handicapé par son tirant d'eau.
+# B.26 Que signifie le signal sonore suivant : une série rapide d'au moins
+# cinq sons brefs (  ) ?
+#  Attention, j'ai des doutes sur vos intentions.
+#  Je bats en arrière.
+#  Je vais faire demitour.
+#  Pour attirer l'attention d'un navire
+# B.27 Par visibilité réduite vous entendez un son prolongé au sifflet ( )
+# à des intervalles ne dépassant pas deux minutes. Par quel navire ce
+# signal estil
+# émis ?
+#  Par un navire à propulsion mécanique ayant de l'erre.
+#  Par un navire à propulsion mécanique faisant route, mais stoppé et n'ayant pas
+# d'erre.
+#  Par un navire non maître de sa manoeuvre.
+#  Par un navire handicapé par son tirant d'eau.
+# B.28 Par visibilité réduite vous entendez deux sons prolongés ( ) au
+# sifflet à des intervalles ne dépassant pas deux minutes. Par quel navire ce
+# signal estil
+# émis ?
+#  Par un navire à propulsion mécanique faisant route, mais stoppé et n'ayant pas
+# d'erre.
+#  Par un navire à propulsion mécanique ayant de l'erre.
+#  Par un navire non maître de sa manoeuvre.
+#  Par un navire handicapé par son tirant d'eau.
+# B.29 Par visibilité réduite vous entendez trois sons consécutifs au sifflet,
+# à savoir un son prolongé suivi de deux sons brefs (  ), à des
+# intervalles ne dépassant pas deux minutes. Par quel navire ce signal
+# estil
+# émis ?
+#  Par un navire qui n'est pas maître de sa manoeuvre.
+#  Par un navire à voile.
+#  D'un navire handicapé par son tirant d'eau.
+# 20
+#  par un navire mouillé de plus de 100 mètres.
+# B.30 Par visibilité réduite vous entendez trois sons consécutifs au sifflet,
+# à savoir un son prolongé suivi de deux sons brefs (  ), à des
+# intervalles ne dépassant pas deux minutes. Par quel navire ce signal
+# estil
+# émis ?
+#  Par un navire à capacité de manoeuvre restreinte.
+#  Par un navire en train de pêcher.
+#  Par un remorqueur ou pousseur.
+#  Par un navire en route sans erre.
+# B.31 Par visibilité réduite vous entendez à des intervalles ne dépassant
+# pas deux minutes trois sons consécutifs au sifflet, à savoir un son
+# prolongé suivi de deux sons brefs ( ), suivis de quatre sons
+# consécutifs émis au sifflet, à savoir un son prolongé suivi de trois
+# sons brefs ( ) . Par quel navire ce signal estil
+# émis ?
+#  Par un navire remorqué ou, s'il en est remorqué plus d'un, par le dernier navire
+# du convoi.
+#  Par un navire mouillé de plus de 100 mètres.
+#  Par un navire handicapé par son tirant d'eau.
+#  Par un navire en route sans erre.
+# B.32 Quel signal doit émettre un navire à voile de longueur supérieure à
+# 12 mètres par visibilité réduite ?
+#  Trois sons consécutifs au sifflet, à savoir un son prolongé suivi de deux sons
+# brefs, à des intervalles ne dépassant pas deux minutes.
+#  2 sons prolongés à des intervalles ne dépassant pas 1 minute.
+#  2 sons prolongés à des intervalles ne dépassant pas 2 minutes.
+#  3 sons prolongés à des intervalles ne dépassant pas 2 minutes.
+# B.33 Quel signal doit faire entendre un navire de longueur inférieure à 12
+# mètres par visibilité réduite, s'il n'émet pas les signaux obligatoires
+# pour les navires de longueur supérieure à 12 mètres ?
+# 21
+#  Un signal sonore efficace qui ne peut pas être confondu avec tout autre signal
+# autorisé, à des intervalles ne dépassant pas deux minutes.
+#  1 son long.
+#  2 sons brefs.
+#  3 sons brefs.
+# B.34 Par visibilité réduite vous entendez sonner la cloche rapidement
+# pendant cinq secondes environ, à des intervalles ne dépassant pas
+# une minute. Par quel navire ce signal estil
+# émis ?
+#  Par un navire au mouillage de longueur inférieure à 100 mètres.
+#  Par un navire remorqué.
+#  Par un navire remorqueur ou pousseur.
+#  Par un navire au mouillage de longueur supérieure à 100 mètres.
+# B.35 Par visibilité réduite vous entendez sonner la cloche rapidement
+# pendant cinq secondes environ, immédiatement après vous entendez
+# sonner le gong pendant cinq secondes environ. Par quel navire ce
+# signal estil
+# mis ?
+#  Par un navire au mouillage de longueur supérieure ou égale à 100 mètres.
+#  Par un navire au mouillage de longueur inférieure à 100 mètres.
+#  Par un navire remorqué.
+#  Par un navire remorqueur ou pousseur.
+# B.36 Par quel signal sonore tout navire au mouillage peutil
+# signaliser sa
+# position à un navire qui s'approche par visibilité réduite ?
+#  Par trois sons consécutifs émis au sifflet, à savoir un son bref suivi d'un son
+# prolongé et d'un son bref ( ).
+#  Par trois sons consécutifs émis au sifflet, à savoir un son prolongé suivi d'un
+# son bref et d'un son prolongé (  ).
+#  Par au moins 5 sons brefs (  ).
+#  Par 2 sons prolongés ( ).
+# B.37 Quelles dispositions devezvous
+# prendre en conduisant un navire
+# par visibilité réduite ?
+# 22
+#  Je dois adapter la vitesse du navire aux conditions de visibilité réduite.
+#  Je dois émettre des signaux de brume.
+#  Je dois allumer les feux de position.
+#  Je dois naviguer avec une extrême précaution.
+# B.38 Quels feux doit montrer un navire remorqué ?
+#  Deux feux de côté, rouge et vert, et un feu de poupe blanc.
+#  Deux feux de côté, rouge et vert, et deux feux de poupe blancs superposés.
+#  Deux feux de côté, rouge et vert, feu jaune sur feu de poupe blanc à l'arrière.
+#  Deux feux de côté, rouge et vert, deux feux de tête de mât blancs superposés.
+# B.39 Que signifie une marque biconique portée par chaque navire d'un
+# train de remorque ?
+#  La longueur du train de remorque est supérieure à 200 mètres.
+#  La longueur du train de remorque est supérieure à 100 et inférieure à 200
+# mètres.
+#  La longueur du train de remorque est supérieure à 50 et inférieure à 100
+# mètres.
+#  Train de remorque handicapé par son tirant d'eau.
+# B.40 Quelle marque doit montrer un bâtiment audessus
+# de 12 m qui
+# n'est pas maître de ça manoeuvre ?
+#  3 boules superposées à la verticale.
+#  2 boules superposées à la verticale.
+#  2 bicônes superposés.
+#  Une boule noire.
+# B.41 Quels navires ne montrent que des feux de côté rouge et vert et un
+# feu de poupe blanc ?
+#  Les navires à voile.
+#  Les navires à avirons.
+#  Les navires remorqués.
+#  Les chalutiers.
+# B.42 Quels feux peuvent montrer un navire à l'aviron ?
+#  Les feux de côté rouge et vert et le feu de poupe blanc.
+# 23
+#  A défaut de feux, il doit montrer immédiatement, pour prévenir un abordage,
+# une lampe électrique ou un fanal allumé à feu blanc.
+#  Le navire à l'aviron montre juste un feu de poupe blanc.
+#  Le navire à l'aviron montre juste des feux de côté rouge et vert.
+# B.43 Quelle marque doit montrer un navire faisant route simultanément
+# à la voile et au moteur ?
+#  Une marque de forme conique, la pointe vers le bas.
+#  Une marque de forme conique, la pointe vers le haut.
+#  Deux cônes opposés par la pointe.
+#  Une marque en forme de cylindre.
+# B.44 Quels sont les feux que doit montrer un navire à propulsion
+# mécanique de longueur inférieure à 7 mètres et dont la vitesse
+# maximale ne dépasse pas 7 noeuds ?
+#  Un feu blanc visible sur tout l'horizon ; il doit si possible montrer en outre les
+# feux de côté.
+#  Les feux de côté rouge et vert.
+#  Les feux de côté rouge et vert plus le feu de poupe.
+#  Deux feux blancs superposés et visible sur tout l'horizon.
+# B.45 A quelle hauteur minimale audessus
+# du platbord
+# doit être disposé
+# le feu de mât d'un navire d'une longueur endessus
+# de 12 m ?
+#  1 mètre
+#  1,5 mètres
+#  2 mètres
+#  0,5 mètre
+# B.46 Quels feux peuvent montrer un navire à propulsion mécanique de
+# longueur inférieure à 7 mètres et dont la vitesse maximale ne dépasse
+# pas 7 noeuds ?
+#  Un feu de tête de mât blanc (225°) .
+#  Un feu de tête de mât blanc (225°), des feux de côté rouge et vert (112,5°) et un
+# feu de poupe (135°) .
+#  Un feu blanc visible sur tout l'horizon, et les feux de côté rouge et vert.
+#  Un feu jaune visible sur tout l'horizon.
+# 24
+# B.47 Quels feux doit montrer votre navire de longueur supérieure ou égale
+# à 12 mètres lorsqu'il n'est pas maître de sa manoeuvre ?
+#  Deux feux rouges superposés visible sur tout l'horizon, les feux de côté et le feu
+# de poupe.
+#  Un feu jaune visible sur tout l'horizon, les deux de côté et le feu de poupe.
+#  Deux feux rouges superposés visible sur tout l'horizon, le feu de tête de mât, les
+# feux de côté et le feu de poupe.
+#  Les feux de côté rouge et vert, le feu de tête de mât, et le feu de poupe.
+# B.48 Quels feux peuvent montrer un navire à propulsion mécanique de
+# longueur inférieure à 12 mètres faisant route ?
+#  Un feu de tête de mât blanc (225°), des feux de côté rouge et vert (112,5°), et un
+# feu de poupe (135°).
+#  Un feu jaune visible sur tout l'horizon.
+#  Un feu de tête de mât blanc (325°), des feux de côté rouge et vert (112,5°)
+#  Un feu de tête de mât blanc (225°), feu de poupe (135°), et les feux de côté rouge
+# et vert (112,5°) superposés sur le tête de mât.
+# B.49 Quels feux doit montrer au minimum un navire à propulsion
+# mécanique de longueur inférieure à 12 mètres, faisant route ?
+#  Des feux de côté et un feu blanc visible sur tout l'horizon placé 1 m plus haut
+# que les feux de côté.
+#  Un feu de tête de mât (225°) et un feu de poupe (135°).
+#  Les feux de côté rouge et vert, et le feu de poupe (135°).
+#  Un feu blanc visible sur tout l'horizon.
+# B.50 Quelle marque doit montrer un navire au mouillage ?
+#  A l'avant, à l'endroit le plus visible, une boule noire.
+#  A l'avant, à l'endroit le plus visible, un fanion rouge.
+#  A l'avant, à l'endroit le plus visible, 2 boules noires.
+#  A l'avant et à l'arrière, une boule noire et la passerelle illuminée.
+# B.51 Quel feu doit montrer un navire de longueur inférieure à 50 mètres
+# au mouillage ?
+#  Un feu blanc visible sur tout l'horizon.
+#  A l'avant, à l'endroit le plus visible, 2 feux blancs.
+#  A l'avant, à l'endroit le plus visible, un feu rouge.
+#  A l'avant et à l'arrière, une boule noire et la passerelle illuminée.
+# 25
+# B.52 De quelle façon marqueton
+# de jour les navires à capacité de
+# manoeuvre restreinte?
+#  Boule – bicône – boule, superposés à la verticale
+#  2 boules superposées à la verticale.
+#  3 boules superposées à la verticale.
+#  2 bicônes superposés.
+# B.53 De quelle façon marqueton
+# de jour un navire qui n'est pas maître
+# de sa manoeuvre ?
+#  2 boules superposées à la verticale.
+#  Boule – bicône – boule, superposés à la verticale.
+#  3 boules superposées à la verticale.
+#  2 bicônes superposés.
+# B.54 De quelle façon marqueton
+# de jour un navire qui est handicapé par
+# son tirant d'eau?
+#  2 boules superposées à la verticale.
+#  Boule – bicône – boule, superposés à la verticale.
+#  3 boules superposées à la verticale.
+#  Un cylindre noir.
+# B.55 Quels feux doit montrer un navire à capacité de manoeuvre
+# restreinte au mouillage
+#  Rougeblancrouge
+# superposés à la verticale et feu(x) de mouillage.
+#  Rougeblancrouge
+# superposés à la verticale et un cylindre.
+#  Rougeblancrouge
+# superposés à la verticale et 3 boules noires superposées.
+#  Rougeblancrouge
+# superposés à l'horizontale et feu(x) de mouillage.
+# B.56 Quels feux doit montrer un navire à capacité de manoeuvre
+# restreinte ne faisant pas route.
+#  Rougeblancrouge
+# superposés à la verticale.
+#  Blancrougeblanc
+# superposés à la verticale.
+# 26
+#  Rougeblancrouge
+# superposés à la verticale, en plus le feu de poupe.
+#  Rougeblancrouge
+# superposés à la verticale, en plus le feu de mât endessous
+# de 50 mètres.
+# B.57 Quels sont les feux que doit montrer un navire sous voiles utilisant
+# simultanément son dispositif de propulsion mécanique pour
+# naviguer.
+#  Les mêmes feux qu'un navire à propulsion mécanique de même longueur.
+#  Les feux de côté rouge et vert, et le feu de poupe.
+#  Les feux de côté rouge et vert, et le feu de poupe et le feu de mât.
+#  Les feux de côté rouge et vert, le feu de poupe et le feu de mât vert sur rouge.
+# C)

@@ -1,9 +1,9 @@
-const { ref } = Vue
+const { reactive, ref } = Vue
 import Question from './Question.js'
 
 export default {
     async setup(props) {
-        const questions = await getData(props.dataUrl)
+        const questions = reactive(await getData(props.dataUrl)) 
         const checked = ref(false)
         return {
             questions: questions,
