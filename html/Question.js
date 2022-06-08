@@ -14,7 +14,7 @@ export default {
         <li v-for="resp in resp_list">
             {{ resp.title }}<input type="checkbox"/>
             <span v-if="reveal">
-                <span class="correct-answer" v-if="resp.correct">✓</span>
+                <span class="correct-answer" v-if="resp.correct">&#10003;</span>
             </span>
             </li>
     </ul>
