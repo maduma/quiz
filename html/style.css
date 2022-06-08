@@ -7,3 +7,7 @@
     font-weight: bolder;
     color: green;
 }
+
+.question-list {
+    list-style-type: none;
+}

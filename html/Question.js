@@ -10,11 +10,11 @@ export default {
     <ul :style="{ 'list-style-type': sectionBullet }">
         <li class="question-title">{{ title }}</li>
     </ul>
-    <ul>
+    <ul class="question-list">
         <li v-for="resp in resp_list">
-            {{ resp.title }}<input type="checkbox"/>
+            <input type="checkbox"/> {{ resp.title }}
             <span v-if="reveal">
-                <span class="correct-answer" v-if="resp.correct">&#10003;</span>
+                <span class="correct-answer" v-if="resp.correct"> +</span>
             </span>
             </li>
     </ul>
