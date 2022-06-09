@@ -229,8 +229,8 @@
      à des intervalles ne dépassant pas deux minutes. Par quel navire ce signal est-il émis ?
   a:
   - <+> Par un navire qui n'est pas maître de sa manoeuvre.
-  - Par un navire à voile.
-  - D'un navire handicapé par son tirant d'eau.
+  - <+> Par un navire à voile.
+  - <+> D'un navire handicapé par son tirant d'eau.
   - par un navire mouillé de plus de 100 mètres.
 
 - q: >-
@@ -238,144 +238,138 @@
      à des intervalles ne dépassant pas deux minutes. Par quel navire ce signal est-il émis ?
   a:
   - <+> Par un navire à capacité de manoeuvre restreinte.
-  - Par un navire en train de pêcher.
-  - Par un remorqueur ou pousseur.
+  - <+> Par un navire en train de pêcher.
+  - <+> Par un remorqueur ou pousseur.
   - Par un navire en route sans erre.
 
-# B.31 Par visibilité réduite vous entendez à des intervalles ne dépassant
-# pas deux minutes trois sons consécutifs au sifflet, à savoir un son
-# prolongé suivi de deux sons brefs ( ), suivis de quatre sons
-# consécutifs émis au sifflet, à savoir un son prolongé suivi de trois
-# sons brefs ( ) . Par quel navire ce signal estil
-# émis ?
-#  Par un navire remorqué ou, s'il en est remorqué plus d'un, par le dernier navire
-# du convoi.
-#  Par un navire mouillé de plus de 100 mètres.
-#  Par un navire handicapé par son tirant d'eau.
-#  Par un navire en route sans erre.
-# B.32 Quel signal doit émettre un navire à voile de longueur supérieure à
-# 12 mètres par visibilité réduite ?
-#  Trois sons consécutifs au sifflet, à savoir un son prolongé suivi de deux sons
-# brefs, à des intervalles ne dépassant pas deux minutes.
-#  2 sons prolongés à des intervalles ne dépassant pas 1 minute.
-#  2 sons prolongés à des intervalles ne dépassant pas 2 minutes.
-#  3 sons prolongés à des intervalles ne dépassant pas 2 minutes.
-# B.33 Quel signal doit faire entendre un navire de longueur inférieure à 12
-# mètres par visibilité réduite, s'il n'émet pas les signaux obligatoires
-# pour les navires de longueur supérieure à 12 mètres ?
-# 21
-#  Un signal sonore efficace qui ne peut pas être confondu avec tout autre signal
-# autorisé, à des intervalles ne dépassant pas deux minutes.
-#  1 son long.
-#  2 sons brefs.
-#  3 sons brefs.
-# B.34 Par visibilité réduite vous entendez sonner la cloche rapidement
-# pendant cinq secondes environ, à des intervalles ne dépassant pas
-# une minute. Par quel navire ce signal estil
-# émis ?
-#  Par un navire au mouillage de longueur inférieure à 100 mètres.
-#  Par un navire remorqué.
-#  Par un navire remorqueur ou pousseur.
-#  Par un navire au mouillage de longueur supérieure à 100 mètres.
-# B.35 Par visibilité réduite vous entendez sonner la cloche rapidement
-# pendant cinq secondes environ, immédiatement après vous entendez
-# sonner le gong pendant cinq secondes environ. Par quel navire ce
-# signal estil
-# mis ?
-#  Par un navire au mouillage de longueur supérieure ou égale à 100 mètres.
-#  Par un navire au mouillage de longueur inférieure à 100 mètres.
-#  Par un navire remorqué.
-#  Par un navire remorqueur ou pousseur.
-# B.36 Par quel signal sonore tout navire au mouillage peutil
-# signaliser sa
-# position à un navire qui s'approche par visibilité réduite ?
-#  Par trois sons consécutifs émis au sifflet, à savoir un son bref suivi d'un son
-# prolongé et d'un son bref ( ).
-#  Par trois sons consécutifs émis au sifflet, à savoir un son prolongé suivi d'un
-# son bref et d'un son prolongé (  ).
-#  Par au moins 5 sons brefs (  ).
-#  Par 2 sons prolongés ( ).
-# B.37 Quelles dispositions devezvous
-# prendre en conduisant un navire
-# par visibilité réduite ?
-# 22
-#  Je dois adapter la vitesse du navire aux conditions de visibilité réduite.
-#  Je dois émettre des signaux de brume.
-#  Je dois allumer les feux de position.
-#  Je dois naviguer avec une extrême précaution.
-# B.38 Quels feux doit montrer un navire remorqué ?
-#  Deux feux de côté, rouge et vert, et un feu de poupe blanc.
-#  Deux feux de côté, rouge et vert, et deux feux de poupe blancs superposés.
-#  Deux feux de côté, rouge et vert, feu jaune sur feu de poupe blanc à l'arrière.
-#  Deux feux de côté, rouge et vert, deux feux de tête de mât blancs superposés.
-# B.39 Que signifie une marque biconique portée par chaque navire d'un
-# train de remorque ?
-#  La longueur du train de remorque est supérieure à 200 mètres.
-#  La longueur du train de remorque est supérieure à 100 et inférieure à 200
-# mètres.
-#  La longueur du train de remorque est supérieure à 50 et inférieure à 100
-# mètres.
-#  Train de remorque handicapé par son tirant d'eau.
-# B.40 Quelle marque doit montrer un bâtiment audessus
-# de 12 m qui
-# n'est pas maître de ça manoeuvre ?
-#  3 boules superposées à la verticale.
-#  2 boules superposées à la verticale.
-#  2 bicônes superposés.
-#  Une boule noire.
-# B.41 Quels navires ne montrent que des feux de côté rouge et vert et un
-# feu de poupe blanc ?
-#  Les navires à voile.
-#  Les navires à avirons.
-#  Les navires remorqués.
-#  Les chalutiers.
-# B.42 Quels feux peuvent montrer un navire à l'aviron ?
-#  Les feux de côté rouge et vert et le feu de poupe blanc.
-# 23
-#  A défaut de feux, il doit montrer immédiatement, pour prévenir un abordage,
-# une lampe électrique ou un fanal allumé à feu blanc.
-#  Le navire à l'aviron montre juste un feu de poupe blanc.
-#  Le navire à l'aviron montre juste des feux de côté rouge et vert.
-# B.43 Quelle marque doit montrer un navire faisant route simultanément
-# à la voile et au moteur ?
-#  Une marque de forme conique, la pointe vers le bas.
-#  Une marque de forme conique, la pointe vers le haut.
-#  Deux cônes opposés par la pointe.
-#  Une marque en forme de cylindre.
-# B.44 Quels sont les feux que doit montrer un navire à propulsion
-# mécanique de longueur inférieure à 7 mètres et dont la vitesse
-# maximale ne dépasse pas 7 noeuds ?
-#  Un feu blanc visible sur tout l'horizon ; il doit si possible montrer en outre les
-# feux de côté.
-#  Les feux de côté rouge et vert.
-#  Les feux de côté rouge et vert plus le feu de poupe.
-#  Deux feux blancs superposés et visible sur tout l'horizon.
-# B.45 A quelle hauteur minimale audessus
-# du platbord
-# doit être disposé
-# le feu de mât d'un navire d'une longueur endessus
-# de 12 m ?
-#  1 mètre
-#  1,5 mètres
-#  2 mètres
-#  0,5 mètre
-# B.46 Quels feux peuvent montrer un navire à propulsion mécanique de
-# longueur inférieure à 7 mètres et dont la vitesse maximale ne dépasse
-# pas 7 noeuds ?
-#  Un feu de tête de mât blanc (225°) .
-#  Un feu de tête de mât blanc (225°), des feux de côté rouge et vert (112,5°) et un
-# feu de poupe (135°) .
-#  Un feu blanc visible sur tout l'horizon, et les feux de côté rouge et vert.
-#  Un feu jaune visible sur tout l'horizon.
-# 24
-# B.47 Quels feux doit montrer votre navire de longueur supérieure ou égale
-# à 12 mètres lorsqu'il n'est pas maître de sa manoeuvre ?
-#  Deux feux rouges superposés visible sur tout l'horizon, les feux de côté et le feu
-# de poupe.
-#  Un feu jaune visible sur tout l'horizon, les deux de côté et le feu de poupe.
-#  Deux feux rouges superposés visible sur tout l'horizon, le feu de tête de mât, les
-# feux de côté et le feu de poupe.
-#  Les feux de côté rouge et vert, le feu de tête de mât, et le feu de poupe.
+- q: >-
+     31 Par visibilité réduite vous entendez à des intervalles ne dépassant pas deux minutes trois sons consécutifs au sifflet, à savoir un son
+     prolongé suivi de deux sons brefs ( . . ), suivis de quatre sons consécutifs émis au sifflet, à savoir un son prolongé suivi de trois
+     sons brefs ( _ . . . ) . Par quel navire ce signal estil émis ?
+  a:
+  - <+> Par un navire remorqué ou, s'il en est remorqué plus d'un, par le dernier navire du convoi.
+  - Par un navire mouillé de plus de 100 mètres.
+  - Par un navire handicapé par son tirant d'eau.
+  - Par un navire en route sans erre.
+
+- q: 32 Quel signal doit émettre un navire à voile de longueur supérieure à 12 mètres par visibilité réduite ?
+  a:
+  - <+> Trois sons consécutifs au sifflet, à savoir un son prolongé suivi de deux sons brefs, à des intervalles ne dépassant pas deux minutes.
+  - 2 sons prolongés à des intervalles ne dépassant pas 1 minute.
+  - 2 sons prolongés à des intervalles ne dépassant pas 2 minutes.
+  - 3 sons prolongés à des intervalles ne dépassant pas 2 minutes.
+
+- q: >-
+     33 Quel signal doit faire entendre un navire de longueur inférieure à 12 mètres par visibilité réduite, s'il n'émet pas les signaux obligatoires
+     pour les navires de longueur supérieure à 12 mètres ?
+  a:
+  - <+> Un signal sonore efficace qui ne peut pas être confondu avec tout autre signal autorisé, à des intervalles ne dépassant pas deux minutes.
+  - 1 son long.
+  - 2 sons brefs.
+  - 3 sons brefs.
+
+- q: >-
+    34 Par visibilité réduite vous entendez sonner la cloche rapidement pendant cinq secondes environ, à des intervalles ne dépassant pas
+    une minute. Par quel navire ce signal est-ilé mis ?
+  a:
+  - <+> Par un navire au mouillage de longueur inférieure à 100 mètres.
+  - Par un navire remorqué.
+  - Par un navire remorqueur ou pousseur.
+  - Par un navire au mouillage de longueur supérieure à 100 mètres.
+
+- q: >-
+    35 Par visibilité réduite vous entendez sonner la cloche rapidement pendant cinq secondes environ, immédiatement après vous entendez
+    sonner le gong pendant cinq secondes environ. Par quel navire ce signal est-il émis ?
+  a:
+  - <+> Par un navire au mouillage de longueur supérieure ou égale à 100 mètres.
+  - Par un navire au mouillage de longueur inférieure à 100 mètres.
+  - Par un navire remorqué.
+  - Par un navire remorqueur ou pousseur.
+
+- q: 36 Par quel signal sonore tout navire au mouillage peut-il signaliser sa position à un navire qui s'approche par visibilité réduite ?
+  a:
+  - <+> Par trois sons consécutifs émis au sifflet, à savoir un son bref suivi d'un son prolongé et d'un son bref ( . _ . ).
+  - Par trois sons consécutifs émis au sifflet, à savoir un son prolongé suivi d'un son bref et d'un son prolongé ( _ . _ ).
+  - Par au moins 5 sons brefs ( . . . . . ).
+  - Par 2 sons prolongés ( ).
+
+- q: 37 Quelles dispositions devez-vous prendre en conduisant un navire par visibilité réduite ?
+  a:
+  - <+> Je dois adapter la vitesse du navire aux conditions de visibilité réduite.
+  - <+> Je dois émettre des signaux de brume.
+  - <+> Je dois allumer les feux de position.
+  - <+> Je dois naviguer avec une extrême précaution.
+
+- q: 38 Quels feux doit montrer un navire remorqué ?
+  a:
+  - <+> Deux feux de côté, rouge et vert, et un feu de poupe blanc.
+  - Deux feux de côté, rouge et vert, et deux feux de poupe blancs superposés.
+  - Deux feux de côté, rouge et vert, feu jaune sur feu de poupe blanc à l'arrière.
+  - Deux feux de côté, rouge et vert, deux feux de tête de mât blancs superposés.
+
+- q: 39 Que signifie une marque biconique portée par chaque navire d'un train de remorque ?
+  a:
+  - <+> La longueur du train de remorque est supérieure à 200 mètres.
+  - La longueur du train de remorque est supérieure à 100 et inférieure à 200 mètres.
+  - La longueur du train de remorque est supérieure à 50 et inférieure à 100 mètres.
+  - Train de remorque handicapé par son tirant d'eau.
+
+- q: 40 Quelle marque doit montrer un bâtiment au-dessus de 12 m qui n'est pas maître de ça manoeuvre ?
+  a:
+  - 3 boules superposées à la verticale.
+  - <+> 2 boules superposées à la verticale.
+  - 2 bicônes superposés.
+  - Une boule noire.
+
+- q: 41 Quels navires ne montrent que des feux de côté rouge et vert et un feu de poupe blanc ?
+  a:
+  - <+> Les navires à voile.
+  - Les navires à avirons.
+  - <+> Les navires remorqués.
+  - Les chalutiers.
+
+- q: 42 Quels feux peuvent montrer un navire à l'aviron ?
+  a:
+  - <+> Les feux de côté rouge et vert et le feu de poupe blanc.
+  - <+> A défaut de feux, il doit montrer immédiatement, pour prévenir un abordage, une lampe électrique ou un fanal allumé à feu blanc.
+  - Le navire à l'aviron montre juste un feu de poupe blanc.
+  - Le navire à l'aviron montre juste des feux de côté rouge et vert.
+
+- q: 43 Quelle marque doit montrer un navire faisant route simultanément à la voile et au moteur ?
+  a:
+  - <+> Une marque de forme conique, la pointe vers le bas.
+  - Une marque de forme conique, la pointe vers le haut.
+  - Deux cônes opposés par la pointe.
+  - Une marque en forme de cylindre.
+
+- q: 44 Quels sont les feux que doit montrer un navire à propulsion mécanique de longueur inférieure à 7 mètres et dont la vitesse maximale ne dépasse pas 7 noeuds ?
+  a:
+  - <+> Un feu blanc visible sur tout l'horizon ; il doit si possible montrer en outre les feux de côté.
+  - Les feux de côté rouge et vert.
+  - Les feux de côté rouge et vert plus le feu de poupe.
+  - Deux feux blancs superposés et visible sur tout l'horizon.
+
+- q: 45 A quelle hauteur minimale au-dessu du plat-bord doit être disposé le feu de mât d'un navire d'une longueur endessus de 12 m ?
+  a:
+  - <+> 1 mètre
+  - 1,5 mètres
+  - 2 mètres
+  - 0,5 mètre
+
+- q: 46 Quels feux peuvent montrer un navire à propulsion mécanique de longueur inférieure à 7 mètres et dont la vitesse maximale ne dépasse pas 7 noeuds ?
+  a:
+  - Un feu de tête de mât blanc (225°) .
+  - <+> Un feu de tête de mât blanc (225°), des feux de côté rouge et vert (112,5°) et un feu de poupe (135°) .
+  - <+> Un feu blanc visible sur tout l'horizon, et les feux de côté rouge et vert.
+  - Un feu jaune visible sur tout l'horizon.
+
+- q: 47 Quels feux doit montrer votre navire de longueur supérieure ou égale à 12 mètres lorsqu'il n'est pas maître de sa manoeuvre ?
+  a:
+  - <+> Deux feux rouges superposés visible sur tout l'horizon, les feux de côté et le feu de poupe.
+  - Un feu jaune visible sur tout l'horizon, les deux de côté et le feu de poupe.
+  - Deux feux rouges superposés visible sur tout l'horizon, le feu de tête de mât, les feux de côté et le feu de poupe.
+  - Les feux de côté rouge et vert, le feu de tête de mât, et le feu de poupe.
+
 # B.48 Quels feux peuvent montrer un navire à propulsion mécanique de
 # longueur inférieure à 12 mètres faisant route ?
 #  Un feu de tête de mât blanc (225°), des feux de côté rouge et vert (112,5°), et un
