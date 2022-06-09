@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+
+<script src="https://unpkg.com/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
+<script src="quiz.js"></script>
+
+<script src="https://unpkg.com/vue@3"></script>
+<script src="app.js" type="module"></script>
+
+<div id="app">
+    <Suspense>
+        <template #default>
+            <question-list section="A" title="Législation-Généralités" data-url="/data/cotier_fr/questions_legislation_generalites.yaml"></question-list>
+        </template>
+        <template #fallback>
+            Loading...
+        </template>
+    </Suspense>
+</div>
+
+<pre id="debug"></pre>
+    
+</body>
+</html>
