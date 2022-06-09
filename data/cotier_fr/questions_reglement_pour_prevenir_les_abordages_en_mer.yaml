@@ -158,87 +158,90 @@
   - Un voilier su voile à toujours la priorité.
   - Un voilier na pas le droit de couper le dispositif de séparation de trafic.
 
-# B.21 Comment doivent se comporter les navires de longueur inférieure à
-# 20 mètres ou les navires à voile faisant route à l'intérieur d'un
-# dispositif de séparation du trafic ?
-#  Ils ne doivent pas gêner le passage des navires à propulsion mécanique qui
-# suivent un couloir de circulation.
-#  Le navire à propulsion mécanique de moins de 20 m de longueur n'a pas le
-# droit de circuler dans un couloir de séparation de trafic.
-#  Un voilier de moins de 20 mètres n'est pas autorisé à naviguer sous voile dans
-# un couloir de séparation de trafic.
-#  Aucun navire motorisé ou sous voile de moins de 20 m de longueur n'est
-# autorisé à naviguer dans un couloir de séparation de trafic.
-# B.22 Que signifie le signal de manoeuvre suivant émis au sifflet par un
-# navire à propulsion mécanique : un son bref (  ) ?
-#  Je viens sur tribord.
-#  Je viens sur bâbord.
-#  Je bats en arrière.
-#  Je vais faire demitour.
-# B.23 Que signifie le signal de manoeuvre suivant émis au sifflet par un
-# navire à propulsion mécanique : deux sons brefs (  ) ?
-#  Je viens sur bâbord.
-#  Je viens sur tribord.
-#  Je bats en arrière.
-#  Je vais faire demitour.
-# B.24 Que signifie le signal de manoeuvre suivant émis au sifflet par un
-# navire à propulsion mécanique : trois sons brefs (  ) ?
-#  Je bats en arrière.
-#  Je viens sur bâbord.
-#  Je viens sur tribord.
-#  Je vais faire demitour.
-# B.25 Que signifie le signal de manoeuvre suivant émis au sifflet par un
-# navire à propulsion mécanique : un son bref, un son prolongé, un son bref
-# ( ) par visibilité réduite ?
-# 19
-#  Un navire au mouillage peut faire entendre ce signal sonore, pour signaler sa
-# position.
-#  Je bats en arrière.
-#  Réduire la vitesse pour ne pas faire des remous.
-#  Par un navire handicapé par son tirant d'eau.
-# B.26 Que signifie le signal sonore suivant : une série rapide d'au moins
-# cinq sons brefs (  ) ?
-#  Attention, j'ai des doutes sur vos intentions.
-#  Je bats en arrière.
-#  Je vais faire demitour.
-#  Pour attirer l'attention d'un navire
-# B.27 Par visibilité réduite vous entendez un son prolongé au sifflet ( )
-# à des intervalles ne dépassant pas deux minutes. Par quel navire ce
-# signal estil
-# émis ?
-#  Par un navire à propulsion mécanique ayant de l'erre.
-#  Par un navire à propulsion mécanique faisant route, mais stoppé et n'ayant pas
-# d'erre.
-#  Par un navire non maître de sa manoeuvre.
-#  Par un navire handicapé par son tirant d'eau.
-# B.28 Par visibilité réduite vous entendez deux sons prolongés ( ) au
-# sifflet à des intervalles ne dépassant pas deux minutes. Par quel navire ce
-# signal estil
-# émis ?
-#  Par un navire à propulsion mécanique faisant route, mais stoppé et n'ayant pas
-# d'erre.
-#  Par un navire à propulsion mécanique ayant de l'erre.
-#  Par un navire non maître de sa manoeuvre.
-#  Par un navire handicapé par son tirant d'eau.
-# B.29 Par visibilité réduite vous entendez trois sons consécutifs au sifflet,
-# à savoir un son prolongé suivi de deux sons brefs (  ), à des
-# intervalles ne dépassant pas deux minutes. Par quel navire ce signal
-# estil
-# émis ?
-#  Par un navire qui n'est pas maître de sa manoeuvre.
-#  Par un navire à voile.
-#  D'un navire handicapé par son tirant d'eau.
-# 20
-#  par un navire mouillé de plus de 100 mètres.
-# B.30 Par visibilité réduite vous entendez trois sons consécutifs au sifflet,
-# à savoir un son prolongé suivi de deux sons brefs (  ), à des
-# intervalles ne dépassant pas deux minutes. Par quel navire ce signal
-# estil
-# émis ?
-#  Par un navire à capacité de manoeuvre restreinte.
-#  Par un navire en train de pêcher.
-#  Par un remorqueur ou pousseur.
-#  Par un navire en route sans erre.
+- q: >-
+     21 Comment doivent se comporter les navires de longueur inférieure à 20 mètres
+     ou les navires à voile faisant route à l'intérieur d'un dispositif de séparation du trafic ?
+  a:
+  - <+> Ils ne doivent pas gêner le passage des navires à propulsion mécanique qui suivent un couloir de circulation.
+  - Le navire à propulsion mécanique de moins de 20 m de longueur n'a pas le droit de circuler dans un couloir de séparation de trafic.
+  - Un voilier de moins de 20 mètres n'est pas autorisé à naviguer sous voile dans un couloir de séparation de trafic.
+  - Aucun navire motorisé ou sous voile de moins de 20 m de longueur n'est autorisé à naviguer dans un couloir de séparation de trafic.
+
+- q: >-
+     22 Que signifie le signal de manoeuvre suivant émis au sifflet par un navire à propulsion mécanique : un son bref ( . ) ?
+  a:
+  - <+> Je viens sur tribord.
+  - Je viens sur bâbord.
+  - Je bats en arrière.
+  - Je vais faire demitour.
+
+- q: >-
+     23 Que signifie le signal de manoeuvre suivant émis au sifflet par un navire à propulsion mécanique : deux sons brefs ( . . ) ?
+  a:
+  - <+> Je viens sur bâbord.
+  - Je viens sur tribord.
+  - Je bats en arrière.
+  - Je vais faire demitour.
+
+- q: >-
+     24 Que signifie le signal de manoeuvre suivant émis au sifflet par un navire à propulsion mécanique : trois sons brefs ( . . . ) ?
+  a:
+  - <+> Je bats en arrière.
+  - Je viens sur bâbord.
+  - Je viens sur tribord.
+  - Je vais faire demitour.
+
+- q: >-
+    25 Que signifie le signal de manoeuvre suivant émis au sifflet par un navire à propulsion mécanique
+    : un son bref, un son prolongé, un son bref ( . _ . ) par visibilité réduite ?
+  a:
+  - <+> Un navire au mouillage peut faire entendre ce signal sonore, pour signaler sa position.
+  - Je bats en arrière.
+  - Réduire la vitesse pour ne pas faire des remous.
+  - Par un navire handicapé par son tirant d'eau.
+
+- q: >-
+     26 Que signifie le signal sonore suivant : une série rapide d'au moins cinq sons brefs ( . . . . . ) ?
+  a:
+  - <+> Attention, j'ai des doutes sur vos intentions.
+  - Je bats en arrière.
+  - Je vais faire demitour.
+  - Pour attirer l'attention d'un navire
+
+- q: >-
+     27 Par visibilité réduite vous entendez un son prolongé au sifflet ( _ ) à des intervalles 
+     ne dépassant pas deux minutes. Par quel navire ce signal est-il émis ?
+  a:
+  - <+> Par un navire à propulsion mécanique ayant de l'erre.
+  - Par un navire à propulsion mécanique faisant route, mais stoppé et n'ayant pas d'erre.
+  - Par un navire non maître de sa manoeuvre.
+  - Par un navire handicapé par son tirant d'eau.
+
+- q: 28 Par visibilité réduite vous entendez deux sons prolongés ( _ _ ) au sifflet à des intervalles ne dépassant pas deux minutes. Par quel navire ce signal est-il émis ?
+  a:
+  - <+> Par un navire à propulsion mécanique faisant route, mais stoppé et n'ayant pas d'erre.
+  - Par un navire à propulsion mécanique ayant de l'erre.
+  - Par un navire non maître de sa manoeuvre.
+  - Par un navire handicapé par son tirant d'eau.
+
+- q: >-
+     29 Par visibilité réduite vous entendez trois sons consécutifs au sifflet, à savoir un son prolongé suivi de deux sons brefs ( _ . . ),
+     à des intervalles ne dépassant pas deux minutes. Par quel navire ce signal est-il émis ?
+  a:
+  - <+> Par un navire qui n'est pas maître de sa manoeuvre.
+  - Par un navire à voile.
+  - D'un navire handicapé par son tirant d'eau.
+  - par un navire mouillé de plus de 100 mètres.
+
+- q: >-
+     30 Par visibilité réduite vous entendez trois sons consécutifs au sifflet, à savoir un son prolongé suivi de deux sons brefs ( _ . . ),
+     à des intervalles ne dépassant pas deux minutes. Par quel navire ce signal est-il émis ?
+  a:
+  - <+> Par un navire à capacité de manoeuvre restreinte.
+  - Par un navire en train de pêcher.
+  - Par un remorqueur ou pousseur.
+  - Par un navire en route sans erre.
+
 # B.31 Par visibilité réduite vous entendez à des intervalles ne dépassant
 # pas deux minutes trois sons consécutifs au sifflet, à savoir un son
 # prolongé suivi de deux sons brefs ( ), suivis de quatre sons
