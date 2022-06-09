@@ -11,3 +11,13 @@
 .question-list {
     list-style-type: none;
 }
+
+
+.reveal-box {
+    position: fixed;
+    right: 100px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: lightblue;
+}

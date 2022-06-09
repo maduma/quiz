@@ -15,7 +15,7 @@ export default {
     template: `
 
 <h2>{{section}} - {{ title }}</h2>
-Vérifier les reponses <input type="checkbox" id="checkbox" v-model="checked" />
+<div class="reveal-box">Vérifier les reponses <input type="checkbox" id="checkbox" v-model="checked" /></div>
 <Question :section=section :reveal=checked v-bind=q v-for="q in questions"></Question>
 
 `
