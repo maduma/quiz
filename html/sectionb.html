@@ -16,14 +16,7 @@
 <script src="app.js" type="module"></script>
 
 <div id="app">
-    <Suspense>
-        <template #default>
-            <question-list section="B" title="Règlement pour prévenir les abordages en mer" data-url="/data/cotier_fr/questions_reglement_pour_prevenir_les_abordages_en_mer.yaml"></question-list>
-        </template>
-        <template #fallback>
-            Loading...
-        </template>
-    </Suspense>
+   <question-list section="B" title="Règlement pour prévenir les abordages en mer" data-url="/data/cotier_fr/questions_reglement_pour_prevenir_les_abordages_en_mer.yaml"></question-list>
 </div>
 
 <pre id="debug"></pre>

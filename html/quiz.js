@@ -2,7 +2,7 @@ function parseCorrectAnswers(data) {
     const regex = /^(\d+)(\s+.*)$/
     data.forEach(element => {
         const found = element.q.trim().match(regex)
-        element.id = '?'
+        element.id = '#'
         if (found != null && found.length) {
             element.id = found[1]
             element.q = found[2]
@@ -10,9 +10,9 @@ function parseCorrectAnswers(data) {
         element.a = element.a.map( e => {
             const str = e.trim()
             if (str.slice(0,3) == "<+>") {
-                return { title: str.slice(4), correct: true , checked: false}
+                return { title: str.slice(4), correct: true , selected: false}
             } else {
-                return { title: str, correct: false, checked: false }
+                return { title: str, correct: false, selected: false }
             }
         })
     });
@@ -21,6 +21,9 @@ function parseCorrectAnswers(data) {
 
 async function getData(url) {
     const response = await fetch(url);
+    if (!response.ok) {
+        throw Error(response.status + " " + response.statusText)
+    }
     const yaml = await response.text()
     const data = jsyaml.load(yaml)
     return parseCorrectAnswers(data)

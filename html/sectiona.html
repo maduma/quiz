@@ -16,14 +16,7 @@
 <script src="app.js" type="module"></script>
 
 <div id="app">
-    <Suspense>
-        <template #default>
-            <question-list section="A" title="Législation-Généralités" data-url="/data/cotier_fr/questions_legislation_generalites.yaml"></question-list>
-        </template>
-        <template #fallback>
-            Loading...
-        </template>
-    </Suspense>
+    <question-list section="A" title="Législation-Généralités" data-url="/data/cotier_fr/questions_legislation_generalites.yaml"></question-list>
 </div>
 
 <pre id="debug"></pre>

@@ -370,81 +370,72 @@
   - Deux feux rouges superposés visible sur tout l'horizon, le feu de tête de mât, les feux de côté et le feu de poupe.
   - Les feux de côté rouge et vert, le feu de tête de mât, et le feu de poupe.
 
-# B.48 Quels feux peuvent montrer un navire à propulsion mécanique de
-# longueur inférieure à 12 mètres faisant route ?
-#  Un feu de tête de mât blanc (225°), des feux de côté rouge et vert (112,5°), et un
-# feu de poupe (135°).
-#  Un feu jaune visible sur tout l'horizon.
-#  Un feu de tête de mât blanc (325°), des feux de côté rouge et vert (112,5°)
-#  Un feu de tête de mât blanc (225°), feu de poupe (135°), et les feux de côté rouge
-# et vert (112,5°) superposés sur le tête de mât.
-# B.49 Quels feux doit montrer au minimum un navire à propulsion
-# mécanique de longueur inférieure à 12 mètres, faisant route ?
-#  Des feux de côté et un feu blanc visible sur tout l'horizon placé 1 m plus haut
-# que les feux de côté.
-#  Un feu de tête de mât (225°) et un feu de poupe (135°).
-#  Les feux de côté rouge et vert, et le feu de poupe (135°).
-#  Un feu blanc visible sur tout l'horizon.
-# B.50 Quelle marque doit montrer un navire au mouillage ?
-#  A l'avant, à l'endroit le plus visible, une boule noire.
-#  A l'avant, à l'endroit le plus visible, un fanion rouge.
-#  A l'avant, à l'endroit le plus visible, 2 boules noires.
-#  A l'avant et à l'arrière, une boule noire et la passerelle illuminée.
-# B.51 Quel feu doit montrer un navire de longueur inférieure à 50 mètres
-# au mouillage ?
-#  Un feu blanc visible sur tout l'horizon.
-#  A l'avant, à l'endroit le plus visible, 2 feux blancs.
-#  A l'avant, à l'endroit le plus visible, un feu rouge.
-#  A l'avant et à l'arrière, une boule noire et la passerelle illuminée.
-# 25
-# B.52 De quelle façon marqueton
-# de jour les navires à capacité de
-# manoeuvre restreinte?
-#  Boule – bicône – boule, superposés à la verticale
-#  2 boules superposées à la verticale.
-#  3 boules superposées à la verticale.
-#  2 bicônes superposés.
-# B.53 De quelle façon marqueton
-# de jour un navire qui n'est pas maître
-# de sa manoeuvre ?
-#  2 boules superposées à la verticale.
-#  Boule – bicône – boule, superposés à la verticale.
-#  3 boules superposées à la verticale.
-#  2 bicônes superposés.
-# B.54 De quelle façon marqueton
-# de jour un navire qui est handicapé par
-# son tirant d'eau?
-#  2 boules superposées à la verticale.
-#  Boule – bicône – boule, superposés à la verticale.
-#  3 boules superposées à la verticale.
-#  Un cylindre noir.
-# B.55 Quels feux doit montrer un navire à capacité de manoeuvre
-# restreinte au mouillage
-#  Rougeblancrouge
-# superposés à la verticale et feu(x) de mouillage.
-#  Rougeblancrouge
-# superposés à la verticale et un cylindre.
-#  Rougeblancrouge
-# superposés à la verticale et 3 boules noires superposées.
-#  Rougeblancrouge
-# superposés à l'horizontale et feu(x) de mouillage.
-# B.56 Quels feux doit montrer un navire à capacité de manoeuvre
-# restreinte ne faisant pas route.
-#  Rougeblancrouge
-# superposés à la verticale.
-#  Blancrougeblanc
-# superposés à la verticale.
-# 26
-#  Rougeblancrouge
-# superposés à la verticale, en plus le feu de poupe.
-#  Rougeblancrouge
-# superposés à la verticale, en plus le feu de mât endessous
-# de 50 mètres.
-# B.57 Quels sont les feux que doit montrer un navire sous voiles utilisant
-# simultanément son dispositif de propulsion mécanique pour
-# naviguer.
-#  Les mêmes feux qu'un navire à propulsion mécanique de même longueur.
-#  Les feux de côté rouge et vert, et le feu de poupe.
-#  Les feux de côté rouge et vert, et le feu de poupe et le feu de mât.
-#  Les feux de côté rouge et vert, le feu de poupe et le feu de mât vert sur rouge.
-# C)
+- q: 48 Quels feux peuvent montrer un navire à propulsion mécanique de longueur inférieure à 12 mètres faisant route ?
+  a:
+  - <+> Un feu de tête de mât blanc (225°), des feux de côté rouge et vert (112,5°), et un feu de poupe (135°).
+  - Un feu jaune visible sur tout l'horizon.
+  - Un feu de tête de mât blanc (325°), des feux de côté rouge et vert (112,5°)
+  - Un feu de tête de mât blanc (225°), feu de poupe (135°), et les feux de côté rouge et vert (112,5°) superposés sur le tête de mât.
+
+- q: 49 Quels feux doit montrer au minimum un navire à propulsion mécanique de longueur inférieure à 12 mètres, faisant route ?
+  a:
+  - <+> Des feux de côté et un feu blanc visible sur tout l'horizon placé 1 m plus haut que les feux de côté.
+  - Un feu de tête de mât (225°) et un feu de poupe (135°).
+  - Les feux de côté rouge et vert, et le feu de poupe (135°).
+  - Un feu blanc visible sur tout l'horizon.
+
+- q: 50 Quelle marque doit montrer un navire au mouillage ?
+  a:
+  - <+> A l'avant, à l'endroit le plus visible, une boule noire.
+  - A l'avant, à l'endroit le plus visible, un fanion rouge.
+  - A l'avant, à l'endroit le plus visible, 2 boules noires.
+  - A l'avant et à l'arrière, une boule noire et la passerelle illuminée.
+
+- q: 51 Quel feu doit montrer un navire de longueur inférieure à 50 mètres au mouillage ?
+  a:
+  - <+> Un feu blanc visible sur tout l'horizon.
+  - A l'avant, à l'endroit le plus visible, 2 feux blancs.
+  - A l'avant, à l'endroit le plus visible, un feu rouge.
+  - A l'avant et à l'arrière, une boule noire et la passerelle illuminée.
+
+- q: 52 De quelle façon marqueton de jour les navires à capacité de manoeuvre restreinte?
+  a:
+  - <+> Boule - bicône - boule, superposés à la verticale
+  - 2 boules superposées à la verticale.
+  - 3 boules superposées à la verticale.
+  - 2 bicônes superposés.
+
+- q: 53 De quelle façon marqueton de jour un navire qui n'est pas maître de sa manoeuvre ?
+  a:
+  - <+> 2 boules superposées à la verticale.
+  - Boule - bicône - boule, superposés à la verticale.
+  - 3 boules superposées à la verticale.
+  - 2 bicônes superposés.
+
+- q: 54 De quelle façon marqueton de jour un navire qui est handicapé par son tirant d'eau?
+  a:
+  - 2 boules superposées à la verticale.
+  - Boule - bicône - boule, superposés à la verticale.
+  - 3 boules superposées à la verticale.
+  - <+> Un cylindre noir.
+
+- q: 55 Quels feux doit montrer un navire à capacité de manoeuvre restreinte au mouillage
+  a:
+  - <+> Rouge-blanc-rouge superposés à la verticale et feu(x) de mouillage.
+  - Rouge-blanc-rouge superposés à la verticale et un cylindre.
+  - Rouge-blanc-rouge superposés à la verticale et 3 boules noires superposées.
+  - Rouge-blanc-rouge superposés à l'horizontale et feu(x) de mouillage.
+
+- q: 56 Quels feux doit montrer un navire à capacité de manoeuvre restreinte ne faisant pas route.
+  a:
+  - <+> Rouge-blanc-rouge superposés à la verticale.
+  - Blanc-rouge-blanc superposés à la verticale.
+  - Rouge-blanc-rouge superposés à la verticale, en plus le feu de poupe.
+  - Rouge-blanc-rouge superposés à la verticale, en plus le feu de mât en dessous de 50 mètres.
+
+- q: 57 Quels sont les feux que doit montrer un navire sous voiles utilisant simultanément son dispositif de propulsion mécanique pour naviguer.
+  a:
+  - <+> Les mêmes feux qu'un navire à propulsion mécanique de même longueur.
+  - Les feux de côté rouge et vert, et le feu de poupe.
+  - <+> Les feux de côté rouge et vert, et le feu de poupe et le feu de mât.
+  - Les feux de côté rouge et vert, le feu de poupe et le feu de mât vert sur rouge.
