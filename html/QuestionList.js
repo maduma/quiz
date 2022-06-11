@@ -28,7 +28,7 @@ export default {
 
 <h2>{{section}} - {{ title }}</h2>
 <div class="reveal-box">Vérifier les reponses <input type="checkbox" id="checkbox" v-model="reveal" /></div>
-<Question :section=section :reveal=reveal v-bind=q v-for="q in questions"></Question>
+<Question :section=section :reveal=reveal :question=question v-for="question in questions"></Question>
 <div class="error" v-if="error">
     <h4>Error when loading data!</h4>
     file: {{ dataUrl }}

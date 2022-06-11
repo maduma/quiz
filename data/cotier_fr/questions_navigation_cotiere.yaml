@@ -1,0 +1,718 @@
+- q: 1 Combien de genres de balisages côtiers existentils?
+  a:
+  - 2
+  - 3
+  - <+> 5
+  - 4
+
+- q: 2 Énumérez les types de marques côtières (balisages).
+  a:
+  - <+> Les marques latérales.
+  - <+> Les marques d'eaux saines.
+  - <+> Les marques spéciales.
+  - <+> Les marques de danger isolé.
+
+- q: 3 Qu'appelleton sens conventionnel?
+  a:
+  - <+> Le sens que suit le navire venant de la haute mer lorsqu'il s'approche d'un port, d'une rivière, d'une embouchure, etc.
+  - Le sens que suit le navire sortant du port vers la mer.
+  - En traversant la zone de séparation.
+  - Le croisement d'un autre navire.
+
+- q: 4 Qu'est-ce qu'indiquent les marques latérales?
+  a:
+  - <+> Les côtés bâbord et tribord de la route à suivre.
+  - Les eaux sont saines tout autour d'elles.
+  - Signalent des dangers isolés d'étendue limitée.
+  - Indiquent le sens principal et le sens secondaire.
+
+- q: 5 Les marques latérales tribord portent quels numéros ou lettres ?
+  a:
+  - Numéros pairs.
+  - <+> Numéros impairs.
+  - Pas de numérotation.
+  - Lettres T et B.
+
+- q: 6 Les marques latérales bâbord portent quels numéros ou lettres ?
+  a:
+  - <+> Numéros pairs.
+  - Numéros impairs.
+  - Pas de numérotation.
+  - Lettres T et B
+
+- q: 7 De quel feu est équipée une bouée latérale tribord de nuit, et de quelle combinaison de rythme?
+  a:
+  - <+> Vert à un éclat.
+  - Rouge à un éclat.
+  - Vert à deux éclats.
+  - Rouge à deux éclats.
+
+- q: 8 Quels sont les éléments qui nous permettent d'identifier un feu le long d'une côte?
+  a:
+  - <+> La couleur, la durée, le rythme.
+  - La forme, la portée, la clarté
+  - Le rythme, la couleur, la portée.
+  - La direction, la portée, le rythme.
+
+- q: 9 Que faut-il avoir sous la main pour permettre l'identification d'un feu?
+  a:
+  - <+> Le livre des feux du secteur dans lequel on se trouve.
+  - Le livre des marées.
+  - La carte de navigation du secteur.
+  - Le journal de bord.
+
+- q: 10 Venant de la mer vers la côte, quelle bouée devons nous laisser passer sur notre côté bâbord?
+  a:
+  - La verte pointue.
+  - <+> La rouge plate.
+  - La rouge pointue.
+  - La verte plate.
+
+# C.11 Venant de la mer vers la côte, quelle bouée devons nous laisser
+# passer sur notre côté tribord?
+#  La verte pointue.
+#  La rouge plate.
+#  La rouge pointue.
+#  La verte plate.
+# C.12 Sortant d'un port vers la mer, quelle bouée devons nous laisser
+# passer sur notre côté bâbord?
+#  La verte pointue.
+#  La rouge plate.
+#  La rouge pointue.
+#  La verte plate.
+# C.13 Sortant d'un port vers la mer, quelle bouée devonsnous
+# laisser
+# passer sur notre côté tribord?
+#  La verte pointue.
+#  La rouge plate.
+#  La rouge pointue.
+#  La verte plate.
+# C.14 Qu'estce
+# qu'indiquent les marques d'eaux saines?
+#  Les côtés bâbord et tribord de la route à suivre.
+#  Les eaux sont saines tout autour d'elles.
+#  Signalent des dangers isolés d'étendue limitée.
+#  L'entrée et la sortie d'un couloir de séparation du trafic.
+# C.15 Qu'estce
+# qu'indiquent les marques spéciales?
+#  Les côtés bâbord et tribord de la route à suivre.
+#  Une zone ou une configuration mentionnée dans les
+# documents nautiques.
+#  Signalent des dangers isolés d'étendue limitée.
+#  Les eaux sont libres autour d'elles.
+# C.16 Qu'estce
+# qu'indiquent les marques de danger isolé?
+#  Les côtés bâbord et tribord de la route à suivre.
+#  Les eaux sont saines tout autour d'elles.
+# 30
+#  Signalent des dangers isolés d'étendue limitée.
+#  Une zone ou une configuration mentionnée dans les
+# documents nautiques.
+# C.17 De quel feu est équipée une bouée de danger isolé de nuit, et de
+# quelle combinaison de rythme?
+#  Blanc à un éclat.
+#  Rouge à un éclat.
+#  Blanc à deux éclats groupés.
+#  Rouge à deux éclats groupés.
+# C.18 Qu'estce
+# qu'indiquent les marques cardinales?
+#  La direction d'un danger et par conséquent, la route à suivre.
+#  Les eaux sont saines tout autour d'elles.
+#  Signalent des dangers isolés d'étendue limitée.
+#  La direction et la route à suivre.
+# C.19 Vous voyez cette bouée. De quelle bouée s'agitil?
+#  Marque latérale tribord.
+#  Marque latérale bâbord.
+#  Marque d'eau saine.
+#  Marque cardinale Nord.
+# C.20 Vous voyez cette bouée. De quelle bouée s'agitil?
+# 4
+#  Marque latérale tribord.
+#  Marque latérale bâbord.
+#  Marque d'eau saine.
+#  Marque cardinale Sud.
+# C.21 Vous voyez cette bouée. De quelle bouée s'agitil?
+# 31
+#  Marque latérale, chenal préféré vers la gauche.
+#  Marque latérale, chenal préféré vers la droite.
+#  Marque cardinale, le danger vers le Sud.
+#  Marque cardinale, le danger vers le Nord.
+# C.22 Vous voyez cette bouée. De quelle bouée s'agitil?
+#  Marque latérale, chenal préféré vers la gauche.
+#  Marque d'eau saine.
+#  Marque cardinale, le danger vers le Sud.
+#  Marque spéciale.
+# C.23 Vous voyez cette bouée. De quelle bouée s'agitil?
+#  Marque latérale, chenal préféré vers la droite.
+#  Marque d'eau saine.
+#  Marque de danger isolé.
+#  Marque spéciale.
+# C.24 Vous voyez cette bouée. De quelle bouée s'agitil?
+#  Marque latérale, chenal préféré vers la droite.
+#  Marque d'eau saine.
+#  Marque de danger isolé.
+#  Marque spéciale.
+# C.25 Vous voyez cette bouée. De quelle bouée s'agitil?
+# 32
+#  Marque latérale, chenal préféré vers la droite.
+#  Marque cardinale Nord, danger nouveau, passer au Nord.
+#  Marque cardinale Nord, le danger se trouve au Sud.
+#  Marque cardinale Sud, il faut passer au Sud.
+# C.26 Vous voyez cette bouée. De quelle bouée s'agitil?
+#  Marque latérale, chenal préféré vers la gauche.
+#  Marque cardinale Ouest, passer à l'Ouest.
+#  Marque cardinale Est, le danger se trouve à l'Ouest.
+#  Marque cardinale Sud, il faut passer au Sud.
+# C.27 Vous voyez cette bouée. De quelle bouée s'agitil?
+#  Marque latérale, chenal préféré vers la droite.
+#  Marque cardinale, danger nouveau, passer au Sud.
+#  Marque cardinale Sud, le danger se trouve au Nord.
+#  Marque cardinale Nord, il faut passer côté Nord.
+# C.28 Vous voyez cette bouée. De quelle bouée s'agitil?
+#  Marque latérale, chenal préféré vers la gauche.
+#  Marque cardinale Ouest, le danger se trouve à l'Est.
+#  Marque cardinale Est, le danger se trouve à l'Ouest.
+#  Marque cardinale Nord, passer côté Nord.
+# 33
+# C.29 Décrivez les signaux lumineux d'une bouée cardinale Nord.
+#  Blanc, scintillement continu.
+#  Blanc, trois scintillements une pause.
+#  Blanc, six scintillements et un éclat.
+#  Blanc, neuf scintillements.
+# C.30 Décrivez les signaux lumineux d'une bouée cardinale Est.
+#  Blanc, scintillement continu.
+#  Blanc, trois scintillements, une pause.
+#  Blanc, six scintillements et un éclat.
+#  Blanc, neuf scintillements.
+# C.31 Décrivez les signaux lumineux d'une bouée cardinale Sud.
+#  Blanc, scintillement continu.
+#  Blanc, trois scintillements une pause.
+#  Blanc, six scintillements et un éclat.
+#  Blanc, neuf scintillements.
+# C.32 Décrivez les signaux lumineux d'une bouée cardinale Ouest.
+#  Blanc, scintillement continu.
+#  Blanc, trois scintillements une pause.
+#  Blanc, six scintillements et un éclat.
+#  Blanc, neuf scintillements.
+# C.33 Vous voyez ces marques. De quoi s'agitil?
+#  Marque latérale, chenal préféré vers la gauche se trouve au
+# Nord.
+#  Marque cardinale Sud, danger nouveau, le danger se trouve
+# au Nord.
+#  Marque cardinale Nord, danger nouveau, passez du côté
+# Nord.
+#  Marque cardinale Nord, passez du côté Nord.
+# 34
+# C.34 Vous voyez ces marques. De quoi s'agitil?
+#  Marque latérale, chenal préféré vers la droite.
+#  Marque cardinale Ouest, danger nouveau, le danger se
+# trouve à l'Est.
+#  Marque cardinale Est, danger nouveau, passez du côté Est.
+#  Marque cardinale Nord, passez du côté Nord.
+# C.35 Vous voyez ces marques. De quoi s'agitil?
+#  Marque latérale, chenal préféré vers la droite.
+#  Marque cardinale Nord, danger nouveau, il faut passer du
+# côté Nord.
+#  Marque cardinale Sud, danger nouveau, le danger se trouve
+# au Nord.
+#  Marque cardinale Nord, passez du côté Nord.
+# C.36 Vous voyez ces marques. De quoi s'agitil?
+#  Marque latérale, chenal préféré vers la droite.
+#  Marque cardinale Est, danger nouveau, il faut passer du coté
+# Est.
+#  Marque cardinale Ouest, danger nouveau, passez du côté
+# Ouest.
+#  Marque cardinale Nord, passez du coté Nord.
+# C.37 Qu'estce
+# qu'il vous faut, pour pouvoir déterminer de quel côté
+# passer une marque cardinale?
+#  Connaître le sens du courant.
+#  Disposer d'un compas.
+# 35
+#  Connaître côté bâbord et tribord du bateau.
+#  En prenant un relèvement avec compas.
+# C.38 A quoi correspond la notion d'un mille marin en degrés de
+# compas?
+#  A 1 minute de compas, mesurée à une latitude moyenne de 45° sur un
+# méridien.
+#  A 1 minute de compas, mesurée à une longitude moyenne de 40° sur un
+# méridien.
+#  A 1 minute de compas, mesurée à une longitude moyenne de 45° sur une
+# parallèle.
+#  A 1 minute de compas, mesurée à une latitude moyenne de 40° sur un
+# méridien
+# C.39 Quelle est la longueur d'un mille marin exprimée en mètres?
+#  1852 mètres.
+#  1582 mètres.
+#  1,582 mètres.
+#  1,852 mètres.
+# C.40 Pour indiquer une position en longitude, de combien à combien
+# de degrés fautil
+# compter?
+#  De 0° (Greenwich) à 180 degrés Est ou Ouest.
+#  De 0° (Equateur) à 180 degrés Est ou Ouest.
+#  De 0° (Equateur) à 90 degrés Nord ou Sud.
+#  De 0° (Greenwich) à 90 degrés Est ou Ouest.
+# C.41 Pour indiquer une position en latitude, de combien à combien de
+# degrés fautil
+# compter?
+#  De 0° (équateur) à 90 degrés Nord ou Sud.
+#  De 0° (Greenwich) à 90 degrés Nord ou Sud.
+#  De 0° (Equateur) à 180 degrés Ouest ou Est.
+#  De 0° (Greenwich) à 90 degrés Nord ou Sud.
+# C.42 A quoi correspond le méridien de Greenwich?
+#  Il correspond au degré 0 des cartes marines.
+# A partir de cette ligne, on compte la longitude en degrés 180°E (Est) et
+# 180°W (Ouest).
+#  A partir de cette ligne, on compte la longitude en degrés 90°N et 90°S
+# 36
+#  A partir de cette ligne, on compte la latitude en degrés 180°E et 180°W
+#  A partir de cette ligne, on compte la latitude en degrés 180°E et 180°W
+# C.43 A quoi fautil
+# faire attention à l'achat et à l'utilisation d'une
+# carte marine?
+#  A sa date d'émission, donc à la date de la dernière correction ou mise à
+# jour
+#  Pas d'importance, les cartes ayant une valeur à vie.
+#  À l'échelle de la carte.
+#  À la profondeur d'eau (en mètres et décimètres).
+# C.44 Comment est exprimée généralement la profondeur des fonds sur
+# une carte marine?
+#  En mètres.
+#  En décimètres.
+#  En pieds.
+#  En milles nautiques
+# C.45 Expliquez la notion de marée?
+#  Il s'agit du flux de la mer vers la côte, respectivement du reflux de la côte
+# vers la mer.
+#  La marée se reproduit dans un laps de temps de plus ou moins 6 heures.
+#  La marée se reproduit dans un laps de temps de plus ou moins 9 heures.
+#  Le flux de la mer vers la côte se reproduit toutes les 6 heures, celui de la
+# côte vers la mer toutes les 9 heures.
+# C.46 A quoi sert le livre des marées?
+#  Il permet de connaître la profondeur des eaux à un lieu, un jour et à une
+# heure donnée.
+#  Il permet de connaître les heures entre les basses eaux et les pleines mers.
+#  les temps y indiqués correspondent au temps universel plus une heure,
+# donc à nos heures d'été.
+#  Les temps y indiqués correspondent au temps universel, donc à nos heures
+# d'hiver.
+# C.47 De quelle bouée s'agitil
+# et comment passer le danger ?
+# 37
+#  Marque cardinale Est, chemin B.
+#  Marque cardinale Ouest, chemin A.
+#  Marque cardinale Ouest, chemin B.
+#  Marque cardinale Est, chemin A.
+# C.48 De quelle bouée s'agitil
+# et comment passer le danger ?
+# Nord
+#  Marque cardinale Est, chemin A.
+#  Marque cardinale Ouest, chemin A.
+#  Marque cardinale Est, chemin B.
+#  Marque cardinale Sud, chemin B.
+# C.49 Quelle est la vitesse max. dans la zone de 300 mètres de la plage?
+#  4 noeuds
+#  5 noeuds
+#  6 noeuds
+#  5 km/h
+# 38
+# C.50 Jusqu'à une certaine distance de la côte, il existe une
+# limitation de vitesse de 5 noeuds. Quelle est la largueur de cette
+# zone?
+#  200 mètres
+#  300 mètres
+#  400 mètres
+#  250 mètres
+# C.51 Quelle est la signification de ces marques vers la côte?
+#  Chenal préféré.
+#  Chenal traversier.
+#  Chenal secondaire.
+#  Zone réservée aux baigneurs.
+# C.52 Quelle est la signification de ce panneau?
+# 5
+# nds
+#  Vitesse maximale autorisée de 5 noeuds.
+#  Vitesse maximale autorisée de 5 km/h.
+#  Vitesse minimale de 5 noeuds.
+#  Vitesse minimale de 5 km/h.
+# C.53 Nommez au moins trois signaux de détresse en mer.
+#  Feu automatique à main produisant une lumière rouge.
+#  Fusée à parachute, fusée à étoiles rouges.
+#  Mouvements lents et répétés de haut en bas des bras étendus de chaque
+# côté du corps.
+#  PanPan
+# PanPan
+# PanPan
+# en radiotéléphonie.
+# C.54 Nommez au moins trois signaux de détresse en mer.
+#  Son continu de klaxon ou de sifflet.
+# 39
+#  Pavillon carré orange avec une boule noire en dessous ou en dessus.
+#  Signaux avec un miroir : 3 courts + 3 longs + 3 courts).
+#  MAYDAYMAYDYMAYDY
+# C.55 Nommez au moins trois signaux de détresse en mer.
+#  Feu automatique à main produisant une lumière rouge.
+#  Son continu de claxon ou de sifflet.
+#  Pan Pan Pan Pan Pan Pan en radiotéléphonie.
+#  Mayday Mayday Mayday en radiotéléphonie.
+# C.56 En mer, vous êtes en vue d'un navire qui montre un pavillon
+# carré audessus
+# ou audessous
+# d'une boule noire.
+# Que signifie ce signal ?
+#  Navire en détresse Je
+# me dépêche pour aller lui porter secours.
+#  Navire handicapé par son tirant d'eau.
+#  Navire en quarantaine.
+#  Navire non maître de sa manoeuvre.
+# C.57 Quelle est la signification de trois lampes rouges à éclats,
+# superposées, visibles à l'entrée d'un port?
+#  Entrée autorisée.
+#  Entrée sur instruction.
+#  Signal de danger grave, entrée interdite.
+#  Approche d'une tempête, entrée accélérée.
+# C.58 Quelle est la signification de ce signal près d'un port?
+#  Passage en ce sens interdit, en sens inverse autorisé.
+#  Entrée sur instruction.
+#  Entrée et sortie autorisées.
+#  Passage autorisé, attention particulière demandée.
+# C.59 Quelle est la signification de ce signal près d'un port?
+# 40
+#  Passage en ce sens autorisé, en sens inverse interdit.
+#  Entrée sur instruction.
+#  Entrée et sortie autorisées.
+#  Entrée sur instruction seulement.
+# C.60 Quelle est la signification de ce signal près d'un port?
+#  Passage en ce sens interdit, en sens inverse autorisé.
+#  Entrée sur instruction.
+#  Entrée et sortie autorisées.
+#  Passage en ce sens autorisé, interdit en sens inverse.
+# C.61 Quelle est la signification de ce signal près d'un port?
+#  Passage en ce sens interdit, en sens inverse autorisé.
+# 41
+#  Entrée sur instruction.
+#  Entrée et sortie autorisées.
+#  Passage en ce sens autorisé, interdit en sens inverse.
+# C.62 Quelle est la fonction d'un feu jaune à gauche des trois feux
+# principaux superposés, visibles à l'entrée d'un port?
+#  Passage en ce sens interdit, en sens inverse autorisé.
+#  Entrée sur instruction.
+#  Signal d'exemption pour des navires naviguant hors du chenal.
+#  Passage d'attente, tous les autres bâtiments dans le chenal principal sont
+# prioritaires.
+# C.63 Jusqu'à quelle distance maximale de la côte, l'utilisation des
+# scooters de mer ( jetski)
+# estelle
+# autorisée?
+#  Max 300 mètres
+#  Max 2 milles nautiques.
+#  Max 1 km.
+#  Max 3 milles nautiques.
+# C.64 Quelle est la vitesse maximale autorisée dans la bande de trois
+# cent mètres de la plage pour les utilisateurs de scooters de mer
+# ( jetski
+# ) ?
+#  Max 5 noeuds.
+#  Max 10 noeuds.
+#  Max 5 km/h.
+#  Max 10 km/h.
+# C.65 Combien de personnes doivent se trouver à bord d'un bateau
+# tirant un skieur?
+#  1 personne.
+#  2 personnes.
+#  3 personnes.
+#  sans importance.
+# 42
+# C.66 De jour vous apercevez ce signal. Quelle est sa signification?
+#  Travaux de déminage en cours.
+#  Plongeurs sousmarins
+# dans l'eau.
+#  Contrôle douanier.
+#  Zone réservée aux skieurs.
+# C.67 De jour vous apercevez ce signal. Quelle est la distance de
+# sécurité à tenir?
+#  50 mètres.
+#  100 mètres.
+#  150 mètres.
+#  200 mètres.
+# C.68 Définissez les couleurs des feux d'un navire faisant route.
+#  Feu de tête de mât : blanc.
+#  Feu de tête de mât : jaune.
+#  Feu de côté tribord : vert.
+#  Feu de tribord : rouge.
+# C.69 Définissez les couleurs des feux d'un navire faisant route.
+#  Feu de poupe : blanc.
+#  Feu de poupe : jaune.
+#  Feu de côté bâbord : vert.
+#  Feu de côté bâbord : rouge.
+# C.70 Définissez les angles de vue des feux d'un navire faisant route.
+#  Feu de tête de mât : 180°
+#  Feu de tête de mât : 225°
+#  Feu de côté tribord : 112°
+#  Feu de côté tribord : 112,5°
+# 43
+# C.71 Définissez les angles de vue des feux d'un navire faisant route.
+#  Feu de poupe : 125°
+#  Feu de poupe : 135°
+#  Feu de côté bâbord : 112°
+#  Feu de côté bâbord : 112,5°
+# C.72 De nuit vous apercevez un navire faisant route portant la
+# signalisation suivante. De quel navire s'agitil?
+#  Navire sous voile.
+#  Navire ne dépassant pas les 50 mètres.
+#  Navire de 50 mètres et plus.
+#  Navire de pêche, en train de pêcher.
+# C.73 De nuit vous apercevez un navire faisant route portant la
+# signalisation suivante. De quel navire s'agitil?
+#  Navire sous voile.
+#  Navire ne dépassant pas les 50 mètres.
+#  Navire de 50 mètres et plus.
+#  Un remorqueur au travail, ou un pousseur.
+# C.74 De nuit vous apercevez un navire faisant route portant la
+# signalisation suivante. De quel navire s'agitil?
+# 44
+#  Navire sous voile.
+#  Navire ne dépassant pas les 50 mètres.
+#  Navire de 50 mètres et plus.
+#  Un pousseur.
+# C.75 De nuit vous apercevez un navire faisant route portant la
+# signalisation suivante. De quel navire s'agitil?
+#  Navire sous voile.
+#  Navire ne dépassant pas les 50 mètres.
+#  Navire de 50 mètres et plus.
+#  Navire de moins de 12 mètres.
+# C.76 De nuit vous apercevez un navire faisant route portant la
+# signalisation suivante. De quel navire s'agitil?
+#  Navire sous voile.
+#  Navire de moins de 12 mètres.
+#  Navire de 50 mètres et plus.
+#  Navire ne dépassant pas les 50 mètres.
+# C.77 De nuit vous apercevez un navire faisant route portant la
+# signalisation suivante. De quel navire s'agitil?
+# 45
+#  Navire sous voile.
+#  Navire de moins de 12 mètres.
+#  Navire de moins de 20 mètres.
+#  Navire de plus de 50 mètres.
+# C.78 De nuit vous apercevez un navire faisant route portant la
+# signalisation suivante. De quel navire s'agitil?
+#  Navire sous voile.
+#  Navire de moins de 12 mètres.
+#  Navire de moins de 20 mètres.
+#  Navire de moins de 50 mètres.
+# C.79 De nuit vous apercevez un navire faisant route portant la
+# signalisation suivante. De quel navire s'agitil?
+#  Navire sous voile.
+#  Navire de moins de 12 mètres.
+#  Navire de moins de 20 mètres.
+#  Navire de moins de 50 mètres.
+# C.80 De nuit vous apercevez un navire faisant route portant la
+# signalisation suivante. De quel navire s'agitil?
+# 46
+#  Navire sous voile.
+#  Navire de moins de 12 mètres.
+#  Navire de moins de 20 mètres.
+#  Navire de pêche.
+# C.81 De nuit vous apercevez un navire faisant route portant la
+# signalisation suivante. De quel navire s'agitil?
+#  Navire sous voile.
+#  Navire de moins de 7 mètres et moins de 7 noeuds.
+#  Navire de moins de 12 mètres.
+#  Navire de moins de 20 mètres.
+# C.82 De nuit vous apercevez un navire faisant route portant la
+# signalisation suivante. De quel navire s'agitil?
+#  Navire de pêche.
+#  Voilier sous voile.
+#  Chalutier de moins de 50 mètres.
+#  Bateau non maître de sa manoeuvre.
+# C.83 De nuit vous apercevez un navire faisant route portant la
+# signalisation suivante. De quel navire s'agitil?
+# 47
+#  Bateau pêcheur.
+#  Voilier sous voile.
+#  Chalutier de moins de 50 mètres avec erre.
+#  Chalutier de moins de 50 mètres sans erre.
+# C.84 De nuit vous apercevez un navire faisant route portant la
+# signalisation suivante. De quel navire s'agitil?
+#  Bateau pêcheur.
+#  Voilier sous voile.
+#  Chalutier dépassant 50 mètres avec erre.
+#  Chalutier de moins de 50 mètres
+# C.85 De nuit vous apercevez un navire faisant route portant la
+# signalisation suivante. De quel navire s'agitil?
+#  Bateau pêcheur.
+#  Voilier sous voile.
+#  Chalutier dépassant 50 mètres.
+#  Chalutier de moins de 50 mètres.
+# C.86 De nuit vous apercevez un navire faisant route portant la
+# signalisation suivante. De quel navire s'agitil?
+# 48
+#  Navire de pêche, avec erre.
+#  Voilier sous voile.
+#  Navire de pêche, sans erre
+#  Chalutier de moins de 50 mètres.
+# C.87 De nuit vous apercevez un navire faisant route portant la
+# signalisation suivante. De quel navire s'agitil?
+#  Navire de péche.
+#  Navire à capacité de manoeuvre restreinte de moins de 50 mètres.
+#  Chalutier dépassant 50 mètres de longueur.
+#  Navire à capacité de manoeuvre restreinte de plus de 50 mètres.
+# C.88 De nuit vous apercevez un navire faisant route portant la
+# signalisation suivante. De quel navire s'agitil?
+#  Navire de péche.
+#  Navire à capacité de manoeuvre restreinte de moins de 50 mètres.
+#  Chalutier dépassant 50 mètres de longueur.
+#  Navire à capacité de manoeuvre restreinte de plus de 50 mètres.
+# C.89 De nuit vous apercevez un navire faisant route portant la
+# signalisation suivante. De quel navire s'agitil?
+# 49
+#  Navire non maître de ses manoeuvres.
+#  Navire à capacité de manoeuvre restreinte.
+#  Chalutier dépassant 50 mètres de longueur.
+#  Navire handicapé par son tirant d'eau.
+# C.90 De nuit vous apercevez un navire faisant route portant la
+# signalisation suivante. De quel navire s'agitil?
+#  Navire non maître de ses manoeuvres.
+#  Navire à capacité de manoeuvre restreinte.
+#  Chalutier dépassant 50 mètres de longueur.
+#  Navire handicapé par son tirant d'eau.
+# C.91 De nuit vous apercevez un navire portant la signalisation
+# suivante. De quel navire s'agitil?
+#  Navire non maître de ses manoeuvres.
+#  Navire à capacité de manoeuvre restreinte.
+#  Navire au mouillage
+#  Navire échoué moins de 50 m
+# C.92 De nuit vous apercevez un navire portant la signalisation
+# suivante. De quel navire s'agitil?
+# 50
+#  Navire non maître de ses manoeuvres.
+#  Navire à capacité de manoeuvre restreinte.
+#  Navire au mouillage.
+#  Navire de plus de 50 mètres échoué.
+# C.93 De nuit vous apercevez un navire faisant route portant la
+# signalisation suivante. De quel navire s'agitil?
+#  Navire à capacité de manoeuvre restreinte.
+#  Navire non maître de ses manoeuvres.
+#  Navire handicapé par son tirant d'eau.
+#  Chalutier dépassant 50 mètres de longueur.
+# C.94 Quelle signalisation de poupe doit porter un remorqueur en service
+# la nuit?
+#  Un feu blanc normal.
+#  Un feu jaune superposé au feu blanc.
+#  Un feu jaune normal.
+#  Un feu blanc superposé au feu jaune.
+# C.95 De nuit vous apercevez un navire faisant route portant la
+# signalisation suivante. De quel navire s'agitil?
+# 51
+#  Navire à capacité de manoeuvre restreinte.
+#  Navire non maître de ses manoeuvres.
+#  Navire handicapé par son tirant d'eau.
+#  Chalutier dépassant 50 mètres de longueur.
+# C.96 De nuit vous apercevez un navire au mouillage, portant la
+# signalisation suivante. De quel navire s'agitil?
+#  Navire de moins de 50 mètres de longueur.
+#  Navire entre 50 et 100 mètres de longueur.
+#  Navire entre 50 et 100 mètres de longueur chargé de matières dangereuses.
+#  Navire dépassant 100 mètres de longueur.
+# C.97 De nuit vous apercevez un navire au mouillage, portant la
+# signalisation suivante. De quel navire s'agitil?
+#  Navire de moins de 50 mètres de longueur.
+#  Navire entre 50 et 100 mètres de longueur.
+#  Navire dépassant 100 mètres de longueur.
+#  Navire entre 50 et 100 mètres de longueur chargé de matières dangereuses.
+# C.98 De nuit vous apercevez un navire au mouillage, portant la
+# signalisation suivante. De quel navire s'agitil?
+# Pont illuminé
+# 52
+#  Navire de moins de 50 mètres de longueur.
+#  Navire entre 50 et 100 mètres de longueur.
+#  Navire dépassant 100 mètres de longueur.
+#  Navire entre 50 et 100 mètres de longueur chargé de matières dangereuses.
+# C.99 De jour vous voyez un voilier avec ce signal supplémentaire. De
+# quoi s'agitil?
+#  Voilier en train de pécher.
+#  Voilier sous voile.
+#  Voilier sous voile et moteur.
+#  Voilier échoué.
+# C.100 De jour vous voyez un bâtiment avec ce signal supplémentaire. De
+# quoi s'agitil?
+#  Navire non maître de sa manoeuvre.
+#  Navire handicapé par son tirant d'eau.
+#  Navire à capacité de manoeuvre restreinte.
+#  Navire échoué.
+# C.101 De jour vous voyez un bâtiment avec ce signal supplémentaire. De
+# quoi s'agitil?
+# 53
+#  Navire non maître de sa manoeuvre.
+#  Navire handicapé par son tirant d'eau.
+#  Navire à capacité de manoeuvre restreinte.
+#  Navire échoué.
+# C.102 De jour vous voyez un bâtiment avec ce signal supplémentaire. De
+# quoi s'agitil?
+#  Navire non maître de sa manoeuvre.
+#  Navire handicapé par son tirant d'eau.
+#  Navire à capacité de manoeuvre restreinte.
+#  Chalutier en train de pêcher.
+# C.103 De jour vous voyez un bâtiment avec ce signal supplémentaire. De
+# quoi s'agitil?
+#  Navire pas maître de ses manoeuvres.
+#  Chalutier en train de pêcher.
+#  Remorqueur en service.
+#  Navire à capacité de manoeuvre restreinte.
+# C.104 De jour vous voyez un bâtiment avec ce signal supplémentaire. De
+# quoi s'agitil?
+# 54
+#  Navire pas maître de ses manoeuvres.
+#  Chalutier en train de pêcher.
+#  Remorqueur de 200 mètres et plus en service.
+#  Navire à capacité de manoeuvre restreinte.
+# C.105 De jour vous voyez un bâtiment avec ce signal supplémentaire. De
+# quoi s'agitil?
+#  Navire échoué.
+#  Navire handicapé par son tirant d'eau.
+#  Navire au mouillage.
+#  Voilier marchant sous moteur seul.
+# C.106 De jour vous voyez un bâtiment avec ce signal supplémentaire. De
+# quoi s'agitil?
+#  Navire échoué.
+#  Navire handicapé par son tirant d'eau.
+#  Navire au mouillage.
+#  Navire non maître de sa manoeuvre.
+# C.107 Faisant route sur cap 90, vous apercevez un autre bâtiment
+# faisant route sur cap 180. Vu les vitesses, vous aurez un point de
+# rencontre commun. Quel est votre comportement?
+#  Je continue ma route, vu que je suis prioritaire.
+#  Je ralentis, pour laisser passer l'autre bâtiment.
+# 55
+#  Je m'arrange avec lui.
+#  L'autre vient sur bâbord, je dois donc lui céder la priorité.
+# C.108 Faisant route sur cap 270, vous apercevez un autre bâtiment
+# faisant route sur cap 180. Vu les vitesses, vous aurez un point de
+# rencontre commun. Quel est votre comportement?
+#  Je continue ma route, vu que je suis prioritaire.
+#  Je ralentis, pour laisser passer l'autre bâtiment.
+#  Je m'arrange avec lui.
+#  L'autre vient sur tribord, doit donc me céder la priorité.
+# C.109 Faisant route sur cap 0, dans quelle direction vous dirigezvous?
+#  Vers le Nord
+#  Vers le Sud
+#  Vers l'Ouest
+#  Vers l'Est
+# C.110 Faisant route sur cap 90, dans quelle direction vous dirigezvous?
+#  Vers le Nord
+#  Vers le Sud
+#  Vers l'Ouest
+#  Vers l'Est
+# C.111 Faisant route sur cap 180, dans quelle direction vous dirigezvous?
+#  Vers le Nord
+#  Vers le Sud
+#  Vers l'Ouest
+#  Vers l'Est
+# C.112 Faisant route sur cap 270, dans quelle direction vous dirigezvous?
+#  Vers le Nord
+#  Vers le Sud
+#  Vers l'Ouest
+#  Vers l'Est
+# 56
+# 57

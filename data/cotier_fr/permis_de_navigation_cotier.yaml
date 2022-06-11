@@ -10,4 +10,4 @@ sections:
     questions: questions_reglement_pour_prevenir_les_abordages_en_mer.yaml
   - id: C
     name: Navigation côtière
-    questions: navigation_cotiere.yaml
+    questions: questions_navigation_cotiere.yaml

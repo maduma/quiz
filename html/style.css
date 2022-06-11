@@ -8,6 +8,11 @@
     color: green;
 }
 
+.bad-answer {
+    font-weight: bolder;
+    color: red;
+}
+
 .question-list {
     list-style-type: none;
 }

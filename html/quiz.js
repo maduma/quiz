@@ -1,3 +1,5 @@
+const correctMark = '<+>'
+
 function parseCorrectAnswers(data) {
     const regex = /^(\d+)(\s+.*)$/
     data.forEach(element => {
@@ -8,8 +10,8 @@ function parseCorrectAnswers(data) {
             element.q = found[2]
         }
         element.a = element.a.map( e => {
-            const str = e.trim()
-            if (str.slice(0,3) == "<+>") {
+            const str = String(e).trim()
+            if (str.slice(0,3) == correctMark) {
                 return { title: str.slice(4), correct: true , selected: false}
             } else {
                 return { title: str, correct: false, selected: false }
@@ -17,6 +19,17 @@ function parseCorrectAnswers(data) {
         })
     });
     return data
+}
+
+function checkAnswer(question) {
+    for (let i=0; i < question.a.length; i++) {
+        if (question.a[i].correct !=  question.a[i].selected) {
+            question.succeed = false
+            return false
+        }
+    }
+    question.succeed = true
+    return question.succeed
 }
 
 async function getData(url) {
