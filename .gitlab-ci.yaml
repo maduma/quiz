@@ -8,4 +8,6 @@ stages:
 deploy-job:
   stage: deploy
   script:
-    - ls /app
+    - sudo rm -fr /app/quiz
+    - sudo mkdir /app/quiz
+    - tar cf - . | sudo tar -C /app/quiz -xvf -
