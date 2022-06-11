@@ -1,5 +1,6 @@
 const correctMark = '<+>'
 
+// should return a prommise to handle error during parssing
 function parseCorrectAnswers(data) {
     const regex = /^(\d+)(\s+.*)$/
     data.forEach(element => {
