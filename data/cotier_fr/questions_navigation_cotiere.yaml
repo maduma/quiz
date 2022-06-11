@@ -68,70 +68,79 @@
   - La rouge pointue.
   - La verte plate.
 
-# C.11 Venant de la mer vers la côte, quelle bouée devons nous laisser
-# passer sur notre côté tribord?
-#  La verte pointue.
-#  La rouge plate.
-#  La rouge pointue.
-#  La verte plate.
-# C.12 Sortant d'un port vers la mer, quelle bouée devons nous laisser
-# passer sur notre côté bâbord?
-#  La verte pointue.
-#  La rouge plate.
-#  La rouge pointue.
-#  La verte plate.
-# C.13 Sortant d'un port vers la mer, quelle bouée devonsnous
-# laisser
-# passer sur notre côté tribord?
-#  La verte pointue.
-#  La rouge plate.
-#  La rouge pointue.
-#  La verte plate.
-# C.14 Qu'estce
-# qu'indiquent les marques d'eaux saines?
-#  Les côtés bâbord et tribord de la route à suivre.
-#  Les eaux sont saines tout autour d'elles.
-#  Signalent des dangers isolés d'étendue limitée.
-#  L'entrée et la sortie d'un couloir de séparation du trafic.
-# C.15 Qu'estce
-# qu'indiquent les marques spéciales?
-#  Les côtés bâbord et tribord de la route à suivre.
-#  Une zone ou une configuration mentionnée dans les
-# documents nautiques.
-#  Signalent des dangers isolés d'étendue limitée.
-#  Les eaux sont libres autour d'elles.
-# C.16 Qu'estce
-# qu'indiquent les marques de danger isolé?
-#  Les côtés bâbord et tribord de la route à suivre.
-#  Les eaux sont saines tout autour d'elles.
-# 30
-#  Signalent des dangers isolés d'étendue limitée.
-#  Une zone ou une configuration mentionnée dans les
-# documents nautiques.
-# C.17 De quel feu est équipée une bouée de danger isolé de nuit, et de
-# quelle combinaison de rythme?
-#  Blanc à un éclat.
-#  Rouge à un éclat.
-#  Blanc à deux éclats groupés.
-#  Rouge à deux éclats groupés.
-# C.18 Qu'estce
-# qu'indiquent les marques cardinales?
-#  La direction d'un danger et par conséquent, la route à suivre.
-#  Les eaux sont saines tout autour d'elles.
-#  Signalent des dangers isolés d'étendue limitée.
-#  La direction et la route à suivre.
-# C.19 Vous voyez cette bouée. De quelle bouée s'agitil?
-#  Marque latérale tribord.
-#  Marque latérale bâbord.
-#  Marque d'eau saine.
-#  Marque cardinale Nord.
-# C.20 Vous voyez cette bouée. De quelle bouée s'agitil?
-# 4
-#  Marque latérale tribord.
-#  Marque latérale bâbord.
-#  Marque d'eau saine.
-#  Marque cardinale Sud.
-# C.21 Vous voyez cette bouée. De quelle bouée s'agitil?
+- q: 11 Venant de la mer vers la côte, quelle bouée devons nous laisser passer sur notre côté tribord?
+  a:
+  - <+> La verte pointue.
+  - La rouge plate.
+  - La rouge pointue.
+  - La verte plate.
+
+- q: 12 Sortant d'un port vers la mer, quelle bouée devons nous laisser passer sur notre côté bâbord?
+  a:
+  - <+> La verte pointue.
+  - La rouge plate.
+  - La rouge pointue.
+  - La verte plate.
+
+- q: 13 Sortant d'un port vers la mer, quelle bouée devons nous laisser passer sur notre côté tribord?
+  a:
+  - La verte pointue.
+  - <+> La rouge plate.
+  - La rouge pointue.
+  - La verte plate.
+
+- q: 14 Qu'est-ce qu'indiquent les marques d'eaux saines?
+  a:
+  - Les côtés bâbord et tribord de la route à suivre.
+  - <+> Les eaux sont saines tout autour d'elles.
+  - Signalent des dangers isolés d'étendue limitée.
+  - L'entrée et la sortie d'un couloir de séparation du trafic.
+
+- q: 15 Qu'est-ce qu'indiquent les marques spéciales?
+  a:
+  - Les côtés bâbord et tribord de la route à suivre.
+  - <+> Une zone ou une configuration mentionnée dans les documents nautiques.
+  - Signalent des dangers isolés d'étendue limitée.
+  - Les eaux sont libres autour d'elles.
+
+- q: 16 Qu'est-ce qu'indiquent les marques de danger isolé?
+  a:
+  - Les côtés bâbord et tribord de la route à suivre.
+  - Les eaux sont saines tout autour d'elles.
+  - <+> Signalent des dangers isolés d'étendue limitée.
+  - Une zone ou une configuration mentionnée dans les documents nautiques.
+
+- q: 17 De quel feu est équipée une bouée de danger isolé de nuit, et de quelle combinaison de rythme?
+  a:
+  - Blanc à un éclat.
+  - Rouge à un éclat.
+  - <+> Blanc à deux éclats groupés.
+  - Rouge à deux éclats groupés.
+
+- q: 18 Qu'est-ce qu'indiquent les marques cardinales?
+  a:
+  - <+> La direction d'un danger et par conséquent, la route à suivre.
+  - Les eaux sont saines tout autour d'elles.
+  - Signalent des dangers isolés d'étendue limitée.
+  - <+> La direction et la route à suivre.
+
+- q: 19 Vous voyez cette bouée. De quelle bouée s'agit-il?
+  i: sectionc19.png
+  a:
+  - <+> Marque latérale tribord.
+  - Marque latérale bâbord.
+  - Marque d'eau saine.
+  - Marque cardinale Nord.
+
+- q: 20 Vous voyez cette bouée. De quelle bouée s'agit-il?
+  i: sectionc20.png
+  a:
+  - Marque latérale tribord.
+  - <+> Marque latérale bâbord.
+  - Marque d'eau saine.
+  - Marque cardinale Sud.
+
+# C.21 Vous voyez cette bouée. De quelle bouée s'agit-il?
 # 31
 #  Marque latérale, chenal préféré vers la gauche.
 #  Marque latérale, chenal préféré vers la droite.

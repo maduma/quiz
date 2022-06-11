@@ -9,6 +9,9 @@ export default {
         sectionBullet() {
             return "'" + this.section + "." + this.question.id + " '"
         },
+        imageSrc() {
+            return "/data/cotier_fr/images/" + this.question.i
+        },
         succeed() {
             return checkAnswer(this.question)
         }
@@ -24,6 +27,7 @@ export default {
             {{ question.q }}
         </li>   
     </ul>
+    <img class="question-image" v-if="question.i" :src="imageSrc"/>
     <ul class="question-list">
         <li v-for="a in question.a">
         <input v-model="a.selected" type="checkbox"/>
