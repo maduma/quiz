@@ -1,0 +1,7 @@
+stages:
+  - deploy
+
+deploy-job:
+  stage: deploy
+  script:
+    - ls /app
