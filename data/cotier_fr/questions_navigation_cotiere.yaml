@@ -140,69 +140,98 @@
   - Marque d'eau saine.
   - Marque cardinale Sud.
 
-# C.21 Vous voyez cette bouée. De quelle bouée s'agit-il?
-# 31
-#  Marque latérale, chenal préféré vers la gauche.
-#  Marque latérale, chenal préféré vers la droite.
-#  Marque cardinale, le danger vers le Sud.
-#  Marque cardinale, le danger vers le Nord.
-# C.22 Vous voyez cette bouée. De quelle bouée s'agitil?
-#  Marque latérale, chenal préféré vers la gauche.
-#  Marque d'eau saine.
-#  Marque cardinale, le danger vers le Sud.
-#  Marque spéciale.
-# C.23 Vous voyez cette bouée. De quelle bouée s'agitil?
-#  Marque latérale, chenal préféré vers la droite.
-#  Marque d'eau saine.
-#  Marque de danger isolé.
-#  Marque spéciale.
-# C.24 Vous voyez cette bouée. De quelle bouée s'agitil?
-#  Marque latérale, chenal préféré vers la droite.
-#  Marque d'eau saine.
-#  Marque de danger isolé.
-#  Marque spéciale.
-# C.25 Vous voyez cette bouée. De quelle bouée s'agitil?
-# 32
-#  Marque latérale, chenal préféré vers la droite.
-#  Marque cardinale Nord, danger nouveau, passer au Nord.
-#  Marque cardinale Nord, le danger se trouve au Sud.
-#  Marque cardinale Sud, il faut passer au Sud.
-# C.26 Vous voyez cette bouée. De quelle bouée s'agitil?
-#  Marque latérale, chenal préféré vers la gauche.
-#  Marque cardinale Ouest, passer à l'Ouest.
-#  Marque cardinale Est, le danger se trouve à l'Ouest.
-#  Marque cardinale Sud, il faut passer au Sud.
-# C.27 Vous voyez cette bouée. De quelle bouée s'agitil?
-#  Marque latérale, chenal préféré vers la droite.
-#  Marque cardinale, danger nouveau, passer au Sud.
-#  Marque cardinale Sud, le danger se trouve au Nord.
-#  Marque cardinale Nord, il faut passer côté Nord.
-# C.28 Vous voyez cette bouée. De quelle bouée s'agitil?
-#  Marque latérale, chenal préféré vers la gauche.
-#  Marque cardinale Ouest, le danger se trouve à l'Est.
-#  Marque cardinale Est, le danger se trouve à l'Ouest.
-#  Marque cardinale Nord, passer côté Nord.
-# 33
-# C.29 Décrivez les signaux lumineux d'une bouée cardinale Nord.
-#  Blanc, scintillement continu.
-#  Blanc, trois scintillements une pause.
-#  Blanc, six scintillements et un éclat.
-#  Blanc, neuf scintillements.
-# C.30 Décrivez les signaux lumineux d'une bouée cardinale Est.
-#  Blanc, scintillement continu.
-#  Blanc, trois scintillements, une pause.
-#  Blanc, six scintillements et un éclat.
-#  Blanc, neuf scintillements.
-# C.31 Décrivez les signaux lumineux d'une bouée cardinale Sud.
-#  Blanc, scintillement continu.
-#  Blanc, trois scintillements une pause.
-#  Blanc, six scintillements et un éclat.
-#  Blanc, neuf scintillements.
-# C.32 Décrivez les signaux lumineux d'une bouée cardinale Ouest.
-#  Blanc, scintillement continu.
-#  Blanc, trois scintillements une pause.
-#  Blanc, six scintillements et un éclat.
-#  Blanc, neuf scintillements.
+- q: 21 Vous voyez cette bouée. De quelle bouée s'agit-il?
+  i: sectionc21.png
+  a:
+  - Marque latérale, chenal préféré vers la gauche.
+  - <+> Marque latérale, chenal préféré vers la droite.
+  - Marque cardinale, le danger vers le Sud.
+  - Marque cardinale, le danger vers le Nord.
+
+- q: 22 Vous voyez cette bouée. De quelle bouée s'agit-il?
+  i: sectionc22.png
+  a:
+  - Marque latérale, chenal préféré vers la gauche.
+  - <+> Marque d'eau saine.
+  - Marque cardinale, le danger vers le Sud.
+  - Marque spéciale.
+
+- q: 23 Vous voyez cette bouée. De quelle bouée s'agitil?
+  i: sectionc23.png
+  a:
+  - Marque latérale, chenal préféré vers la droite.
+  - Marque d'eau saine.
+  - <+> Marque de danger isolé.
+  - Marque spéciale.
+
+- q: 24 Vous voyez cette bouée. De quelle bouée s'agitil?
+  i: sectionc24.png
+  a:
+  - Marque latérale, chenal préféré vers la droite.
+  - Marque d'eau saine.
+  - Marque de danger isolé.
+  - <+> Marque spéciale.
+
+- q: 25 Vous voyez cette bouée. De quelle bouée s'agitil?
+  i: sectionc25.png
+  a: 
+  - Marque latérale, chenal préféré vers la droite.
+  - Marque cardinale Nord, danger nouveau, passer au Nord.
+  - Marque cardinale Nord, le danger se trouve au Sud.
+  - <+> Marque cardinale Sud, il faut passer au Sud.
+
+- q: 26 Vous voyez cette bouée. De quelle bouée s'agitil?
+  i: sectionc26.png
+  a:
+  - Marque latérale, chenal préféré vers la gauche.
+  - Marque cardinale Ouest, passer à l'Ouest.
+  - <+> Marque cardinale Est, le danger se trouve à l'Ouest.
+  - Marque cardinale Sud, il faut passer au Sud.
+
+- q: 27 Vous voyez cette bouée. De quelle bouée s'agitil?
+  i: sectionc27.png
+  a:
+  - Marque latérale, chenal préféré vers la droite.
+  - Marque cardinale, danger nouveau, passer au Sud.
+  - Marque cardinale Sud, le danger se trouve au Nord.
+  - <+> Marque cardinale Nord, il faut passer côté Nord.
+
+- q: 28 Vous voyez cette bouée. De quelle bouée s'agitil?
+  i: sectionc28.png
+  a:
+  - Marque latérale, chenal préféré vers la gauche.
+  - <+> Marque cardinale Ouest, le danger se trouve à l'Est.
+  - Marque cardinale Est, le danger se trouve à l'Ouest.
+  - Marque cardinale Nord, passer côté Nord.
+
+- q: 29 Décrivez les signaux lumineux d'une bouée cardinale Nord.
+  a:
+  - <+> Blanc, scintillement continu.
+  - Blanc, trois scintillements une pause.
+  - Blanc, six scintillements et un éclat.
+  - Blanc, neuf scintillements.
+
+- q: 30 Décrivez les signaux lumineux d'une bouée cardinale Est.
+  a:
+  - Blanc, scintillement continu.
+  - <+> Blanc, trois scintillements, une pause.
+  - Blanc, six scintillements et un éclat.
+  - Blanc, neuf scintillements.
+
+- q: 31 Décrivez les signaux lumineux d'une bouée cardinale Sud.
+  a:
+  - Blanc, scintillement continu.
+  - Blanc, trois scintillements une pause.
+  - <+> Blanc, six scintillements et un éclat.
+  - Blanc, neuf scintillements.
+
+- q: 32 Décrivez les signaux lumineux d'une bouée cardinale Ouest.
+  a:
+  - Blanc, scintillement continu.
+  - Blanc, trois scintillements une pause.
+  - Blanc, six scintillements et un éclat.
+  - <+> Blanc, neuf scintillements.
+
 # C.33 Vous voyez ces marques. De quoi s'agitil?
 #  Marque latérale, chenal préféré vers la gauche se trouve au
 # Nord.
