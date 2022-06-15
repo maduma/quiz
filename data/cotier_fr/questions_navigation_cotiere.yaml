@@ -232,200 +232,213 @@
   - Blanc, six scintillements et un éclat.
   - <+> Blanc, neuf scintillements.
 
-# C.33 Vous voyez ces marques. De quoi s'agitil?
-#  Marque latérale, chenal préféré vers la gauche se trouve au
-# Nord.
-#  Marque cardinale Sud, danger nouveau, le danger se trouve
-# au Nord.
-#  Marque cardinale Nord, danger nouveau, passez du côté
-# Nord.
-#  Marque cardinale Nord, passez du côté Nord.
-# 34
-# C.34 Vous voyez ces marques. De quoi s'agitil?
-#  Marque latérale, chenal préféré vers la droite.
-#  Marque cardinale Ouest, danger nouveau, le danger se
-# trouve à l'Est.
-#  Marque cardinale Est, danger nouveau, passez du côté Est.
-#  Marque cardinale Nord, passez du côté Nord.
-# C.35 Vous voyez ces marques. De quoi s'agitil?
-#  Marque latérale, chenal préféré vers la droite.
-#  Marque cardinale Nord, danger nouveau, il faut passer du
-# côté Nord.
-#  Marque cardinale Sud, danger nouveau, le danger se trouve
-# au Nord.
-#  Marque cardinale Nord, passez du côté Nord.
-# C.36 Vous voyez ces marques. De quoi s'agitil?
-#  Marque latérale, chenal préféré vers la droite.
-#  Marque cardinale Est, danger nouveau, il faut passer du coté
-# Est.
-#  Marque cardinale Ouest, danger nouveau, passez du côté
-# Ouest.
-#  Marque cardinale Nord, passez du coté Nord.
-# C.37 Qu'estce
-# qu'il vous faut, pour pouvoir déterminer de quel côté
-# passer une marque cardinale?
-#  Connaître le sens du courant.
-#  Disposer d'un compas.
-# 35
-#  Connaître côté bâbord et tribord du bateau.
-#  En prenant un relèvement avec compas.
-# C.38 A quoi correspond la notion d'un mille marin en degrés de
-# compas?
-#  A 1 minute de compas, mesurée à une latitude moyenne de 45° sur un
-# méridien.
-#  A 1 minute de compas, mesurée à une longitude moyenne de 40° sur un
-# méridien.
-#  A 1 minute de compas, mesurée à une longitude moyenne de 45° sur une
-# parallèle.
-#  A 1 minute de compas, mesurée à une latitude moyenne de 40° sur un
-# méridien
-# C.39 Quelle est la longueur d'un mille marin exprimée en mètres?
-#  1852 mètres.
-#  1582 mètres.
-#  1,582 mètres.
-#  1,852 mètres.
-# C.40 Pour indiquer une position en longitude, de combien à combien
-# de degrés fautil
-# compter?
-#  De 0° (Greenwich) à 180 degrés Est ou Ouest.
-#  De 0° (Equateur) à 180 degrés Est ou Ouest.
-#  De 0° (Equateur) à 90 degrés Nord ou Sud.
-#  De 0° (Greenwich) à 90 degrés Est ou Ouest.
-# C.41 Pour indiquer une position en latitude, de combien à combien de
-# degrés fautil
-# compter?
-#  De 0° (équateur) à 90 degrés Nord ou Sud.
-#  De 0° (Greenwich) à 90 degrés Nord ou Sud.
-#  De 0° (Equateur) à 180 degrés Ouest ou Est.
-#  De 0° (Greenwich) à 90 degrés Nord ou Sud.
-# C.42 A quoi correspond le méridien de Greenwich?
-#  Il correspond au degré 0 des cartes marines.
-# A partir de cette ligne, on compte la longitude en degrés 180°E (Est) et
-# 180°W (Ouest).
-#  A partir de cette ligne, on compte la longitude en degrés 90°N et 90°S
-# 36
-#  A partir de cette ligne, on compte la latitude en degrés 180°E et 180°W
-#  A partir de cette ligne, on compte la latitude en degrés 180°E et 180°W
-# C.43 A quoi fautil
-# faire attention à l'achat et à l'utilisation d'une
-# carte marine?
-#  A sa date d'émission, donc à la date de la dernière correction ou mise à
-# jour
-#  Pas d'importance, les cartes ayant une valeur à vie.
-#  À l'échelle de la carte.
-#  À la profondeur d'eau (en mètres et décimètres).
-# C.44 Comment est exprimée généralement la profondeur des fonds sur
-# une carte marine?
-#  En mètres.
-#  En décimètres.
-#  En pieds.
-#  En milles nautiques
-# C.45 Expliquez la notion de marée?
-#  Il s'agit du flux de la mer vers la côte, respectivement du reflux de la côte
-# vers la mer.
-#  La marée se reproduit dans un laps de temps de plus ou moins 6 heures.
-#  La marée se reproduit dans un laps de temps de plus ou moins 9 heures.
-#  Le flux de la mer vers la côte se reproduit toutes les 6 heures, celui de la
-# côte vers la mer toutes les 9 heures.
-# C.46 A quoi sert le livre des marées?
-#  Il permet de connaître la profondeur des eaux à un lieu, un jour et à une
-# heure donnée.
-#  Il permet de connaître les heures entre les basses eaux et les pleines mers.
-#  les temps y indiqués correspondent au temps universel plus une heure,
-# donc à nos heures d'été.
-#  Les temps y indiqués correspondent au temps universel, donc à nos heures
-# d'hiver.
-# C.47 De quelle bouée s'agitil
-# et comment passer le danger ?
-# 37
-#  Marque cardinale Est, chemin B.
-#  Marque cardinale Ouest, chemin A.
-#  Marque cardinale Ouest, chemin B.
-#  Marque cardinale Est, chemin A.
-# C.48 De quelle bouée s'agitil
-# et comment passer le danger ?
-# Nord
-#  Marque cardinale Est, chemin A.
-#  Marque cardinale Ouest, chemin A.
-#  Marque cardinale Est, chemin B.
-#  Marque cardinale Sud, chemin B.
-# C.49 Quelle est la vitesse max. dans la zone de 300 mètres de la plage?
-#  4 noeuds
-#  5 noeuds
-#  6 noeuds
-#  5 km/h
-# 38
-# C.50 Jusqu'à une certaine distance de la côte, il existe une
-# limitation de vitesse de 5 noeuds. Quelle est la largueur de cette
-# zone?
-#  200 mètres
-#  300 mètres
-#  400 mètres
-#  250 mètres
-# C.51 Quelle est la signification de ces marques vers la côte?
-#  Chenal préféré.
-#  Chenal traversier.
-#  Chenal secondaire.
-#  Zone réservée aux baigneurs.
-# C.52 Quelle est la signification de ce panneau?
-# 5
-# nds
-#  Vitesse maximale autorisée de 5 noeuds.
-#  Vitesse maximale autorisée de 5 km/h.
-#  Vitesse minimale de 5 noeuds.
-#  Vitesse minimale de 5 km/h.
-# C.53 Nommez au moins trois signaux de détresse en mer.
-#  Feu automatique à main produisant une lumière rouge.
-#  Fusée à parachute, fusée à étoiles rouges.
-#  Mouvements lents et répétés de haut en bas des bras étendus de chaque
-# côté du corps.
-#  PanPan
-# PanPan
-# PanPan
-# en radiotéléphonie.
-# C.54 Nommez au moins trois signaux de détresse en mer.
-#  Son continu de klaxon ou de sifflet.
-# 39
-#  Pavillon carré orange avec une boule noire en dessous ou en dessus.
-#  Signaux avec un miroir : 3 courts + 3 longs + 3 courts).
-#  MAYDAYMAYDYMAYDY
-# C.55 Nommez au moins trois signaux de détresse en mer.
-#  Feu automatique à main produisant une lumière rouge.
-#  Son continu de claxon ou de sifflet.
-#  Pan Pan Pan Pan Pan Pan en radiotéléphonie.
-#  Mayday Mayday Mayday en radiotéléphonie.
-# C.56 En mer, vous êtes en vue d'un navire qui montre un pavillon
-# carré audessus
-# ou audessous
-# d'une boule noire.
-# Que signifie ce signal ?
-#  Navire en détresse Je
-# me dépêche pour aller lui porter secours.
-#  Navire handicapé par son tirant d'eau.
-#  Navire en quarantaine.
-#  Navire non maître de sa manoeuvre.
-# C.57 Quelle est la signification de trois lampes rouges à éclats,
-# superposées, visibles à l'entrée d'un port?
-#  Entrée autorisée.
-#  Entrée sur instruction.
-#  Signal de danger grave, entrée interdite.
-#  Approche d'une tempête, entrée accélérée.
-# C.58 Quelle est la signification de ce signal près d'un port?
-#  Passage en ce sens interdit, en sens inverse autorisé.
-#  Entrée sur instruction.
-#  Entrée et sortie autorisées.
-#  Passage autorisé, attention particulière demandée.
-# C.59 Quelle est la signification de ce signal près d'un port?
-# 40
-#  Passage en ce sens autorisé, en sens inverse interdit.
-#  Entrée sur instruction.
-#  Entrée et sortie autorisées.
-#  Entrée sur instruction seulement.
-# C.60 Quelle est la signification de ce signal près d'un port?
-#  Passage en ce sens interdit, en sens inverse autorisé.
-#  Entrée sur instruction.
-#  Entrée et sortie autorisées.
-#  Passage en ce sens autorisé, interdit en sens inverse.
+- q: 33 Vous voyez ces marques. De quoi s'agit-il?
+  i: sectionc33.png
+  a:
+  - Marque latérale, chenal préféré vers la gauche se trouve au Nord.
+  - <+> Marque cardinale Sud, danger nouveau, le danger se trouve au Nord.
+  - Marque cardinale Nord, danger nouveau, passez du côté Nord.
+  - Marque cardinale Nord, passez du côté Nord.
+
+- q: 34 Vous voyez ces marques. De quoi s'agit-il?
+  i: sectionc34.png
+  a:
+  - Marque latérale, chenal préféré vers la droite.
+  - <+> Marque cardinale Ouest, danger nouveau, le danger se trouve à l'Est.
+  - Marque cardinale Est, danger nouveau, passez du côté Est.
+  - Marque cardinale Nord, passez du côté Nord.
+
+- q: 35 Vous voyez ces marques. De quoi s'agit-il?
+  i: sectionc35.png
+  a:
+  - Marque latérale, chenal préféré vers la droite.
+  - <+> Marque cardinale Nord, danger nouveau, il faut passer du côté Nord.
+  - Marque cardinale Sud, danger nouveau, le danger se trouve au Nord.
+  - Marque cardinale Nord, passez du côté Nord.
+
+- q: 36 Vous voyez ces marques. De quoi s'agit-il?
+  i: sectionc36.png
+  a:
+  - Marque latérale, chenal préféré vers la droite.
+  - <+> Marque cardinale Est, danger nouveau, il faut passer du coté Est.
+  - Marque cardinale Ouest, danger nouveau, passez du côté Ouest.
+  - Marque cardinale Nord, passez du coté Nord.
+  
+- q: 37 Qu'est-ce qu'il vous faut, pour pouvoir déterminer de quel côté passer une marque cardinale?
+  a:
+  - Connaître le sens du courant.
+  - <+> Disposer d'un compas.
+  - Connaître côté bâbord et tribord du bateau.
+  - En prenant un relèvement avec compas.
+
+- q: 38 A quoi correspond la notion d'un mille marin en degrés de compas?
+  a:
+  - <+> A 1 minute de compas, mesurée à une latitude moyenne de 45° sur un méridien.
+  - A 1 minute de compas, mesurée à une longitude moyenne de 40° sur un méridien.
+  - A 1 minute de compas, mesurée à une longitude moyenne de 45° sur une parallèle.
+  - A 1 minute de compas, mesurée à une latitude moyenne de 40° sur un méridien
+
+- q: 39 Quelle est la longueur d'un mille marin exprimée en mètres?
+  a:
+  - <+> 1852 mètres.
+  - 1582 mètres.
+  - 1,582 mètres.
+  - 1,852 mètres.
+
+- q: 40 Pour indiquer une position en longitude, de combien à combien de degrés faut-il compter?
+  a:
+  - <+> De 0° (Greenwich) à 180 degrés Est ou Ouest.
+  - De 0° (Equateur) à 180 degrés Est ou Ouest.
+  - De 0° (Equateur) à 90 degrés Nord ou Sud.
+  - De 0° (Greenwich) à 90 degrés Est ou Ouest.
+
+- q: 41 Pour indiquer une position en latitude, de combien à combien de degrés faut-il compter?
+  a:
+  - <+> De 0° (équateur) à 90 degrés Nord ou Sud.
+  - De 0° (Greenwich) à 90 degrés Nord ou Sud.
+  - De 0° (Equateur) à 180 degrés Ouest ou Est.
+  - De 0° (Greenwich) à 90 degrés Nord ou Sud.
+
+- q: 42 A quoi correspond le méridien de Greenwich?
+  a: 
+  - <+> Il correspond au degré 0 des cartes marines.
+  - <+> A partir de cette ligne, on compte la longitude en degrés 180°E (Est) et 180°W (Ouest).
+  - A partir de cette ligne, on compte la longitude en degrés 90°N et 90°S
+  - A partir de cette ligne, on compte la latitude en degrés 180°E et 180°W
+
+- q: 43 A quoi faut-il faire attention à l'achat et à l'utilisation d'une carte marine?
+  a:
+  - <+> A sa date d'émission, donc à la date de la dernière correction ou mise à jour
+  - Pas d'importance, les cartes ayant une valeur à vie.
+  - À l'échelle de la carte.
+  - À la profondeur d'eau (en mètres et décimètres).
+
+- q: 44 Comment est exprimée généralement la profondeur des fonds sur une carte marine?
+  a:
+  - <+> En mètres.
+  - <+> En décimètres.
+  - <+> En pieds.
+  - En milles nautiques
+
+- q: 45 Expliquez la notion de marée?
+  a:
+  - <+> Il s'agit du flux de la mer vers la côte, respectivement du reflux de la côte vers la mer.
+  - <+> La marée se reproduit dans un laps de temps de plus ou moins 6 heures.
+  - La marée se reproduit dans un laps de temps de plus ou moins 9 heures.
+  - Le flux de la mer vers la côte se reproduit toutes les 6 heures, celui de la côte vers la mer toutes les 9 heures.
+
+- q: 46 A quoi sert le livre des marées?
+  a:
+  - <+> Il permet de connaître la profondeur des eaux à un lieu, un jour et à une heure donnée.
+  - <+> Il permet de connaître les heures entre les basses eaux et les pleines mers.
+  - les temps y indiqués correspondent au temps universel plus une heure, donc à nos heures d'été.
+  - Les temps y indiqués correspondent au temps universel, donc à nos heures d'hiver.
+
+- q: 47 De quelle bouée s'agit-il et comment passer le danger ?
+  i: sectionc47.png
+  a:
+  - Marque cardinale Est, chemin B.
+  - <+> Marque cardinale Ouest, chemin A.
+  - Marque cardinale Ouest, chemin B.
+  - Marque cardinale Est, chemin A.
+
+- q: 48 De quelle bouée s'agit-il et comment passer le danger ?
+  i: sectionc48.png
+  a:
+  - <+> Marque cardinale Est, chemin A.
+  - Marque cardinale Ouest, chemin A.
+  - Marque cardinale Est, chemin B.
+  - Marque cardinale Sud, chemin B.
+
+- q: 49 Quelle est la vitesse max. dans la zone de 300 mètres de la plage?
+  a:
+  - 4 noeuds
+  - <+> 5 noeuds
+  - 6 noeuds
+  - 5 km/h
+
+- q: 50 Jusqu'à une certaine distance de la côte, il existe une limitation de vitesse de 5 noeuds. Quelle est la largueur de cette zone?
+  a:
+  - 200 mètres
+  - <+> 300 mètres
+  - 400 mètres
+  - 250 mètres
+
+- q: 51 Quelle est la signification de ces marques vers la côte?
+  i: sectionc51.png
+  a:
+  - Chenal préféré.
+  - <+> Chenal traversier.
+  - Chenal secondaire.
+  - Zone réservée aux baigneurs.
+
+- q: 52 Quelle est la signification de ce panneau?
+  i: sectionc52.png
+  a:
+  - <+> Vitesse maximale autorisée de 5 noeuds.
+  - Vitesse maximale autorisée de 5 km/h.
+  - Vitesse minimale de 5 noeuds.
+  - Vitesse minimale de 5 km/h.
+
+- q: 53 Nommez au moins trois signaux de détresse en mer.
+  a: 
+  - <+> Feu automatique à main produisant une lumière rouge.
+  - <+>Fusée à parachute, fusée à étoiles rouges.
+  - <+> Mouvements lents et répétés de haut en bas des bras étendus de chaque côté du corps.
+  - PanPan, PanPan, PanPan en radiotéléphonie.
+
+- q: 54 Nommez au moins trois signaux de détresse en mer.
+  a:
+  - <+> Son continu de klaxon ou de sifflet.
+  - <+> Pavillon carré orange avec une boule noire en dessous ou en dessus.
+  - <+> Signaux avec un miroir, 3 courts + 3 longs + 3 courts).
+  - <+> MAYDAY MAYDY MAYDY
+
+- q: 55 Nommez au moins trois signaux de détresse en mer.
+  a:
+  - <+> Feu automatique à main produisant une lumière rouge.
+  - <+> Son continu de claxon ou de sifflet.
+  - PanPan PanPan PanPan en radiotéléphonie.
+  - <+> Mayday Mayday Mayday en radiotéléphonie.
+
+- q: 56 En mer, vous êtes en vue d'un navire qui montre un pavillon carré au-dessus ou au-dessous d'une boule noire. Que signifie ce signal ?
+  a:
+  - <+> Navire en détresse Je me dépêche pour aller lui porter secours.
+  - Navire handicapé par son tirant d'eau.
+  - Navire en quarantaine.
+  - Navire non maître de sa manoeuvre.
+
+- q: 57 Quelle est la signification de trois lampes rouges à éclats, superposées, visibles à l'entrée d'un port?
+  a:
+  - Entrée autorisée.
+  - Entrée sur instruction.
+  - <+> Signal de danger grave, entrée interdite.
+  - Approche d'une tempête, entrée accélérée.
+
+- q: 58 Quelle est la signification de ce signal près d'un port?
+  i: sectionc58.png
+  a:
+  - <+> Passage en ce sens interdit, en sens inverse autorisé.
+  - Entrée sur instruction.
+  - Entrée et sortie autorisées.
+  - Passage autorisé, attention particulière demandée.
+
+- q: 59 Quelle est la signification de ce signal près d'un port?
+  i: sectionc59.png
+  a:
+  - <+> Passage en ce sens autorisé, en sens inverse interdit.
+  - Entrée sur instruction.
+  - Entrée et sortie autorisées.
+  - Entrée sur instruction seulement.
+
+- q: 60 Quelle est la signification de ce signal près d'un port?
+  i: sectionc60.png
+  a:
+  - Passage en ce sens interdit, en sens inverse autorisé.
+  - Entrée sur instruction.
+  - <+> Entrée et sortie autorisées.
+  - Passage en ce sens autorisé, interdit en sens inverse.
+
 # C.61 Quelle est la signification de ce signal près d'un port?
 #  Passage en ce sens interdit, en sens inverse autorisé.
 # 41
