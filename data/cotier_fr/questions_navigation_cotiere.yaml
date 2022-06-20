@@ -439,15 +439,18 @@
   - <+> Entrée et sortie autorisées.
   - Passage en ce sens autorisé, interdit en sens inverse.
 
-# C.61 Quelle est la signification de ce signal près d'un port?
-#  Passage en ce sens interdit, en sens inverse autorisé.
-# 41
-#  Entrée sur instruction.
-#  Entrée et sortie autorisées.
-#  Passage en ce sens autorisé, interdit en sens inverse.
-- q: 62 Quelle est la fonction d'un feu jaune à gauche des trois feux principaux superposés, visibles à l'entrée d'un port?
+- q: 61 Quelle est la signification de ce signal près d'un port?
+  i: sectionc61.png
   a:
-  - <+> Passage en ce sens interdit, en sens inverse autorisé.
+  - Passage en ce sens interdit, en sens inverse autorisé.
+  - <+> Entrée sur instruction.
+  - Entrée et sortie autorisées.
+  - Passage en ce sens autorisé, interdit en sens inverse.
+
+- q: 62 Quelle est la fonction d'un feu jaune à gauche des trois feux principaux superposés, visibles à l'entrée d'un port?
+  i: sectionc62.png
+  a: 
+  - Passage en ce sens interdit, en sens inverse autorisé.
   - Entrée sur instruction.
   - <+> Signal d'exemption pour des navires naviguant hors du chenal.
   - Passage d'attente, tous les autres bâtiments dans le chenal principal sont prioritaires.
@@ -461,245 +464,309 @@
 
 - q: 64 Quelle est la vitesse maximale autorisée dans la bande de trois cent mètres de la plage pour les utilisateurs de scooters de mer (jetski) ?
   a:
-  - Max 5 noeuds.
+  - <+> Max 5 noeuds.
   - Max 10 noeuds.
   - Max 5 km/h.
   - Max 10 km/h.
 
 - q: 65 Combien de personnes doivent se trouver à bord d'un bateau tirant un skieur?
   a:
-  - <+> 1 personne.
-  - 2 personnes.
+  - 1 personne.
+  - <+> 2 personnes.
   - 3 personnes.
   - sans importance.
 
-#- q: 66 De jour vous apercevez ce signal. Quelle est sa signification?
-#  Travaux de déminage en cours.
-#  Plongeurs sousmarins
-# dans l'eau.
-#  Contrôle douanier.
-#  Zone réservée aux skieurs.
-# C.67 De jour vous apercevez ce signal. Quelle est la distance de
-# sécurité à tenir?
-#  50 mètres.
-#  100 mètres.
-#  150 mètres.
-#  200 mètres.
+- q: 66 De jour vous apercevez ce signal. Quelle est sa signification?
+  i: sectionc66_67.png
+  a:
+  - Travaux de déminage en cours.
+  - <+> Plongeurs sousmarins dans l'eau.
+  - Contrôle douanier.
+  - Zone réservée aux skieurs.
+
+- q: 67 De jour vous apercevez ce signal. Quelle est la distance de sécurité à tenir?
+  i: sectionc66_67.png
+  a:
+  - 50 mètres.
+  - <+> 100 mètres.
+  - 150 mètres.
+  - 200 mètres.
 
 - q: 68 Définissez les couleurs des feux d'un navire faisant route.
   a:
-  - <+> Feu de tête de mât : blanc.
-  - Feu de tête de mât : jaune.
-  - <+> Feu de côté tribord : vert.
-  - Feu de tribord : rouge.
+  - >-
+    <+> Feu de tête de mât : blanc.
+  - >-
+    Feu de tête de mât : jaune.
+  - >-
+    <+> Feu de côté tribord : vert.
+  - >-
+    Feu de tribord : rouge.
 
 - q: 69 Définissez les couleurs des feux d'un navire faisant route.
   a:
-  - <+> Feu de poupe : blanc.
-  - Feu de poupe : jaune.
-  - Feu de côté bâbord : vert.
-  - <+> Feu de côté bâbord : rouge.
+  - >-
+    <+> Feu de poupe : blanc.
+  - >-
+    Feu de poupe : jaune.
+  - >-
+    Feu de côté bâbord : vert.
+  - >-
+    <+> Feu de côté bâbord : rouge.
 
 - q: 70 Définissez les angles de vue des feux d'un navire faisant route.
   a:
-  - Feu de tête de mât : 180°
-  - <+> Feu de tête de mât : 225°
-  - Feu de côté tribord : 112°
-  - <+> Feu de côté tribord : 112,5°
+  - >-
+    Feu de tête de mât : 180°
+  - >-
+    <+> Feu de tête de mât : 225°
+  - >-
+    Feu de côté tribord : 112°
+  - >-
+    <+> Feu de côté tribord : 112,5°
 
 - q: 71 Définissez les angles de vue des feux d'un navire faisant route.
   a:
-  - Feu de poupe : 125°
-  - <+> Feu de poupe : 135°
-  - Feu de côté bâbord : 112°
-  - <+> Feu de côté bâbord : 112,5°
+  - >-
+    Feu de poupe : 125°
+  - >-
+    <+> Feu de poupe : 135°
+  - >-
+    Feu de côté bâbord : 112°
+  - >-
+    <+> Feu de côté bâbord : 112,5°
 
-#- q: 72 De nuit vous apercevez un navire faisant route portant la signalisation suivante. De quel navire s'agit-il?
-#  a:
-#  - Navire sous voile.
-#  - Navire ne dépassant pas les 50 mètres.
-#  - Navire de 50 mètres et plus.
-#  - Navire de pêche, en train de pêcher.
+- q: 72 De nuit vous apercevez un navire faisant route portant la signalisation suivante. De quel navire s'agit-il?
+  i: sectionc72.png
+  a:
+  - Navire sous voile.
+  - Navire ne dépassant pas les 50 mètres.
+  - <+> Navire de 50 mètres et plus.
+  - Navire de pêche, en train de pêcher.
 
-# C.73 De nuit vous apercevez un navire faisant route portant la
-# signalisation suivante. De quel navire s'agitil?
-#  Navire sous voile.
-#  Navire ne dépassant pas les 50 mètres.
-#  Navire de 50 mètres et plus.
-#  Un remorqueur au travail, ou un pousseur.
-# C.74 De nuit vous apercevez un navire faisant route portant la
-# signalisation suivante. De quel navire s'agitil?
-# 44
-#  Navire sous voile.
-#  Navire ne dépassant pas les 50 mètres.
-#  Navire de 50 mètres et plus.
-#  Un pousseur.
-# C.75 De nuit vous apercevez un navire faisant route portant la
-# signalisation suivante. De quel navire s'agitil?
-#  Navire sous voile.
-#  Navire ne dépassant pas les 50 mètres.
-#  Navire de 50 mètres et plus.
-#  Navire de moins de 12 mètres.
-# C.76 De nuit vous apercevez un navire faisant route portant la
-# signalisation suivante. De quel navire s'agitil?
-#  Navire sous voile.
-#  Navire de moins de 12 mètres.
-#  Navire de 50 mètres et plus.
-#  Navire ne dépassant pas les 50 mètres.
-# C.77 De nuit vous apercevez un navire faisant route portant la
-# signalisation suivante. De quel navire s'agitil?
-# 45
-#  Navire sous voile.
-#  Navire de moins de 12 mètres.
-#  Navire de moins de 20 mètres.
-#  Navire de plus de 50 mètres.
-# C.78 De nuit vous apercevez un navire faisant route portant la
-# signalisation suivante. De quel navire s'agitil?
-#  Navire sous voile.
-#  Navire de moins de 12 mètres.
-#  Navire de moins de 20 mètres.
-#  Navire de moins de 50 mètres.
-# C.79 De nuit vous apercevez un navire faisant route portant la
-# signalisation suivante. De quel navire s'agitil?
-#  Navire sous voile.
-#  Navire de moins de 12 mètres.
-#  Navire de moins de 20 mètres.
-#  Navire de moins de 50 mètres.
-# C.80 De nuit vous apercevez un navire faisant route portant la
-# signalisation suivante. De quel navire s'agitil?
-# 46
-#  Navire sous voile.
-#  Navire de moins de 12 mètres.
-#  Navire de moins de 20 mètres.
-#  Navire de pêche.
-# C.81 De nuit vous apercevez un navire faisant route portant la
-# signalisation suivante. De quel navire s'agitil?
-#  Navire sous voile.
-#  Navire de moins de 7 mètres et moins de 7 noeuds.
-#  Navire de moins de 12 mètres.
-#  Navire de moins de 20 mètres.
-# C.82 De nuit vous apercevez un navire faisant route portant la
-# signalisation suivante. De quel navire s'agitil?
-#  Navire de pêche.
-#  Voilier sous voile.
-#  Chalutier de moins de 50 mètres.
-#  Bateau non maître de sa manoeuvre.
-# C.83 De nuit vous apercevez un navire faisant route portant la
-# signalisation suivante. De quel navire s'agitil?
-# 47
-#  Bateau pêcheur.
-#  Voilier sous voile.
-#  Chalutier de moins de 50 mètres avec erre.
-#  Chalutier de moins de 50 mètres sans erre.
-# C.84 De nuit vous apercevez un navire faisant route portant la
-# signalisation suivante. De quel navire s'agitil?
-#  Bateau pêcheur.
-#  Voilier sous voile.
-#  Chalutier dépassant 50 mètres avec erre.
-#  Chalutier de moins de 50 mètres
-# C.85 De nuit vous apercevez un navire faisant route portant la
-# signalisation suivante. De quel navire s'agitil?
-#  Bateau pêcheur.
-#  Voilier sous voile.
-#  Chalutier dépassant 50 mètres.
-#  Chalutier de moins de 50 mètres.
-# C.86 De nuit vous apercevez un navire faisant route portant la
-# signalisation suivante. De quel navire s'agitil?
-# 48
-#  Navire de pêche, avec erre.
-#  Voilier sous voile.
-#  Navire de pêche, sans erre
-#  Chalutier de moins de 50 mètres.
-# C.87 De nuit vous apercevez un navire faisant route portant la
-# signalisation suivante. De quel navire s'agitil?
-#  Navire de péche.
-#  Navire à capacité de manoeuvre restreinte de moins de 50 mètres.
-#  Chalutier dépassant 50 mètres de longueur.
-#  Navire à capacité de manoeuvre restreinte de plus de 50 mètres.
-# C.88 De nuit vous apercevez un navire faisant route portant la
-# signalisation suivante. De quel navire s'agitil?
-#  Navire de péche.
-#  Navire à capacité de manoeuvre restreinte de moins de 50 mètres.
-#  Chalutier dépassant 50 mètres de longueur.
-#  Navire à capacité de manoeuvre restreinte de plus de 50 mètres.
-# C.89 De nuit vous apercevez un navire faisant route portant la
-# signalisation suivante. De quel navire s'agitil?
-# 49
-#  Navire non maître de ses manoeuvres.
-#  Navire à capacité de manoeuvre restreinte.
-#  Chalutier dépassant 50 mètres de longueur.
-#  Navire handicapé par son tirant d'eau.
-# C.90 De nuit vous apercevez un navire faisant route portant la
-# signalisation suivante. De quel navire s'agitil?
-#  Navire non maître de ses manoeuvres.
-#  Navire à capacité de manoeuvre restreinte.
-#  Chalutier dépassant 50 mètres de longueur.
-#  Navire handicapé par son tirant d'eau.
+- q: 73 De nuit vous apercevez un navire faisant route portant la signalisation suivante. De quel navire s'agit-il?
+  i: sectionc73.png
+  a:
+  - Navire sous voile.
+  - Navire ne dépassant pas les 50 mètres.
+  - <+> Navire de 50 mètres et plus.
+  - <+> Un remorqueur au travail, ou un pousseur.
 
-# C.91 De nuit vous apercevez un navire portant la signalisation
-# suivante. De quel navire s'agitil?
-#  Navire non maître de ses manoeuvres.
-#  Navire à capacité de manoeuvre restreinte.
-#  Navire au mouillage
-#  Navire échoué moins de 50 m
-# C.92 De nuit vous apercevez un navire portant la signalisation
-# suivante. De quel navire s'agitil?
-# 50
-#  Navire non maître de ses manoeuvres.
-#  Navire à capacité de manoeuvre restreinte.
-#  Navire au mouillage.
-#  Navire de plus de 50 mètres échoué.
-# C.93 De nuit vous apercevez un navire faisant route portant la
-# signalisation suivante. De quel navire s'agitil?
-#  Navire à capacité de manoeuvre restreinte.
-#  Navire non maître de ses manoeuvres.
-#  Navire handicapé par son tirant d'eau.
-#  Chalutier dépassant 50 mètres de longueur.
-# C.94 Quelle signalisation de poupe doit porter un remorqueur en service
-# la nuit?
-#  Un feu blanc normal.
-#  Un feu jaune superposé au feu blanc.
-#  Un feu jaune normal.
-#  Un feu blanc superposé au feu jaune.
-# C.95 De nuit vous apercevez un navire faisant route portant la
-# signalisation suivante. De quel navire s'agitil?
-# 51
-#  Navire à capacité de manoeuvre restreinte.
-#  Navire non maître de ses manoeuvres.
-#  Navire handicapé par son tirant d'eau.
-#  Chalutier dépassant 50 mètres de longueur.
-# C.96 De nuit vous apercevez un navire au mouillage, portant la
-# signalisation suivante. De quel navire s'agitil?
-#  Navire de moins de 50 mètres de longueur.
-#  Navire entre 50 et 100 mètres de longueur.
-#  Navire entre 50 et 100 mètres de longueur chargé de matières dangereuses.
-#  Navire dépassant 100 mètres de longueur.
-# C.97 De nuit vous apercevez un navire au mouillage, portant la
-# signalisation suivante. De quel navire s'agitil?
-#  Navire de moins de 50 mètres de longueur.
-#  Navire entre 50 et 100 mètres de longueur.
-#  Navire dépassant 100 mètres de longueur.
-#  Navire entre 50 et 100 mètres de longueur chargé de matières dangereuses.
-# C.98 De nuit vous apercevez un navire au mouillage, portant la
-# signalisation suivante. De quel navire s'agitil?
-# Pont illuminé
-# 52
-#  Navire de moins de 50 mètres de longueur.
-#  Navire entre 50 et 100 mètres de longueur.
-#  Navire dépassant 100 mètres de longueur.
-#  Navire entre 50 et 100 mètres de longueur chargé de matières dangereuses.
-# C.99 De jour vous voyez un voilier avec ce signal supplémentaire. De
-# quoi s'agitil?
-#  Voilier en train de pécher.
-#  Voilier sous voile.
-#  Voilier sous voile et moteur.
-#  Voilier échoué.
-# C.100 De jour vous voyez un bâtiment avec ce signal supplémentaire. De
-# quoi s'agitil?
-#  Navire non maître de sa manoeuvre.
-#  Navire handicapé par son tirant d'eau.
-#  Navire à capacité de manoeuvre restreinte.
-#  Navire échoué.
+- q: 74 De nuit vous apercevez un navire faisant route portant la signalisation suivante. De quel navire s'agit-il?
+  i: sectionc74.png
+  a:
+  - Navire sous voile.
+  - <+> Navire ne dépassant pas les 50 mètres.
+  - Navire de 50 mètres et plus.
+  - Un pousseur.
+
+- q: 75 De nuit vous apercevez un navire faisant route portant la signalisation suivante. De quel navire s'agit-il?
+  i: sectionc75.png
+  a:
+  - Navire sous voile.
+  - <+> Navire ne dépassant pas les 50 mètres.
+  - Navire de 50 mètres et plus.
+  - <+> Navire de moins de 12 mètres.
+
+- q: 76 De nuit vous apercevez un navire faisant route portant la signalisation suivante. De quel navire s'agit-il?
+  i: sectionc76.png
+  a:
+  - Navire sous voile.
+  - <+> Navire de moins de 12 mètres.
+  - Navire de 50 mètres et plus.
+  - Navire ne dépassant pas les 50 mètres.
+
+- q: 77 De nuit vous apercevez un navire faisant route portant la signalisation suivante. De quel navire s'agit-il?
+  i: sectionc77.png
+  a:
+  - Navire sous voile.
+  - <+> Navire de moins de 12 mètres.
+  - <+> Navire de moins de 20 mètres.
+  - Navire de plus de 50 mètres.
+
+- q: 78 De nuit vous apercevez un navire faisant route portant la signalisation suivante. De quel navire s'agit-il?
+  i: sectionc78.png
+  a:
+  - <+> Navire sous voile.
+  - Navire de moins de 12 mètres.
+  - Navire de moins de 20 mètres.
+  - Navire de moins de 50 mètres.
+
+- q: 79 De nuit vous apercevez un navire faisant route portant la signalisation suivante. De quel navire s'agit-il?
+  i: sectionc79.png
+  a:
+  - <+> Navire sous voile.
+  - Navire de moins de 12 mètres.
+  - Navire de moins de 20 mètres.
+  - Navire de moins de 50 mètres.
+
+- q: 80 De nuit vous apercevez un navire faisant route portant la signalisation suivante. De quel navire s'agit-il?
+  i: sectionc80.png
+  a:
+  - <+> Navire sous voile.
+  - Navire de moins de 12 mètres.
+  - Navire de moins de 20 mètres.
+  - Navire de pêche.
+
+- q: 81 De nuit vous apercevez un navire faisant route portant la signalisation suivante. De quel navire s'agit-il?
+  i: sectionc81.png
+  a:
+  - Navire sous voile.
+  - <+> Navire de moins de 7 mètres et moins de 7 noeuds.
+  - Navire de moins de 12 mètres.
+  - Navire de moins de 20 mètres.
+
+- q: 82 De nuit vous apercevez un navire faisant route portant la signalisation suivante. De quel navire s'agit-il?
+  i: sectionc82.png
+  a:
+  - Navire de pêche.
+  - Voilier sous voile.
+  - <+> Chalutier de moins de 50 mètres.
+  - Bateau non maître de sa manoeuvre.
+
+- q: 83 De nuit vous apercevez un navire faisant route portant la signalisation suivante. De quel navire s'agit-il?
+  i: sectionc83.png
+  a:
+  - Bateau pêcheur.
+  - Voilier sous voile.
+  - <+> Chalutier de moins de 50 mètres avec erre.
+  - Chalutier de moins de 50 mètres sans erre.
+
+- q: 84 De nuit vous apercevez un navire faisant route portant la signalisation suivante. De quel navire s'agit-il?
+  i: sectionc84.png
+  a:
+  - Bateau pêcheur.
+  - Voilier sous voile.
+  - <+> Chalutier dépassant 50 mètres avec erre.
+  - Chalutier de moins de 50 mètres
+
+- q: 85 De nuit vous apercevez un navire faisant route portant la signalisation suivante. De quel navire s'agit-il?
+  i: sectionc85.png
+  a:
+  - <+> Bateau pêcheur.
+  - Voilier sous voile.
+  - Chalutier dépassant 50 mètres.
+  - Chalutier de moins de 50 mètres.
+
+- q: 86 De nuit vous apercevez un navire faisant route portant la signalisation suivante. De quel navire s'agit-il?
+  i: sectionc86.png
+  a:
+  - <+> Navire de pêche, avec erre.
+  - Voilier sous voile.
+  - Navire de pêche, sans erre
+  - Chalutier de moins de 50 mètres.
+
+- q: 87 De nuit vous apercevez un navire faisant route portant la signalisation suivante. De quel navire s'agit-il?
+  i: sectionc87.png
+  a:
+  - Navire de péche.
+  - <+> Navire à capacité de manoeuvre restreinte de moins de 50 mètres.
+  - Chalutier dépassant 50 mètres de longueur.
+  - Navire à capacité de manoeuvre restreinte de plus de 50 mètres.
+
+- q: 88 De nuit vous apercevez un navire faisant route portant la signalisation suivante. De quel navire s'agit-il?
+  i: sectionc88.png
+  a:
+  - Navire de péche.
+  - <+> Navire à capacité de manoeuvre restreinte de moins de 50 mètres.
+  - Chalutier dépassant 50 mètres de longueur.
+  - Navire à capacité de manoeuvre restreinte de plus de 50 mètres.
+
+- q: 89 De nuit vous apercevez un navire faisant route portant la signalisation suivante. De quel navire s'agit-il?
+  i: sectionc89.png
+  a:
+  - <+> Navire non maître de ses manoeuvres.
+  - Navire à capacité de manoeuvre restreinte.
+  - Chalutier dépassant 50 mètres de longueur.
+  - Navire handicapé par son tirant d'eau.
+
+- q: 90 De nuit vous apercevez un navire faisant route portant la signalisation suivante. De quel navire s'agit-il?
+  i: sectionc90.png
+  a:
+  - <+> Navire non maître de ses manoeuvres.
+  - Navire à capacité de manoeuvre restreinte.
+  - Chalutier dépassant 50 mètres de longueur.
+  - Navire handicapé par son tirant d'eau.
+
+- q: 91 De nuit vous apercevez un navire portant la signalisation suivante. De quel navire s'agit-il?
+  i:  sectionc91.png
+  a:
+  - Navire non maître de ses manoeuvres.
+  - Navire à capacité de manoeuvre restreinte.
+  - Navire au mouillage
+  - <+> Navire échoué moins de 50 m
+
+- q: 92 De nuit vous apercevez un navire portant la signalisation suivante. De quel navire s'agit-il?
+  i: sectionc92.png
+  a:
+  - Navire non maître de ses manoeuvres.
+  - Navire à capacité de manoeuvre restreinte.
+  - Navire au mouillage.
+  - <+> Navire de plus de 50 mètres échoué.
+
+- q: 93 De nuit vous apercevez un navire faisant route portant la signalisation suivante. De quel navire s'agit-il?
+  i: sectionc93.png
+  a:
+  - Navire à capacité de manoeuvre restreinte.
+  - Navire non maître de ses manoeuvres.
+  - <+> Navire handicapé par son tirant d'eau.
+  - Chalutier dépassant 50 mètres de longueur.
+
+- q: 94 Quelle signalisation de poupe doit porter un remorqueur en service la nuit?
+  a:
+  - Un feu blanc normal.
+  - <+> Un feu jaune superposé au feu blanc.
+  - Un feu jaune normal.
+  - Un feu blanc superposé au feu jaune.
+
+- q: 95 De nuit vous apercevez un navire faisant route portant la signalisation suivante. De quel navire s'agit-il?
+  i: sectionc95.png
+  a:
+  - Navire à capacité de manoeuvre restreinte.
+  - Navire non maître de ses manoeuvres.
+  - <+> Navire handicapé par son tirant d'eau.
+  - Chalutier dépassant 50 mètres de longueur.
+
+- q: 96 De nuit vous apercevez un navire au mouillage, portant la signalisation suivante. De quel navire s'agit-il?
+  i: sectionc96.png
+  a:
+  - Navire de moins de 50 mètres de longueur.
+  - <+> Navire entre 50 et 100 mètres de longueur.
+  - Navire entre 50 et 100 mètres de longueur chargé de matières dangereuses.
+  - Navire dépassant 100 mètres de longueur.
+
+- q: 97 De nuit vous apercevez un navire au mouillage, portant la signalisation suivante. De quel navire s'agit-il?
+  i: sectionc97.png
+  a:
+  - <+> Navire de moins de 50 mètres de longueur.
+  - Navire entre 50 et 100 mètres de longueur.
+  - Navire dépassant 100 mètres de longueur.
+  - Navire entre 50 et 100 mètres de longueur chargé de matières dangereuses.
+
+- q: 98 De nuit vous apercevez un navire au mouillage, portant la signalisation suivante. De quel navire s'agit-il?
+  i: sectionc98.png
+  a:
+  - Navire de moins de 50 mètres de longueur.
+  - Navire entre 50 et 100 mètres de longueur.
+  - <+> Navire dépassant 100 mètres de longueur.
+  - Navire entre 50 et 100 mètres de longueur chargé de matières dangereuses.
+
+- q: 99 De jour vous voyez un voilier avec ce signal supplémentaire. De quoi s'agitil?
+  i: sectionc99.png
+  a:
+  - Voilier en train de pécher.
+  - Voilier sous voile.
+  - <+> Voilier sous voile et moteur.
+  - Voilier échoué.
+
+- q: 100 De jour vous voyez un bâtiment avec ce signal supplémentaire. De quoi s'agitil?
+  i: sectionc100.png
+  a:
+  - Navire non maître de sa manoeuvre.
+  - <+> Navire handicapé par son tirant d'eau.
+  - Navire à capacité de manoeuvre restreinte.
+  - Navire échoué.
+
 # C.101 De jour vous voyez un bâtiment avec ce signal supplémentaire. De
 # quoi s'agitil?
 # 53

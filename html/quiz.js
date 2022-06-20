@@ -3,7 +3,15 @@ const correctMark = '<+>'
 // should return a prommise to handle error during parssing
 function parseCorrectAnswers(data) {
     const regex = /^(\d+)(\s+.*)$/
+    let nbr = 0
     data.forEach(element => {
+        nbr++
+        if (element.q == undefined) {
+            throw Error("Missing question title, check around question " + nbr)
+        }
+        if (element.a == undefined) {
+            throw Error("Missing answers, check around question " + nbr)
+        }
         const found = element.q.trim().match(regex)
         element.id = '#'
         if (found != null && found.length) {
