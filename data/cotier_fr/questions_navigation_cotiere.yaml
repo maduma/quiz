@@ -445,37 +445,35 @@
 #  Entrée sur instruction.
 #  Entrée et sortie autorisées.
 #  Passage en ce sens autorisé, interdit en sens inverse.
-# C.62 Quelle est la fonction d'un feu jaune à gauche des trois feux
-# principaux superposés, visibles à l'entrée d'un port?
-#  Passage en ce sens interdit, en sens inverse autorisé.
-#  Entrée sur instruction.
-#  Signal d'exemption pour des navires naviguant hors du chenal.
-#  Passage d'attente, tous les autres bâtiments dans le chenal principal sont
-# prioritaires.
-# C.63 Jusqu'à quelle distance maximale de la côte, l'utilisation des
-# scooters de mer ( jetski)
-# estelle
-# autorisée?
-#  Max 300 mètres
-#  Max 2 milles nautiques.
-#  Max 1 km.
-#  Max 3 milles nautiques.
-# C.64 Quelle est la vitesse maximale autorisée dans la bande de trois
-# cent mètres de la plage pour les utilisateurs de scooters de mer
-# ( jetski
-# ) ?
-#  Max 5 noeuds.
-#  Max 10 noeuds.
-#  Max 5 km/h.
-#  Max 10 km/h.
-# C.65 Combien de personnes doivent se trouver à bord d'un bateau
-# tirant un skieur?
-#  1 personne.
-#  2 personnes.
-#  3 personnes.
-#  sans importance.
-# 42
-# C.66 De jour vous apercevez ce signal. Quelle est sa signification?
+- q: 62 Quelle est la fonction d'un feu jaune à gauche des trois feux principaux superposés, visibles à l'entrée d'un port?
+  a:
+  - <+> Passage en ce sens interdit, en sens inverse autorisé.
+  - Entrée sur instruction.
+  - <+> Signal d'exemption pour des navires naviguant hors du chenal.
+  - Passage d'attente, tous les autres bâtiments dans le chenal principal sont prioritaires.
+
+- q: 63 Jusqu'à quelle distance maximale de la côte, l'utilisation des scooters de mer ( jetski) est-elle autorisée?
+  a:
+  - Max 300 mètres
+  - <+> Max 2 milles nautiques.
+  - Max 1 km.
+  - Max 3 milles nautiques.
+
+- q: 64 Quelle est la vitesse maximale autorisée dans la bande de trois cent mètres de la plage pour les utilisateurs de scooters de mer (jetski) ?
+  a:
+  - Max 5 noeuds.
+  - Max 10 noeuds.
+  - Max 5 km/h.
+  - Max 10 km/h.
+
+- q: 65 Combien de personnes doivent se trouver à bord d'un bateau tirant un skieur?
+  a:
+  - <+> 1 personne.
+  - 2 personnes.
+  - 3 personnes.
+  - sans importance.
+
+#- q: 66 De jour vous apercevez ce signal. Quelle est sa signification?
 #  Travaux de déminage en cours.
 #  Plongeurs sousmarins
 # dans l'eau.
@@ -487,33 +485,42 @@
 #  100 mètres.
 #  150 mètres.
 #  200 mètres.
-# C.68 Définissez les couleurs des feux d'un navire faisant route.
-#  Feu de tête de mât : blanc.
-#  Feu de tête de mât : jaune.
-#  Feu de côté tribord : vert.
-#  Feu de tribord : rouge.
-# C.69 Définissez les couleurs des feux d'un navire faisant route.
-#  Feu de poupe : blanc.
-#  Feu de poupe : jaune.
-#  Feu de côté bâbord : vert.
-#  Feu de côté bâbord : rouge.
-# C.70 Définissez les angles de vue des feux d'un navire faisant route.
-#  Feu de tête de mât : 180°
-#  Feu de tête de mât : 225°
-#  Feu de côté tribord : 112°
-#  Feu de côté tribord : 112,5°
-# 43
-# C.71 Définissez les angles de vue des feux d'un navire faisant route.
-#  Feu de poupe : 125°
-#  Feu de poupe : 135°
-#  Feu de côté bâbord : 112°
-#  Feu de côté bâbord : 112,5°
-# C.72 De nuit vous apercevez un navire faisant route portant la
-# signalisation suivante. De quel navire s'agitil?
-#  Navire sous voile.
-#  Navire ne dépassant pas les 50 mètres.
-#  Navire de 50 mètres et plus.
-#  Navire de pêche, en train de pêcher.
+
+- q: 68 Définissez les couleurs des feux d'un navire faisant route.
+  a:
+  - <+> Feu de tête de mât : blanc.
+  - Feu de tête de mât : jaune.
+  - <+> Feu de côté tribord : vert.
+  - Feu de tribord : rouge.
+
+- q: 69 Définissez les couleurs des feux d'un navire faisant route.
+  a:
+  - <+> Feu de poupe : blanc.
+  - Feu de poupe : jaune.
+  - Feu de côté bâbord : vert.
+  - <+> Feu de côté bâbord : rouge.
+
+- q: 70 Définissez les angles de vue des feux d'un navire faisant route.
+  a:
+  - Feu de tête de mât : 180°
+  - <+> Feu de tête de mât : 225°
+  - Feu de côté tribord : 112°
+  - <+> Feu de côté tribord : 112,5°
+
+- q: 71 Définissez les angles de vue des feux d'un navire faisant route.
+  a:
+  - Feu de poupe : 125°
+  - <+> Feu de poupe : 135°
+  - Feu de côté bâbord : 112°
+  - <+> Feu de côté bâbord : 112,5°
+
+#- q: 72 De nuit vous apercevez un navire faisant route portant la signalisation suivante. De quel navire s'agit-il?
+#  a:
+#  - Navire sous voile.
+#  - Navire ne dépassant pas les 50 mètres.
+#  - Navire de 50 mètres et plus.
+#  - Navire de pêche, en train de pêcher.
+
 # C.73 De nuit vous apercevez un navire faisant route portant la
 # signalisation suivante. De quel navire s'agitil?
 #  Navire sous voile.
@@ -628,6 +635,7 @@
 #  Navire à capacité de manoeuvre restreinte.
 #  Chalutier dépassant 50 mètres de longueur.
 #  Navire handicapé par son tirant d'eau.
+
 # C.91 De nuit vous apercevez un navire portant la signalisation
 # suivante. De quel navire s'agitil?
 #  Navire non maître de ses manoeuvres.
