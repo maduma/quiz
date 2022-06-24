@@ -11,3 +11,4 @@ deploy-job:
     - sudo rm -fr /app/quiz
     - sudo mkdir /app/quiz
     - tar cf - . | sudo tar -C /app/quiz --exclude='./.git' --exclude='./.gitlab-ci.yml' -xvf -
+  when: manual

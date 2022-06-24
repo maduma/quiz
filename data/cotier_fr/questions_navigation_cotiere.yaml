@@ -751,7 +751,7 @@
   - <+> Navire dépassant 100 mètres de longueur.
   - Navire entre 50 et 100 mètres de longueur chargé de matières dangereuses.
 
-- q: 99 De jour vous voyez un voilier avec ce signal supplémentaire. De quoi s'agitil?
+- q: 99 De jour vous voyez un voilier avec ce signal supplémentaire. De quoi s'agit-il?
   i: sectionc99.png
   a:
   - Voilier en train de pécher.
@@ -759,7 +759,7 @@
   - <+> Voilier sous voile et moteur.
   - Voilier échoué.
 
-- q: 100 De jour vous voyez un bâtiment avec ce signal supplémentaire. De quoi s'agitil?
+- q: 100 De jour vous voyez un bâtiment avec ce signal supplémentaire. De quoi s'agit-il?
   i: sectionc100.png
   a:
   - Navire non maître de sa manoeuvre.
@@ -767,78 +767,98 @@
   - Navire à capacité de manoeuvre restreinte.
   - Navire échoué.
 
-# C.101 De jour vous voyez un bâtiment avec ce signal supplémentaire. De
-# quoi s'agitil?
-# 53
-#  Navire non maître de sa manoeuvre.
-#  Navire handicapé par son tirant d'eau.
-#  Navire à capacité de manoeuvre restreinte.
-#  Navire échoué.
-# C.102 De jour vous voyez un bâtiment avec ce signal supplémentaire. De
-# quoi s'agitil?
-#  Navire non maître de sa manoeuvre.
-#  Navire handicapé par son tirant d'eau.
-#  Navire à capacité de manoeuvre restreinte.
-#  Chalutier en train de pêcher.
-# C.103 De jour vous voyez un bâtiment avec ce signal supplémentaire. De
-# quoi s'agitil?
-#  Navire pas maître de ses manoeuvres.
-#  Chalutier en train de pêcher.
-#  Remorqueur en service.
-#  Navire à capacité de manoeuvre restreinte.
-# C.104 De jour vous voyez un bâtiment avec ce signal supplémentaire. De
-# quoi s'agitil?
-# 54
-#  Navire pas maître de ses manoeuvres.
-#  Chalutier en train de pêcher.
-#  Remorqueur de 200 mètres et plus en service.
-#  Navire à capacité de manoeuvre restreinte.
-# C.105 De jour vous voyez un bâtiment avec ce signal supplémentaire. De
-# quoi s'agitil?
-#  Navire échoué.
-#  Navire handicapé par son tirant d'eau.
-#  Navire au mouillage.
-#  Voilier marchant sous moteur seul.
-# C.106 De jour vous voyez un bâtiment avec ce signal supplémentaire. De
-# quoi s'agitil?
-#  Navire échoué.
-#  Navire handicapé par son tirant d'eau.
-#  Navire au mouillage.
-#  Navire non maître de sa manoeuvre.
-# C.107 Faisant route sur cap 90, vous apercevez un autre bâtiment
-# faisant route sur cap 180. Vu les vitesses, vous aurez un point de
-# rencontre commun. Quel est votre comportement?
-#  Je continue ma route, vu que je suis prioritaire.
-#  Je ralentis, pour laisser passer l'autre bâtiment.
-# 55
-#  Je m'arrange avec lui.
-#  L'autre vient sur bâbord, je dois donc lui céder la priorité.
-# C.108 Faisant route sur cap 270, vous apercevez un autre bâtiment
-# faisant route sur cap 180. Vu les vitesses, vous aurez un point de
-# rencontre commun. Quel est votre comportement?
-#  Je continue ma route, vu que je suis prioritaire.
-#  Je ralentis, pour laisser passer l'autre bâtiment.
-#  Je m'arrange avec lui.
-#  L'autre vient sur tribord, doit donc me céder la priorité.
-# C.109 Faisant route sur cap 0, dans quelle direction vous dirigezvous?
-#  Vers le Nord
-#  Vers le Sud
-#  Vers l'Ouest
-#  Vers l'Est
-# C.110 Faisant route sur cap 90, dans quelle direction vous dirigezvous?
-#  Vers le Nord
-#  Vers le Sud
-#  Vers l'Ouest
-#  Vers l'Est
-# C.111 Faisant route sur cap 180, dans quelle direction vous dirigezvous?
-#  Vers le Nord
-#  Vers le Sud
-#  Vers l'Ouest
-#  Vers l'Est
-# C.112 Faisant route sur cap 270, dans quelle direction vous dirigezvous?
-#  Vers le Nord
-#  Vers le Sud
-#  Vers l'Ouest
-#  Vers l'Est
-# 56
-# 57
+- q: 101 De jour vous voyez un bâtiment avec ce signal supplémentaire. De quoi s'agit-il?
+  i: sectionc101.png
+  a:
+  - <+> Navire non maître de sa manoeuvre.
+  - Navire handicapé par son tirant d'eau.
+  - Navire à capacité de manoeuvre restreinte.
+  - Navire échoué.
+
+- q: 102 De jour vous voyez un bâtiment avec ce signal supplémentaire. De quoi s'agit-il?
+  i: sectionc102.png
+  a:
+  - Navire non maître de sa manoeuvre.
+  - Navire handicapé par son tirant d'eau.
+  - <+> Navire à capacité de manoeuvre restreinte.
+  - Chalutier en train de pêcher.
+
+- q: 103 De jour vous voyez un bâtiment avec ce signal supplémentaire. De quoi s'agit-il?
+  i: sectionc103.png
+  a: 
+  - Navire pas maître de ses manoeuvres.
+  - <+> Chalutier en train de pêcher.
+  - Remorqueur en service.
+  - Navire à capacité de manoeuvre restreinte.
+
+- q: 104 De jour vous voyez un bâtiment avec ce signal supplémentaire. De quoi s'agit-il?
+  i: sectionc104.png
+  a:
+  - Navire pas maître de ses manoeuvres.
+  - Chalutier en train de pêcher.
+  - <+> Remorqueur de 200 mètres et plus en service.
+  - Navire à capacité de manoeuvre restreinte.
+
+- q: 105 De jour vous voyez un bâtiment avec ce signal supplémentaire. De quoi s'agit-il?
+  i: sectionc105.png
+  a:
+  - Navire échoué.
+  - Navire handicapé par son tirant d'eau.
+  - <+> Navire au mouillage.
+  - Voilier marchant sous moteur seul.
+
+- q: 106 De jour vous voyez un bâtiment avec ce signal supplémentaire. De quoi s'agit-il?
+  i: sectionc106.png
+  a:
+  - <+> Navire échoué.
+  - Navire handicapé par son tirant d'eau.
+  - Navire au mouillage.
+  - Navire non maître de sa manoeuvre.
+
+- q: >-
+     107 Faisant route sur cap 90, vous apercevez un autre bâtiment
+     faisant route sur cap 180. Vu les vitesses, vous aurez un point de
+     rencontre commun. Quel est votre comportement?
+  a:
+  - <+> Je continue ma route, vu que je suis prioritaire.
+  - Je ralentis, pour laisser passer l'autre bâtiment.
+  - Je m'arrange avec lui.
+  - L'autre vient sur bâbord, je dois donc lui céder la priorité.
+
+- q: >-
+     108 Faisant route sur cap 270, vous apercevez un autre bâtiment
+     faisant route sur cap 180. Vu les vitesses, vous aurez un point de
+     rencontre commun. Quel est votre comportement?
+  a:
+  - Je continue ma route, vu que je suis prioritaire.
+  - <+> Je ralentis, pour laisser passer l'autre bâtiment.
+  - Je m'arrange avec lui.
+  - L'autre vient sur tribord, doit donc me céder la priorité.
+
+- q: 109 Faisant route sur cap 0, dans quelle direction vous dirigezvous?
+  a: 
+  - <+> Vers le Nord
+  - Vers le Sud
+  - Vers l'Ouest
+  - Vers l'Est
+
+- q: 110 Faisant route sur cap 90, dans quelle direction vous dirigez-vous?
+  a:
+  - Vers le Nord
+  - Vers le Sud
+  - Vers l'Ouest
+  - <+> Vers l'Est
+
+- q: 111 Faisant route sur cap 180, dans quelle direction vous dirigez-vous?
+  a:
+  - Vers le Nord
+  - <+> Vers le Sud
+  - Vers l'Ouest
+  - Vers l'Est'
+
+- q: 112 Faisant route sur cap 270, dans quelle direction vous dirigez-vous?
+  a:
+  - Vers le Nord
+  - Vers le Sud
+  - <+> Vers l'Ouest
+  - Vers l'Est
