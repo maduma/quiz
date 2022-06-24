@@ -9,6 +9,7 @@ deploy-job:
   stage: deploy
   environment:
     name: production
+    url: http://quiz.maduma.org
   script:
     - sudo rm -fr /app/quiz
     - sudo mkdir /app/quiz
