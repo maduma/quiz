@@ -7,6 +7,8 @@ stages:
 
 deploy-job:
   stage: deploy
+  environment:
+    name: production
   script:
     - sudo rm -fr /app/quiz
     - sudo mkdir /app/quiz
