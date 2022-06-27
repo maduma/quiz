@@ -26,8 +26,9 @@ function parseCorrectAnswers(data) {
                 return { title: str, correct: false, selected: false }
             }
         })
+        element.a = shuffle(element.a)
     });
-    return data
+    return shuffle(data)
 }
 
 function checkAnswer(question) {
@@ -39,6 +40,20 @@ function checkAnswer(question) {
     }
     question.succeed = true
     return question.succeed
+}
+
+function shuffle(array) {
+    let currentIndex = array.length,  randomIndex;
+    // While there remain elements to shuffle.
+    while (currentIndex != 0) {
+      // Pick a remaining element.
+      randomIndex = Math.floor(Math.random() * currentIndex);
+      currentIndex--;
+      // And swap it with the current element.
+      [array[currentIndex], array[randomIndex]] = [
+        array[randomIndex], array[currentIndex]];
+    }
+    return array;
 }
 
 async function getData(url) {
