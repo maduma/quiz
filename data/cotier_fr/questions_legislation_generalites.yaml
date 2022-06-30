@@ -215,7 +215,7 @@
   a:
   - <+> Tout navire doit maintenir en permanence une vitesse de sécurité, adaptée aux conditions du trafic et aux circonstances existantes. 
   - <+> Le navire doit pouvoir être arrêté sur une distance adaptée à ces circonstances.
-  - La vitesse doit être adaptée au trafic, qui vous permettrez de s'arrêter pour éviter un abordage.
+  - <+> La vitesse doit être adaptée au trafic, qui vous permettrez de s'arrêter pour éviter un abordage.
   - En mer, le long de la côte, je ne dois pas m'adapter à une vitesse de sécurité.
 
 - q: 30 A quoi faut-il faire attention en cas d'utilisation de feux, phares etc.?
